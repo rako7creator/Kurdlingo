@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bjseb3g84j6hs"
+
+[deps]
+
+files=["res://Vocabulary-review.en.translation", "res://Vocabulary-review.ckb.translation", "res://Vocabulary-review.region.translation", "res://Vocabulary-review.model.translation", "res://Vocabulary-review.reviewed.translation"]
+
+source_file="res://Vocabulary-review.csv"
+dest_files=["res://Vocabulary-review.en.translation", "res://Vocabulary-review.ckb.translation", "res://Vocabulary-review.region.translation", "res://Vocabulary-review.model.translation", "res://Vocabulary-review.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

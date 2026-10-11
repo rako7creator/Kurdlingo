@@ -1,0 +1,501 @@
+﻿id,en,ckb,region,model,reviewed
+daily_passport,passport,پاسپۆرت,Tourist Quarter,daily/passport/daily_passport,False
+daily_boarding_pass,boarding pass,کارتی سواربوون,Tourist Quarter,daily/boarding_pass/daily_boarding_pass,False
+daily_hotel_keycard,hotel keycard,کارتی کلیلی هۆتێل,Tourist Quarter,daily/keycard/daily_hotel_keycard,False
+daily_travel_guidebook,travel guidebook,کتێبی ڕێبەری گەشت,Tourist Quarter,accurate/book,False
+daily_city_guide,city guide,ڕێبەری شار,Tourist Quarter,accurate/map,False
+daily_tourist_brochure,tourist brochure,نامیلکەی گەشتیاری,Tourist Quarter,daily/brochure/daily_tourist_brochure,False
+daily_booking_confirmation,booking confirmation,پشتڕاستکردنەوەی حجز,Tourist Quarter,daily/document/daily_booking_confirmation,False
+daily_admission_ticket,admission ticket,بلیتی چوونەژوورەوە,Tourist Quarter,daily/ticket/daily_admission_ticket,False
+daily_tour_bus,tour bus,پاسی گەشتیاری,Tourist Quarter,daily/bus/daily_tour_bus,False
+daily_tour_guide,tour guide,ڕێبەری گەشت,Tourist Quarter,daily/person/daily_tour_guide,False
+daily_hotel_receptionist,hotel receptionist,پێشوازیوانی هۆتێل,Tourist Quarter,daily/person/daily_hotel_receptionist,False
+daily_luggage_trolley,luggage trolley,عەرەبانەی جانتا,Tourist Quarter,daily/luggage_trolley/daily_luggage_trolley,False
+daily_rolling_suitcase,rolling suitcase,جانتا بە چەرخ,Tourist Quarter,daily/suitcase/daily_rolling_suitcase,False
+daily_travel_pillow,travel pillow,بالینەی گەشت,Tourist Quarter,daily/travel_pillow/daily_travel_pillow,False
+daily_sleep_mask,sleep mask,ماسکی خەوتن,Tourist Quarter,daily/sleep_mask/daily_sleep_mask,False
+daily_earplugs,earplugs,گوێگیر,Tourist Quarter,daily/earplugs/daily_earplugs,False
+daily_travel_adapter,travel adapter,گۆڕەری کارەبای گەشت,Tourist Quarter,daily/adapter/daily_travel_adapter,False
+daily_power_bank,power bank,پاوەربانک,Tourist Quarter,daily/powerbank/daily_power_bank,False
+daily_camera_lens,camera lens,لێنزی کامێرا,Tourist Quarter,daily/lens/daily_camera_lens,False
+daily_selfie_stick,selfie stick,داری سێلفی,Tourist Quarter,daily/selfie_stick/daily_selfie_stick,False
+daily_souvenir_magnet,souvenir magnet,مەگناتیسی یادگاری,Tourist Quarter,daily/magnet/daily_souvenir_magnet,False
+daily_souvenir_plate,souvenir plate,قابی یادگاری,Tourist Quarter,food/plate,False
+daily_postcard_rack,postcard rack,ڕەفەی کارتی پۆست,Tourist Quarter,daily/rack/daily_postcard_rack,False
+daily_hotel_bell,hotel bell,زەنگی هۆتێل,Tourist Quarter,daily/bell/daily_hotel_bell,False
+daily_reception_counter,reception counter,کاونتەری پێشوازی,Tourist Quarter,furniture/kitchenBar,False
+daily_hotel_safe,hotel safe,سەیفی هۆتێل,Tourist Quarter,daily/safe/daily_hotel_safe,False
+daily_room_service_tray,room service tray,سینی خزمەتگوزاری ژوور,Tourist Quarter,food/plate-rectangle,False
+daily_door_hanger,door hanger,هەڵواسراوی دەرگا,Tourist Quarter,daily/door_hanger/daily_door_hanger,False
+daily_beach_parasol,beach parasol,چەترەی کەناراو,Tourist Quarter,daily/parasol/daily_beach_parasol,False
+daily_deck_chair,deck chair,کورسی پشوودان,Tourist Quarter,furniture/loungeChairRelax,False
+daily_beach_towel,beach towel,خاولی کەناراو,Tourist Quarter,accurate/towel,False
+daily_swim_fins,swim fins,پەڕی مەلەوانی,Tourist Quarter,daily/fins/daily_swim_fins,False
+daily_snorkel,snorkel,بۆری هەناسەی مەلەوانی,Tourist Quarter,daily/snorkel/daily_snorkel,False
+daily_picnic_basket,picnic basket,سەبەتەی سەیران,Tourist Quarter,accurate/basket,False
+daily_picnic_blanket,picnic blanket,بەتانی سەیران,Tourist Quarter,accurate/blanket,False
+daily_thermal_flask,thermal flask,فلاسکی گەرمی,Tourist Quarter,daily/flask/daily_thermal_flask,False
+daily_walking_stick,walking stick,گۆچانی پیاسە,Tourist Quarter,daily/walking_stick/daily_walking_stick,False
+daily_rain_poncho,rain poncho,پۆنچۆی باران,Tourist Quarter,daily/poncho/daily_rain_poncho,False
+daily_sun_cream,sun cream,کرێمی خۆر,Tourist Quarter,daily/tube/daily_sun_cream,False
+daily_insect_repellent,insect repellent,دەرکردەری مێروو,Tourist Quarter,daily/spray/daily_insect_repellent,False
+daily_first_aid_pouch,first aid pouch,کیسەی فریاکەوتنی سەرەتایی,Tourist Quarter,daily/medical_bag/daily_first_aid_pouch,False
+daily_waterproof_bag,waterproof bag,جانتی دژەئاو,Tourist Quarter,daily/dry_bag/daily_waterproof_bag,False
+daily_ferry_ticket,ferry ticket,بلیتی کەشتی,Tourist Quarter,daily/ticket/daily_ferry_ticket,False
+daily_currency_exchange_sign,currency exchange sign,تابلۆی ئاڵوگۆڕی دراو,Tourist Quarter,daily/sign/daily_currency_exchange_sign,False
+daily_information_booth,information booth,کۆشکی زانیاری,Tourist Quarter,daily/kiosk/daily_information_booth,False
+daily_observation_binoculars,observation binoculars,دووربینی سەیرکردن,Tourist Quarter,daily/binocular_stand/daily_observation_binoculars,False
+daily_viewpoint_railing,viewpoint railing,پەرژینی سەیرانگا,Tourist Quarter,daily/railing/daily_viewpoint_railing,False
+daily_heritage_plaque,heritage plaque,پلاکی میرات,Tourist Quarter,daily/plaque/daily_heritage_plaque,False
+daily_route_marker,route marker,نیشانەی ڕێڕەو,Tourist Quarter,daily/wayfinding/daily_route_marker,False
+daily_travel_journal,travel journal,دەفتەری گەشت,Tourist Quarter,accurate/notebook,False
+daily_museum_ticket,museum ticket,بلیتی مۆزەخانە,History Museum,daily/ticket/daily_museum_ticket,False
+daily_museum_guide,museum guide,ڕێبەری مۆزەخانە,History Museum,daily/person/daily_museum_guide,False
+daily_display_case,display case,ڤیترینی پیشاندان,History Museum,daily/display_case/daily_display_case,False
+daily_exhibit_label,exhibit label,ناونیشانی پیشانگە,History Museum,daily/plaque/daily_exhibit_label,False
+daily_pottery_jar,pottery jar,گوێزەی گڵین,History Museum,daily/pottery/daily_pottery_jar,False
+daily_clay_jug,clay jug,مەنجەڵی گڵین,History Museum,daily/jug/daily_clay_jug,False
+daily_ceramic_bowl,ceramic bowl,کاسەی سیرامیک,History Museum,food/bowl,False
+daily_oil_lamp,oil lamp,چرای ڕۆن,History Museum,daily/oil_lamp/daily_oil_lamp,False
+daily_bronze_coin,bronze coin,دراوی برۆنز,History Museum,daily/coin/daily_bronze_coin,False
+daily_silver_coin,silver coin,دراوی زیو,History Museum,daily/coin/daily_silver_coin,False
+daily_coin_collection,coin collection,کۆمەڵەی دراو,History Museum,daily/coin_collection/daily_coin_collection,False
+daily_clay_tablet,clay tablet,تەختەی گڵین,History Museum,daily/clay_tablet/daily_clay_tablet,False
+daily_stone_tablet,stone tablet,تەختەی بەردین,History Museum,daily/clay_tablet/daily_stone_tablet,False
+daily_scroll,scroll,تۆمارە پێچراوە,History Museum,daily/scroll/daily_scroll,False
+daily_manuscript,manuscript,دەستنووس,History Museum,daily/manuscript/daily_manuscript,False
+daily_quill,quill,پەڕەقەڵەم,History Museum,daily/quill/daily_quill,False
+daily_ink_pot,ink pot,دوات,History Museum,daily/inkpot/daily_ink_pot,False
+daily_wax_seal,wax seal,مۆری مۆم,History Museum,daily/wax_seal/daily_wax_seal,False
+daily_seal_stamp,seal stamp,مۆری دەستی,History Museum,daily/seal_stamp/daily_seal_stamp,False
+daily_hourglass_display,hourglass display,پیشاندانی کاتژمێری لم,History Museum,new/hourglass,False
+daily_sundial,sundial,کاتژمێری خۆر,History Museum,daily/sundial/daily_sundial,False
+daily_astrolabe,astrolabe,ئەسترۆلاب,History Museum,daily/astrolabe/daily_astrolabe,False
+daily_old_compass,old compass,قیبلەنومای کۆن,History Museum,accurate/compass,False
+daily_historic_map,historic map,نەخشەی مێژوویی,History Museum,accurate/map,False
+daily_timeline_panel,timeline panel,تابلۆی ڕیزبەندی کات,History Museum,daily/timeline/daily_timeline_panel,False
+daily_family_tree_chart,family tree chart,نەخشەی بنەماڵە,History Museum,daily/chart/daily_family_tree_chart,False
+daily_portrait_painting,portrait painting,تابلۆی وێنەی کەس,History Museum,daily/portrait/daily_portrait_painting,False
+daily_framed_photograph,framed photograph,وێنەی چوارچێوەکراو,History Museum,daily/portrait/daily_framed_photograph,False
+daily_marble_bust,marble bust,پەیکەری نیوەتەنی مەڕمەڕ,History Museum,daily/bust/daily_marble_bust,False
+daily_stone_statue,stone statue,پەیکەری بەردین,History Museum,daily/statue/daily_stone_statue,False
+daily_mosaic_tile,mosaic tile,کاشی مۆزاییک,History Museum,daily/mosaic/daily_mosaic_tile,False
+daily_wall_relief,wall relief,پەیکەری نیوەبەرزی دیوار,History Museum,daily/relief/daily_wall_relief,False
+daily_archway,archway,دەروازەی کەوانەیی,History Museum,daily/arch/daily_archway,False
+daily_stone_column,stone column,ستوونی بەردین,History Museum,daily/column/daily_stone_column,False
+daily_column_capital,column capital,سەری ستوون,History Museum,daily/capital/daily_column_capital,False
+daily_castle_model,castle model,مۆدێلی قەڵا,History Museum,daily/castle/daily_castle_model,False
+daily_citadel_model,citadel model,مۆدێلی قەڵای ناو شار,History Museum,daily/citadel/daily_citadel_model,False
+daily_watermill_model,watermill model,مۆدێلی ئاشی ئاو,History Museum,daily/watermill/daily_watermill_model,False
+daily_wooden_loom,wooden loom,تەونی دارین,History Museum,daily/loom/daily_wooden_loom,False
+daily_spinning_wheel,spinning wheel,چەرخی ڕستن,History Museum,daily/spinning_wheel/daily_spinning_wheel,False
+daily_woven_rug,woven rug,فەرشی چنراو,History Museum,furniture/rugRectangle,False
+daily_traditional_vest,traditional vest,سەدرێی نەریتی,History Museum,daily/vest/daily_traditional_vest,False
+daily_traditional_sash,traditional sash,پشتێنی نەریتی,History Museum,accurate/scarf,False
+daily_traditional_shoes,traditional shoes,پێڵاوی نەریتی,History Museum,accurate/shoe,False
+daily_embroidered_cloth,embroidered cloth,پارچەی نەخشێنراو,History Museum,daily/cloth/daily_embroidered_cloth,False
+daily_copper_tray,copper tray,سینی مسین,History Museum,food/plate-rectangle,False
+daily_copper_kettle,copper kettle,کتری مسین,History Museum,daily/kettle/daily_copper_kettle,False
+daily_wooden_chest,wooden chest,سندوقی دارین,History Museum,daily/chest/daily_wooden_chest,False
+daily_restoration_brush,restoration brush,فڵچەی چاککردنەوە,History Museum,accurate/paintbrush,False
+daily_audio_guide,audio guide,ڕێبەری دەنگی,History Museum,daily/audio_guide/daily_audio_guide,False
+daily_office_worker,office worker,کارمەندی ئۆفیس,Work Hub,daily/person/daily_office_worker,False
+daily_team_leader,team leader,سەرپەرشتیاری تیم,Work Hub,daily/person/daily_team_leader,False
+daily_interviewer,interviewer,چاوپێکەوتنکار,Work Hub,daily/person/daily_interviewer,False
+daily_job_applicant,job applicant,داواکاری کار,Work Hub,daily/person/daily_job_applicant,False
+daily_cv,CV,ژیاننامەی کار,Work Hub,daily/document/daily_cv,False
+daily_job_application,job application,داواکاری کارکردن,Work Hub,daily/document/daily_job_application,False
+daily_employment_contract,employment contract,گرێبەستی کار,Work Hub,daily/document/daily_employment_contract,False
+daily_invoice,invoice,پسوولەی فرۆشتن,Work Hub,daily/invoice/daily_invoice,False
+daily_purchase_order,purchase order,داواکاری کڕین,Work Hub,daily/document/daily_purchase_order,False
+daily_delivery_note,delivery note,تۆماری گەیاندن,Work Hub,daily/document/daily_delivery_note,False
+daily_pay_slip,pay slip,پسوولەی مووچە,Work Hub,daily/document/daily_pay_slip,False
+daily_business_card,business card,کارتی بازرگانی,Work Hub,daily/card/daily_business_card,False
+daily_name_badge,name badge,کارتی ناو,Work Hub,daily/badge/daily_name_badge,False
+daily_lanyard,lanyard,بەندی کارت,Work Hub,daily/lanyard/daily_lanyard,False
+daily_id_card,ID card,کارتی ناسنامە,Work Hub,daily/card/daily_id_card,False
+daily_meeting_agenda,meeting agenda,بەرنامەی کۆبوونەوە,Work Hub,daily/document/daily_meeting_agenda,False
+daily_meeting_minutes,meeting minutes,تۆماری کۆبوونەوە,Work Hub,daily/document/daily_meeting_minutes,False
+daily_project_planner,project planner,پلانی پڕۆژە,Work Hub,daily/planner/daily_project_planner,False
+daily_wall_planner,wall planner,پلانی دیوار,Work Hub,daily/planner/daily_wall_planner,False
+daily_noticeboard,noticeboard,تەختەی ئاگاداری,Work Hub,daily/noticeboard/daily_noticeboard,False
+daily_whiteboard,whiteboard,تەختەی سپی,Work Hub,daily/whiteboard/daily_whiteboard,False
+daily_whiteboard_marker,whiteboard marker,قەڵەمی تەختەی سپی,Work Hub,accurate/pen,False
+daily_sticky_notes,sticky notes,تێبینیی لکێنراو,Work Hub,daily/sticky_notes/daily_sticky_notes,False
+daily_document_tray,document tray,سینی بەڵگەنامە,Work Hub,daily/document_tray/daily_document_tray,False
+daily_filing_cabinet,filing cabinet,کابینەی فایل,Work Hub,daily/filing_cabinet/daily_filing_cabinet,False
+daily_ring_binder,ring binder,فایلی ئەڵقەدار,Work Hub,daily/binder/daily_ring_binder,False
+daily_document_shredder,document shredder,وردکەری بەڵگەنامە,Work Hub,daily/shredder/daily_document_shredder,False
+daily_laser_printer,laser printer,پرینتەری لەیزەر,Work Hub,daily/printer/daily_laser_printer,False
+daily_flatbed_scanner,flatbed scanner,سکانەری تەخت,Work Hub,daily/scanner/daily_flatbed_scanner,False
+daily_photocopier,photocopier,کۆپیکەر,Work Hub,daily/copier/daily_photocopier,False
+daily_paper_cutter,paper cutter,بڕەری کاغەز,Work Hub,daily/paper_cutter/daily_paper_cutter,False
+daily_hole_punch,hole punch,کونکەری کاغەز,Work Hub,daily/hole_punch/daily_hole_punch,False
+daily_binder_clip,binder clip,کلیپی فایل,Work Hub,daily/binder_clip/daily_binder_clip,False
+daily_desk_organizer,desk organizer,ڕێکخەری مێز,Work Hub,daily/desk_organizer/daily_desk_organizer,False
+daily_office_headset,office headset,هێدسێتی ئۆفیس,Work Hub,daily/headset/daily_office_headset,False
+daily_webcam,webcam,وێبکام,Work Hub,daily/webcam/daily_webcam,False
+daily_computer_monitor,computer monitor,مۆنیتەری کۆمپیوتەر,Work Hub,furniture/computerScreen,False
+daily_monitor_stand,monitor stand,پایەی مۆنیتەر,Work Hub,daily/monitor_stand/daily_monitor_stand,False
+daily_wireless_keyboard,wireless keyboard,تەختەکلیلی بێتەل,Work Hub,furniture/computerKeyboard,False
+daily_wireless_mouse,wireless mouse,ماوسی بێتەل,Work Hub,furniture/computerMouse,False
+daily_usb_drive,USB drive,فلاشی یو ئێس بی,Work Hub,daily/usb/daily_usb_drive,False
+daily_external_hard_drive,external hard drive,هاردی دەرەکی,Work Hub,daily/hard_drive/daily_external_hard_drive,False
+daily_router,router,ڕاوتەر,Work Hub,daily/router/daily_router,False
+daily_network_cable,network cable,کێبڵی تۆڕ,Work Hub,accurate/electric_cable,False
+daily_extension_lead,extension lead,کێبڵی درێژکەرەوە,Work Hub,daily/power_strip/daily_extension_lead,False
+daily_desk_fan,desk fan,پەنکەی مێز,Work Hub,daily/fan/daily_desk_fan,False
+daily_office_chair,office chair,کورسی ئۆفیس,Work Hub,furniture/chairDesk,False
+daily_conference_table,conference table,مێزی کۆبوونەوە,Work Hub,furniture/table,False
+daily_water_cooler,water cooler,ساردکەری ئاو,Work Hub,daily/water_cooler/daily_water_cooler,False
+daily_coffee_dispenser,coffee dispenser,دابەشکەری قاوە,Work Hub,furniture/kitchenCoffeeMachine,False
+daily_cinema_screen,cinema screen,شاشەی سینەما,Entertainment Park,daily/screen/daily_cinema_screen,False
+daily_cinema_seat,cinema seat,کورسی سینەما,Entertainment Park,furniture/loungeChair,False
+daily_film_ticket,film ticket,بلیتی فیلم,Entertainment Park,daily/ticket/daily_film_ticket,False
+daily_popcorn_bucket,popcorn bucket,سەبەتەی پۆپکۆرن,Entertainment Park,daily/popcorn/daily_popcorn_bucket,False
+daily_clapperboard,clapperboard,تەختەی فیلم,Entertainment Park,daily/clapperboard/daily_clapperboard,False
+daily_film_reel,film reel,ئەڵقەی فیلم,Entertainment Park,daily/film_reel/daily_film_reel,False
+daily_video_camera,video camera,کامێرای ڤیدیۆ,Entertainment Park,daily/video_camera/daily_video_camera,False
+daily_camera_tripod,camera tripod,پایەی کامێرا,Entertainment Park,new/tripod,False
+daily_stage_curtain,stage curtain,پەردەی شانۆ,Entertainment Park,daily/curtain/daily_stage_curtain,False
+daily_theatre_stage,theatre stage,سەکۆی شانۆ,Entertainment Park,daily/stage/daily_theatre_stage,False
+daily_spotlight,spotlight,ڕۆشنکەری سەکۆ,Entertainment Park,daily/spotlight/daily_spotlight,False
+daily_ticket_booth,ticket booth,کۆشکی بلیت,Entertainment Park,daily/kiosk/daily_ticket_booth,False
+daily_concert_poster,concert poster,پۆستەری کۆنسێرت,Entertainment Park,daily/poster/daily_concert_poster,False
+daily_acoustic_guitar,acoustic guitar,گیتاری ئەکوستیک,Entertainment Park,new/guitar,False
+daily_electric_guitar,electric guitar,گیتاری کارەبایی,Entertainment Park,daily/electric_guitar/daily_electric_guitar,False
+daily_bass_guitar,bass guitar,گیتاری باس,Entertainment Park,daily/electric_guitar/daily_bass_guitar,False
+daily_drum_kit,drum kit,سێتی دەهۆڵ,Entertainment Park,daily/drum_kit/daily_drum_kit,False
+daily_cymbal,cymbal,سنج,Entertainment Park,daily/cymbal/daily_cymbal,False
+daily_digital_piano,digital piano,پیانۆی دیجیتاڵ,Entertainment Park,daily/digital_piano/daily_digital_piano,False
+daily_synthesizer,synthesizer,سینتەسایزەر,Entertainment Park,daily/synthesizer/daily_synthesizer,False
+daily_guitar_amplifier,guitar amplifier,ئەمپلیفایەری گیتار,Entertainment Park,daily/amplifier/daily_guitar_amplifier,False
+daily_microphone_stand,microphone stand,پایەی مایکرۆفۆن,Entertainment Park,daily/mic_stand/daily_microphone_stand,False
+daily_sheet_music,sheet music,نۆتەی مۆسیقا,Entertainment Park,daily/sheet_music/daily_sheet_music,False
+daily_guitar_pick,guitar pick,پیکەی گیتار,Entertainment Park,daily/pick/daily_guitar_pick,False
+daily_guitar_strap,guitar strap,بەندی گیتار,Entertainment Park,daily/strap/daily_guitar_strap,False
+daily_game_controller,game controller,کۆنترۆڵەری یاری,Entertainment Park,daily/controller/daily_game_controller,False
+daily_game_console,game console,کۆنسۆڵی یاری,Entertainment Park,daily/console/daily_game_console,False
+daily_arcade_machine,arcade machine,ئامێری ئەرکەید,Entertainment Park,daily/arcade/daily_arcade_machine,False
+daily_vr_headset,VR headset,هێدسێتی ڤی ئاڕ,Entertainment Park,daily/vr_headset/daily_vr_headset,False
+daily_board_game,board game,یاریی تەختە,Entertainment Park,daily/board_game/daily_board_game,False
+daily_playing_cards,playing cards,کارتی یاری,Entertainment Park,daily/playing_cards/daily_playing_cards,False
+daily_dominoes,dominoes,دۆمینۆ,Entertainment Park,daily/dominoes/daily_dominoes,False
+daily_jigsaw_puzzle,jigsaw puzzle,پازڵ,Entertainment Park,daily/puzzle/daily_jigsaw_puzzle,False
+daily_dartboard,dartboard,تەختەی دارت,Entertainment Park,daily/dartboard/daily_dartboard,False
+daily_darts,darts,تیری دارت,Entertainment Park,daily/darts/daily_darts,False
+daily_pool_table,pool table,مێزی بیلیارد,Entertainment Park,daily/pool_table/daily_pool_table,False
+daily_pool_cue,pool cue,داری بیلیارد,Entertainment Park,daily/cue/daily_pool_cue,False
+daily_table_tennis_table,table tennis table,مێزی تێنسی سەر مێز,Entertainment Park,daily/pingpong/daily_table_tennis_table,False
+daily_table_tennis_paddle,table tennis paddle,ڕاکێتی تێنسی سەر مێز,Entertainment Park,daily/paddle/daily_table_tennis_paddle,False
+daily_foosball_table,foosball table,مێزی تۆپی پێ,Entertainment Park,daily/foosball/daily_foosball_table,False
+daily_bowling_ball,bowling ball,تۆپی بۆڵینگ,Entertainment Park,daily/bowling_ball/daily_bowling_ball,False
+daily_karaoke_machine,karaoke machine,ئامێری کارائۆکە,Entertainment Park,daily/karaoke/daily_karaoke_machine,False
+daily_dance_floor,dance floor,زەویی سەما,Entertainment Park,daily/dance_floor/daily_dance_floor,False
+daily_disco_ball,disco ball,تۆپی دیسکۆ,Entertainment Park,daily/disco_ball/daily_disco_ball,False
+daily_puppet,puppet,بووکەڵەی شانۆ,Entertainment Park,daily/puppet/daily_puppet,False
+daily_puppet_theatre,puppet theatre,شانۆی بووکەڵە,Entertainment Park,daily/puppet_stage/daily_puppet_theatre,False
+daily_costume,costume,جلوبەرگی شانۆ,Entertainment Park,daily/costume/daily_costume,False
+daily_theatre_mask,theatre mask,ماسکی شانۆ,Entertainment Park,daily/theatre_mask/daily_theatre_mask,False
+daily_festival_wristband,festival wristband,بەندی مەچەکی فێستیڤاڵ,Entertainment Park,daily/wristband/daily_festival_wristband,False
+daily_photo_booth,photo booth,کۆشکی وێنە,Entertainment Park,daily/photo_booth/daily_photo_booth,False
+daily_barista,barista,باریستا,Cafe Street,daily/person/daily_barista,False
+daily_waiter,waiter,گارسۆن,Cafe Street,daily/person/daily_waiter,False
+daily_menu,menu,لیستی خواردن,Cafe Street,daily/menu/daily_menu,False
+daily_bill,bill,پسوولەی پارەدان,Cafe Street,daily/receipt/daily_bill,False
+daily_takeaway_cup,takeaway cup,کوپی بردنەوە,Cafe Street,daily/takeaway_cup/daily_takeaway_cup,False
+daily_cup_sleeve,cup sleeve,پێچی کوپ,Cafe Street,daily/cup_sleeve/daily_cup_sleeve,False
+daily_drinking_straw,drinking straw,بۆری خواردنەوە,Cafe Street,daily/straw/daily_drinking_straw,False
+daily_paper_napkin,paper napkin,دەستەسڕی کاغەزی,Cafe Street,daily/napkin/daily_paper_napkin,False
+daily_napkin_holder,napkin holder,جێی دەستەسڕ,Cafe Street,daily/napkin_holder/daily_napkin_holder,False
+daily_sugar_packet,sugar packet,پاکەتی شەکر,Cafe Street,daily/packet/daily_sugar_packet,False
+daily_tea_bag,tea bag,کیسەی چا,Cafe Street,daily/tea_bag/daily_tea_bag,False
+daily_tea_strainer,tea strainer,پاڵێوەی چا,Cafe Street,daily/strainer/daily_tea_strainer,False
+daily_teapot,teapot,قۆری,Cafe Street,daily/teapot/daily_teapot,False
+daily_milk_jug,milk jug,جگی شیر,Cafe Street,daily/jug/daily_milk_jug,False
+daily_espresso_machine,espresso machine,ئامێری ئێسپرێسۆ,Cafe Street,daily/espresso_machine/daily_espresso_machine,False
+daily_coffee_grinder,coffee grinder,هاڕینی قاوە,Cafe Street,daily/grinder/daily_coffee_grinder,False
+daily_coffee_beans,coffee beans,دانەی قاوە,Cafe Street,daily/coffee_beans/daily_coffee_beans,False
+daily_coffee_filter,coffee filter,فلتەری قاوە,Cafe Street,daily/coffee_filter/daily_coffee_filter,False
+daily_french_press,French press,فرێنچ پرێس,Cafe Street,daily/french_press/daily_french_press,False
+daily_coffee_dripper,coffee dripper,پاڵێوەری قاوە,Cafe Street,daily/dripper/daily_coffee_dripper,False
+daily_latte,latte,لاتێ,Cafe Street,daily/latte/daily_latte,False
+daily_cappuccino,cappuccino,کاپوچینۆ,Cafe Street,daily/cappuccino/daily_cappuccino,False
+daily_espresso,espresso,ئێسپرێسۆ,Cafe Street,daily/espresso/daily_espresso,False
+daily_iced_coffee,iced coffee,قاوەی سارد,Cafe Street,daily/iced_coffee/daily_iced_coffee,False
+daily_hot_chocolate,hot chocolate,چۆکلێتی گەرم,Cafe Street,daily/hot_chocolate/daily_hot_chocolate,False
+daily_lemonade,lemonade,شەربەتی لیمۆ,Cafe Street,daily/lemonade/daily_lemonade,False
+daily_smoothie,smoothie,سمووتی,Cafe Street,daily/smoothie/daily_smoothie,False
+daily_sparkling_water,sparkling water,ئاوی گازدار,Cafe Street,daily/sparkling_water/daily_sparkling_water,False
+daily_mineral_water,mineral water,ئاوی کانزایی,Cafe Street,daily/mineral_water/daily_mineral_water,False
+daily_orange_juice,orange juice,شەربەتی پرتەقاڵ,Cafe Street,daily/orange_juice/daily_orange_juice,False
+daily_fruit_salad,fruit salad,سەڵاتی میوە,Cafe Street,daily/fruit_salad/daily_fruit_salad,False
+daily_yogurt_bowl,yogurt bowl,کاسەی ماست,Cafe Street,daily/yogurt/daily_yogurt_bowl,False
+daily_granola,granola,گرانۆلا,Cafe Street,daily/granola/daily_granola,False
+daily_oatmeal,oatmeal,شۆربای جۆی دوسەر,Cafe Street,daily/oatmeal/daily_oatmeal,False
+daily_toast,toast,نانی برژاو,Cafe Street,daily/toast/daily_toast,False
+daily_omelette,omelette,ئۆملێت,Cafe Street,daily/omelette/daily_omelette,False
+daily_scrambled_eggs,scrambled eggs,هێلکەی تێکدراو,Cafe Street,daily/scrambled_eggs/daily_scrambled_eggs,False
+daily_bagel,bagel,بەیگڵ,Cafe Street,daily/bagel/daily_bagel,False
+daily_pretzel,pretzel,پرێتزڵ,Cafe Street,daily/pretzel/daily_pretzel,False
+daily_cinnamon_roll,cinnamon roll,کێکی دارچین,Cafe Street,daily/cinnamon_roll/daily_cinnamon_roll,False
+daily_brownie,brownie,براونی,Cafe Street,daily/brownie/daily_brownie,False
+daily_cheesecake,cheesecake,کێکی پەنیر,Cafe Street,food/cake,False
+daily_fruit_tart,fruit tart,تارتی میوە,Cafe Street,daily/fruit_tart/daily_fruit_tart,False
+daily_baklava,baklava,باقلەوە,Cafe Street,daily/baklava/daily_baklava,False
+daily_date_biscuit,date biscuit,بسکیتی خورما,Cafe Street,food/cookie,False
+daily_chocolate_muffin,chocolate muffin,مافنی چۆکلێت,Cafe Street,food/muffin,False
+daily_serving_tongs,serving tongs,گازانبەری خزمەت,Cafe Street,daily/tongs/daily_serving_tongs,False
+daily_cake_stand,cake stand,پایەی کێک,Cafe Street,daily/cake_stand/daily_cake_stand,False
+daily_display_fridge,display fridge,سەلاجەی پیشاندان,Cafe Street,daily/display_fridge/daily_display_fridge,False
+daily_outdoor_cafe_table,outdoor cafe table,مێزی دەرەوەی کافێ,Cafe Street,furniture/tableRound,False
+daily_cashier,cashier,کاشێر,Shopping Avenue,daily/person/daily_cashier,False
+daily_shop_assistant,shop assistant,یاریدەدەری فرۆشگا,Shopping Avenue,daily/person/daily_shop_assistant,False
+daily_customer,customer,کڕیار,Shopping Avenue,daily/person/daily_customer,False
+daily_shopping_trolley,shopping trolley,عەرەبانەی کڕین,Shopping Avenue,daily/shopping_trolley/daily_shopping_trolley,False
+daily_shopping_basket,shopping basket,سەبەتەی کڕین,Shopping Avenue,daily/shopping_basket/daily_shopping_basket,False
+daily_reusable_shopping_bag,reusable shopping bag,جانتی کڕینی دووبارەبەکارهاتوو,Shopping Avenue,daily/tote_bag/daily_reusable_shopping_bag,False
+daily_paper_shopping_bag,paper shopping bag,جانتی کڕینی کاغەزی,Shopping Avenue,food/bag,False
+daily_price_tag,price tag,کارتی نرخ,Shopping Avenue,daily/price_tag/daily_price_tag,False
+daily_barcode,barcode,بارکۆد,Shopping Avenue,daily/barcode/daily_barcode,False
+daily_barcode_scanner,barcode scanner,سکانەری بارکۆد,Shopping Avenue,daily/barcode_scanner/daily_barcode_scanner,False
+daily_cash_register,cash register,ئامێری کاشێر,Shopping Avenue,daily/cash_register/daily_cash_register,False
+daily_card_reader,card reader,خوێنەری کارت,Shopping Avenue,daily/card_reader/daily_card_reader,False
+daily_bank_card,bank card,کارتی بانکی,Shopping Avenue,daily/card/daily_bank_card,False
+daily_banknote,banknote,پارەی کاغەزی,Shopping Avenue,daily/banknote/daily_banknote,False
+daily_change_tray,change tray,سینی وردەپارە,Shopping Avenue,daily/coin_tray/daily_change_tray,False
+daily_shopping_receipt,shopping receipt,پسوولەی کڕین,Shopping Avenue,daily/receipt/daily_shopping_receipt,False
+daily_gift_card,gift card,کارتی دیاری,Shopping Avenue,daily/card/daily_gift_card,False
+daily_gift_bag,gift bag,جانتی دیاری,Shopping Avenue,daily/gift_bag/daily_gift_bag,False
+daily_gift_box,gift box,سندوقی دیاری,Shopping Avenue,daily/gift_box/daily_gift_box,False
+daily_wrapping_paper,wrapping paper,کاغەزی پێچانەوە,Shopping Avenue,daily/wrapping_paper/daily_wrapping_paper,False
+daily_ribbon,ribbon,شریت,Shopping Avenue,daily/ribbon/daily_ribbon,False
+daily_shopping_shelf,shopping shelf,ڕەفەی کڕین,Shopping Avenue,daily/shelf/daily_shopping_shelf,False
+daily_display_mannequin,display mannequin,مانیکانی پیشاندان,Shopping Avenue,daily/mannequin/daily_display_mannequin,False
+daily_clothes_rail,clothes rail,داری هەڵواسینی جل,Shopping Avenue,daily/clothes_rail/daily_clothes_rail,False
+daily_changing_room,changing room,ژووری گۆڕینی جل,Shopping Avenue,daily/changing_room/daily_changing_room,False
+daily_sale_sign,sale sign,تابلۆی داشکاندن,Shopping Avenue,daily/sign/daily_sale_sign,False
+daily_opening_hours_sign,opening hours sign,تابلۆی کاتی کردنەوە,Shopping Avenue,daily/sign/daily_opening_hours_sign,False
+daily_checkout_divider,checkout divider,جیاکەرەوەی کاشێر,Shopping Avenue,daily/divider/daily_checkout_divider,False
+daily_conveyor_belt,conveyor belt,بەندی گواستنەوە,Shopping Avenue,daily/conveyor/daily_conveyor_belt,False
+daily_delivery_parcel,delivery parcel,پاکەتی گەیاندن,Shopping Avenue,daily/parcel/daily_delivery_parcel,False
+daily_packing_tape,packing tape,شریتی پێچانەوە,Shopping Avenue,daily/tape/daily_packing_tape,False
+daily_bubble_wrap,bubble wrap,نایلۆنی پۆقپۆقە,Shopping Avenue,daily/bubble_wrap/daily_bubble_wrap,False
+daily_return_label,return label,کارتی گەڕاندنەوە,Shopping Avenue,daily/label/daily_return_label,False
+daily_loyalty_card,loyalty card,کارتی کڕیاری بەردەوام,Shopping Avenue,daily/card/daily_loyalty_card,False
+daily_running_shoes,running shoes,پێڵاوی ڕاکردن,Shopping Avenue,accurate/shoe,False
+daily_raincoat,raincoat,بارانە,Shopping Avenue,accurate/coat,False
+daily_hoodie,hoodie,هودی,Shopping Avenue,daily/hoodie/daily_hoodie,False
+daily_jeans,jeans,جینز,Shopping Avenue,accurate/trousers,False
+daily_polo_shirt,polo shirt,کراسی پۆلۆ,Shopping Avenue,daily/polo/daily_polo_shirt,False
+daily_swimsuit,swimsuit,جلوبەرگی مەلەوانی,Shopping Avenue,daily/swimsuit/daily_swimsuit,False
+daily_pajamas,pajamas,پیجامە,Shopping Avenue,daily/pajamas/daily_pajamas,False
+daily_slippers_pair,slippers pair,جووتە پێڵاوی ماڵ,Shopping Avenue,accurate/slipper,False
+daily_cotton_socks,cotton socks,گۆرەوی لۆکە,Shopping Avenue,accurate/sock,False
+daily_winter_gloves,winter gloves,دەستکێشی زستان,Shopping Avenue,new/glove,False
+daily_wool_hat,wool hat,کڵاوی خوری,Shopping Avenue,daily/beanie/daily_wool_hat,False
+daily_sun_hat,sun hat,کڵاوی خۆر,Shopping Avenue,accurate/hat,False
+daily_hand_lotion,hand lotion,کرێمی دەست,Shopping Avenue,daily/tube/daily_hand_lotion,False
+daily_shampoo,shampoo,شامپۆ,Shopping Avenue,daily/pump_bottle/daily_shampoo,False
+daily_deodorant,deodorant,دژەبۆنی ئارەق,Shopping Avenue,daily/spray/daily_deodorant,False
+daily_detergent,detergent,پاککەرەوە,Shopping Avenue,daily/detergent/daily_detergent,False
+daily_fitness_trainer,fitness trainer,ڕاهێنەری وەرزش,Fitness Square,daily/person/daily_fitness_trainer,False
+daily_runner,runner,ڕاکەر,Fitness Square,daily/person/daily_runner,False
+daily_referee,referee,داوەر,Fitness Square,daily/person/daily_referee,False
+daily_yoga_mat,yoga mat,تەختەی یۆگا,Fitness Square,daily/yoga_mat/daily_yoga_mat,False
+daily_dumbbell,dumbbell,دەمیڵ,Fitness Square,daily/dumbbell/daily_dumbbell,False
+daily_barbell,barbell,باربێڵ,Fitness Square,daily/barbell/daily_barbell,False
+daily_weight_plate,weight plate,قابی کێش,Fitness Square,daily/weight_plate/daily_weight_plate,False
+daily_kettlebell,kettlebell,کێتڵبێڵ,Fitness Square,daily/kettlebell/daily_kettlebell,False
+daily_resistance_band,resistance band,بەندی بەرگری,Fitness Square,daily/resistance_band/daily_resistance_band,False
+daily_skipping_rope,skipping rope,پەتی بازدان,Fitness Square,daily/skipping_rope/daily_skipping_rope,False
+daily_exercise_bike,exercise bike,پاسکیلی وەرزشی,Fitness Square,daily/exercise_bike/daily_exercise_bike,False
+daily_treadmill,treadmill,ئامێری ڕاکردن,Fitness Square,daily/treadmill/daily_treadmill,False
+daily_rowing_machine,rowing machine,ئامێری پاروو لێدان,Fitness Square,daily/rowing_machine/daily_rowing_machine,False
+daily_weight_bench,weight bench,مێزی کێش هەڵگرتن,Fitness Square,daily/weight_bench/daily_weight_bench,False
+daily_pull_up_bar,pull-up bar,داری ڕاکێشان,Fitness Square,daily/pullup_bar/daily_pull_up_bar,False
+daily_foam_roller,foam roller,ڕۆڵەی فۆم,Fitness Square,daily/foam_roller/daily_foam_roller,False
+daily_massage_ball,massage ball,تۆپی ماساژ,Fitness Square,daily/sports_ball/daily_massage_ball,False
+daily_exercise_ball,exercise ball,تۆپی وەرزشی,Fitness Square,daily/sports_ball/daily_exercise_ball,False
+daily_medicine_ball,medicine ball,تۆپی کێشدار,Fitness Square,daily/sports_ball/daily_medicine_ball,False
+daily_yoga_block,yoga block,بلۆکی یۆگا,Fitness Square,daily/yoga_block/daily_yoga_block,False
+daily_yoga_strap,yoga strap,بەندی یۆگا,Fitness Square,daily/strap/daily_yoga_strap,False
+daily_water_bottle,water bottle,بوتڵی ئاو,Fitness Square,daily/sports_bottle/daily_water_bottle,False
+daily_protein_shaker,protein shaker,شەیکەری پرۆتین,Fitness Square,daily/shaker/daily_protein_shaker,False
+daily_gym_towel,gym towel,خاولی هۆڵی وەرزش,Fitness Square,accurate/towel,False
+daily_gym_locker,gym locker,کابینەی وەرزش,Fitness Square,daily/locker/daily_gym_locker,False
+daily_gym_bag,gym bag,جانتی وەرزش,Fitness Square,daily/duffel/daily_gym_bag,False
+daily_heart_rate_monitor,heart rate monitor,پێوەری لێدانی دڵ,Fitness Square,daily/wrist_monitor/daily_heart_rate_monitor,False
+daily_fitness_tracker,fitness tracker,تۆمارکەری وەرزش,Fitness Square,daily/wrist_monitor/daily_fitness_tracker,False
+daily_sports_whistle,sports whistle,فیکەی وەرزشی,Fitness Square,daily/whistle/daily_sports_whistle,False
+daily_training_cone,training cone,کۆنی ڕاهێنان,Fitness Square,daily/cone/daily_training_cone,False
+daily_agility_ladder,agility ladder,پلەی چالاکی,Fitness Square,daily/agility_ladder/daily_agility_ladder,False
+daily_training_hurdle,training hurdle,بەربەستی ڕاهێنان,Fitness Square,daily/hurdle/daily_training_hurdle,False
+daily_football_boots,football boots,پێڵاوی تۆپی پێ,Fitness Square,daily/cleats/daily_football_boots,False
+daily_shin_guards,shin guards,پارێزەری قاچ,Fitness Square,daily/shin_guards/daily_shin_guards,False
+daily_goalkeeper_gloves,goalkeeper gloves,دەستکێشی گۆڵپارێز,Fitness Square,new/glove,False
+daily_boxing_gloves,boxing gloves,دەستکێشی بۆکس,Fitness Square,daily/boxing_gloves/daily_boxing_gloves,False
+daily_punching_bag,punching bag,کیسەی بۆکس,Fitness Square,daily/punching_bag/daily_punching_bag,False
+daily_boxing_ring,boxing ring,مەیدانی بۆکس,Fitness Square,daily/boxing_ring/daily_boxing_ring,False
+daily_badminton_shuttlecock,badminton shuttlecock,تۆپی بادمینتۆن,Fitness Square,daily/shuttlecock/daily_badminton_shuttlecock,False
+daily_tennis_ball,tennis ball,تۆپی تێنس,Fitness Square,daily/sports_ball/daily_tennis_ball,False
+daily_volleyball,volleyball,تۆپی ڤۆلیبۆڵ,Fitness Square,daily/sports_ball/daily_volleyball,False
+daily_volleyball_net,volleyball net,تۆڕی ڤۆلیبۆڵ,Fitness Square,daily/sports_net/daily_volleyball_net,False
+daily_cricket_bat,cricket bat,داری کریکت,Fitness Square,daily/cricket_bat/daily_cricket_bat,False
+daily_cricket_wickets,cricket wickets,دارەکانی کریکت,Fitness Square,daily/wickets/daily_cricket_wickets,False
+daily_cycling_helmet,cycling helmet,کڵاوی پاسکیل,Fitness Square,daily/bike_helmet/daily_cycling_helmet,False
+daily_cycling_jersey,cycling jersey,کراسی پاسکیل,Fitness Square,accurate/t_shirt,False
+daily_knee_pads,knee pads,پارێزەری ئەژنۆ,Fitness Square,daily/knee_pads/daily_knee_pads,False
+daily_elbow_pads,elbow pads,پارێزەری ئانیشک,Fitness Square,daily/knee_pads/daily_elbow_pads,False
+daily_swimming_cap,swimming cap,کڵاوی مەلەوانی,Fitness Square,daily/swim_cap/daily_swimming_cap,False
+daily_lifeguard_chair,lifeguard chair,کورسی ڕزگارکەر,Fitness Square,daily/lifeguard_chair/daily_lifeguard_chair,False
+daily_bus_stop,bus stop,وێستگەی پاس,Travel Terminal,daily/bus_stop/daily_bus_stop,False
+daily_bus_shelter,bus shelter,سایەوانی وێستگە,Travel Terminal,daily/bus_shelter/daily_bus_shelter,False
+daily_bus_timetable,bus timetable,خشتەی کاتی پاس,Travel Terminal,daily/timetable/daily_bus_timetable,False
+daily_bus_ticket,bus ticket,بلیتی پاس,Travel Terminal,daily/ticket/daily_bus_ticket,False
+daily_ticket_machine,ticket machine,ئامێری بلیت,Travel Terminal,daily/ticket_machine/daily_ticket_machine,False
+daily_departure_board,departure board,تابلۆی ڕۆیشتن,Travel Terminal,daily/departure_board/daily_departure_board,False
+daily_arrival_board,arrival board,تابلۆی گەیشتن,Travel Terminal,daily/departure_board/daily_arrival_board,False
+daily_platform_sign,platform sign,تابلۆی پلاتفۆرم,Travel Terminal,daily/sign/daily_platform_sign,False
+daily_railway_track,railway track,هێڵی شەمەندەفەر,Travel Terminal,trains/railroad-straight,False
+daily_passenger_train,passenger train,شەمەندەفەری گواستنەوە,Travel Terminal,trains/train-locomotive-passenger-a,False
+daily_tram,tram,ترام,Travel Terminal,trains/train-tram-modern,False
+daily_metro_train,metro train,شەمەندەفەری مێترۆ,Travel Terminal,trains/train-electric-subway-a,False
+daily_coach,coach,پاسی گەشت,Travel Terminal,daily/bus/daily_coach,False
+daily_minibus,minibus,پاسی بچووک,Travel Terminal,daily/minibus/daily_minibus,False
+daily_motorcycle,motorcycle,ماتۆڕ,Travel Terminal,daily/motorcycle/daily_motorcycle,False
+daily_electric_scooter,electric scooter,سکوتەری کارەبایی,Travel Terminal,daily/electric_scooter/daily_electric_scooter,False
+daily_bicycle_rack,bicycle rack,جێی پاسکیل,Travel Terminal,daily/bike_rack/daily_bicycle_rack,False
+daily_cycle_lane_sign,cycle lane sign,تابلۆی ڕێی پاسکیل,Travel Terminal,daily/sign/daily_cycle_lane_sign,False
+daily_pedestrian_crossing,pedestrian crossing,پەڕینەوەی پیادە,Travel Terminal,daily/crossing/daily_pedestrian_crossing,False
+daily_crossing_button,crossing button,دوگمەی پەڕینەوە,Travel Terminal,daily/crossing_button/daily_crossing_button,False
+daily_parking_meter,parking meter,پێوەری پارکینگ,Travel Terminal,daily/parking_meter/daily_parking_meter,False
+daily_parking_ticket,parking ticket,بلیتی پارکینگ,Travel Terminal,daily/ticket/daily_parking_ticket,False
+daily_parking_barrier,parking barrier,بەربەستی پارکینگ,Travel Terminal,daily/barrier/daily_parking_barrier,False
+daily_parking_bollard,parking bollard,ستوونی پارکینگ,Travel Terminal,daily/bollard/daily_parking_bollard,False
+daily_car_park_sign,car park sign,تابلۆی پارکینگ,Travel Terminal,daily/sign/daily_car_park_sign,False
+daily_charging_station,charging station,وێستگەی شەحنکردن,Travel Terminal,daily/charger/daily_charging_station,False
+daily_fuel_pump,fuel pump,پەمپی سووتەمەنی,Travel Terminal,daily/fuel_pump/daily_fuel_pump,False
+daily_seat_belt,seat belt,پشتی پاراستن,Travel Terminal,daily/seat_belt/daily_seat_belt,False
+daily_car_seat,car seat,کورسی ئۆتۆمبێل,Travel Terminal,daily/car_seat/daily_car_seat,False
+daily_child_car_seat,child car seat,کورسی منداڵی ئۆتۆمبێل,Travel Terminal,daily/child_seat/daily_child_car_seat,False
+daily_steering_wheel,steering wheel,سوکان,Travel Terminal,daily/steering_wheel/daily_steering_wheel,False
+daily_dashboard,dashboard,داشبۆرد,Travel Terminal,daily/dashboard/daily_dashboard,False
+daily_rearview_mirror,rearview mirror,ئاوێنەی دواوە,Travel Terminal,daily/rearview_mirror/daily_rearview_mirror,False
+daily_windshield_wiper,windshield wiper,پاککەرەوەی شووشە,Travel Terminal,daily/wiper/daily_windshield_wiper,False
+daily_headlight,headlight,چرای پێشەوە,Travel Terminal,daily/headlight/daily_headlight,False
+daily_brake_light,brake light,چرای بریک,Travel Terminal,daily/brake_light/daily_brake_light,False
+daily_number_plate,number plate,پلاکی ئۆتۆمبێل,Travel Terminal,daily/number_plate/daily_number_plate,False
+daily_spare_tire,spare tire,تایەی زیادە,Travel Terminal,cars/wheel-default,False
+daily_car_jack,car jack,جاکی ئۆتۆمبێل,Travel Terminal,daily/car_jack/daily_car_jack,False
+daily_jumper_cables,jumper cables,کێبڵی باتری,Travel Terminal,daily/jumper_cables/daily_jumper_cables,False
+daily_car_key_fob,car key fob,ڕیمۆتی ئۆتۆمبێل,Travel Terminal,daily/keyfob/daily_car_key_fob,False
+daily_luggage_tag,luggage tag,کارتی جانتا,Travel Terminal,daily/luggage_tag/daily_luggage_tag,False
+daily_check_in_counter,check-in counter,کاونتەری چێک ئین,Travel Terminal,daily/checkin_counter/daily_check_in_counter,False
+daily_security_tray,security tray,سینی پشکنین,Travel Terminal,food/plate-rectangle,False
+daily_metal_detector,metal detector,دۆزەرەوەی کانزا,Travel Terminal,daily/metal_detector/daily_metal_detector,False
+daily_moving_walkway,moving walkway,ڕێڕەوی جووڵاو,Travel Terminal,daily/moving_walkway/daily_moving_walkway,False
+daily_escalator,escalator,پلەی جووڵاو,Travel Terminal,daily/escalator/daily_escalator,False
+daily_lift_doors,lift doors,دەرگای ئەسانسۆر,Travel Terminal,daily/lift/daily_lift_doors,False
+daily_turnstile,turnstile,دەروازەی سووڕاو,Travel Terminal,daily/turnstile/daily_turnstile,False
+daily_taxi_rank_sign,taxi rank sign,تابلۆی وێستگەی تاکسی,Travel Terminal,daily/sign/daily_taxi_rank_sign,False
+daily_post_office_counter,post office counter,کاونتەری پۆستەخانە,City Services,daily/counter/daily_post_office_counter,False
+daily_postal_worker,postal worker,کارمەندی پۆست,City Services,daily/person/daily_postal_worker,False
+daily_delivery_driver,delivery driver,شۆفێری گەیاندن,City Services,daily/person/daily_delivery_driver,False
+daily_bank_teller,bank teller,کارمەندی بانک,City Services,daily/person/daily_bank_teller,False
+daily_firefighter,firefighter,ئاگرکوژێنەوە,City Services,daily/person/daily_firefighter,False
+daily_police_officer,police officer,ئەفسەری پۆلیس,City Services,daily/person/daily_police_officer,False
+daily_paramedic,paramedic,فریاکەوتنکار,City Services,daily/person/daily_paramedic,False
+daily_mechanic,mechanic,میکانیک,City Services,daily/person/daily_mechanic,False
+daily_electrician,electrician,کارەباکار,City Services,daily/person/daily_electrician,False
+daily_plumber,plumber,بۆریچی,City Services,daily/person/daily_plumber,False
+daily_atm,ATM,ئامێری پارەدەرهێنان,City Services,daily/atm/daily_atm,False
+daily_cash_deposit_envelope,cash deposit envelope,پاکەتی سپاردنی پارە,City Services,daily/envelope/daily_cash_deposit_envelope,False
+daily_bank_statement,bank statement,تۆماری بانکی,City Services,daily/document/daily_bank_statement,False
+daily_utility_bill,utility bill,پسوولەی خزمەتگوزاری,City Services,daily/invoice/daily_utility_bill,False
+daily_application_form,application form,فۆرمی داواکاری,City Services,daily/document/daily_application_form,False
+daily_queue_ticket,queue ticket,بلیتی نۆرە,City Services,daily/ticket/daily_queue_ticket,False
+daily_queue_display,queue display,شاشەی نۆرە,City Services,daily/queue_display/daily_queue_display,False
+daily_service_bell,service bell,زەنگی خزمەت,City Services,daily/bell/daily_service_bell,False
+daily_parcel_scale,parcel scale,تەرازووی پاکەت,City Services,accurate/scale,False
+daily_parcel_locker,parcel locker,کابینەی پاکەت,City Services,daily/parcel_locker/daily_parcel_locker,False
+daily_postage_label,postage label,کارتی ناردنی پۆست,City Services,daily/label/daily_postage_label,False
+daily_shipping_carton,shipping carton,کارتۆنی ناردن,City Services,daily/parcel/daily_shipping_carton,False
+daily_recycling_bin,recycling bin,سەبەتەی دووبارەبەکارهێنان,City Services,daily/recycling_bin/daily_recycling_bin,False
+daily_glass_recycling_bin,glass recycling bin,سەبەتەی شووشە,City Services,daily/recycling_bin/daily_glass_recycling_bin,False
+daily_paper_recycling_bin,paper recycling bin,سەبەتەی کاغەز,City Services,daily/recycling_bin/daily_paper_recycling_bin,False
+daily_litter_picker,litter picker,هەڵگرەوەی خاشاک,City Services,daily/litter_picker/daily_litter_picker,False
+daily_street_sweeper,street sweeper,پاککەرەوەی شەقام,City Services,daily/street_sweeper/daily_street_sweeper,False
+daily_fire_extinguisher,fire extinguisher,ئامێری ئاگرکوژێنەوە,City Services,daily/extinguisher/daily_fire_extinguisher,False
+daily_fire_hose_reel,fire hose reel,ئەڵقەی بۆری ئاگرکوژێنەوە,City Services,daily/hose_reel/daily_fire_hose_reel,False
+daily_fire_hydrant,fire hydrant,هیدرانتی ئاگرکوژێنەوە,City Services,daily/hydrant/daily_fire_hydrant,False
+daily_smoke_alarm,smoke alarm,ئاگادارکەرەوەی دووکەڵ,City Services,daily/smoke_alarm/daily_smoke_alarm,False
+daily_emergency_exit_sign,emergency exit sign,تابلۆی دەرچوونی فریاکەوتن,City Services,daily/exit_sign/daily_emergency_exit_sign,False
+daily_emergency_phone,emergency phone,تەلەفۆنی فریاکەوتن,City Services,accurate/telephone,False
+daily_first_aid_cabinet,first aid cabinet,کابینەی فریاکەوتنی سەرەتایی,City Services,daily/medical_cabinet/daily_first_aid_cabinet,False
+daily_medical_stretcher,medical stretcher,تەختی گواستنەوەی نەخۆش,City Services,daily/stretcher/daily_medical_stretcher,False
+daily_wheelchair,wheelchair,کورسی چەرخدار,City Services,daily/wheelchair/daily_wheelchair,False
+daily_crutches,crutches,گۆچانی ژێرباڵ,City Services,daily/crutches/daily_crutches,False
+daily_walking_frame,walking frame,چوارچێوەی پیاسە,City Services,daily/walker/daily_walking_frame,False
+daily_repair_toolbox,repair toolbox,سندوقی ئامراز,City Services,daily/toolbox/daily_repair_toolbox,False
+daily_socket_wrench,socket wrench,سپانەی سۆکێت,City Services,daily/socket_wrench/daily_socket_wrench,False
+daily_adjustable_wrench,adjustable wrench,سپانەی گۆڕاو,City Services,accurate/wrench,False
+daily_utility_knife,utility knife,چەقۆی کار,City Services,daily/utility_knife/daily_utility_knife,False
+daily_wire_stripper,wire stripper,ڕووتکەری وایەر,City Services,daily/wire_stripper/daily_wire_stripper,False
+daily_circuit_breaker,circuit breaker,بڕەری کارەبا,City Services,daily/breaker/daily_circuit_breaker,False
+daily_water_meter,water meter,پێوەری ئاو,City Services,daily/meter/daily_water_meter,False
+daily_electricity_meter,electricity meter,پێوەری کارەبا,City Services,daily/meter/daily_electricity_meter,False
+daily_maintenance_sign,maintenance sign,تابلۆی چاککردنەوە,City Services,daily/sign/daily_maintenance_sign,False
+daily_wet_floor_sign,wet floor sign,تابلۆی زەویی تەڕ,City Services,daily/wet_floor_sign/daily_wet_floor_sign,False
+daily_safety_barrier,safety barrier,بەربەستی پاراستن,City Services,daily/safety_barrier/daily_safety_barrier,False
+daily_traffic_vest,traffic vest,سەدرێی هاتوچۆ,City Services,daily/hi_vis/daily_traffic_vest,False
+daily_podcast_host,podcast host,پێشکەشکاری پۆدکاست,Podcast Plaza,daily/person/daily_podcast_host,False
+daily_podcast_guest,podcast guest,میوانی پۆدکاست,Podcast Plaza,daily/person/daily_podcast_guest,False
+daily_sound_engineer,sound engineer,ئەندازیاری دەنگ,Podcast Plaza,daily/person/daily_sound_engineer,False
+daily_producer,producer,بەرهەمهێنەر,Podcast Plaza,daily/person/daily_producer,False
+daily_studio_microphone,studio microphone,مایکرۆفۆنی ستۆدیۆ,Podcast Plaza,daily/studio_microphone/daily_studio_microphone,False
+daily_dynamic_microphone,dynamic microphone,مایکرۆفۆنی داینامیک,Podcast Plaza,daily/dynamic_microphone/daily_dynamic_microphone,False
+daily_condenser_microphone,condenser microphone,مایکرۆفۆنی کۆندێنسەر,Podcast Plaza,daily/condenser_microphone/daily_condenser_microphone,False
+daily_boom_arm,boom arm,باڵی مایکرۆفۆن,Podcast Plaza,daily/boom_arm/daily_boom_arm,False
+daily_pop_filter,pop filter,فلتەری پۆپ,Podcast Plaza,daily/pop_filter/daily_pop_filter,False
+daily_shock_mount,shock mount,جێگیرکەری لەرزین,Podcast Plaza,daily/shock_mount/daily_shock_mount,False
+daily_foam_windscreen,foam windscreen,پۆشی فۆمی مایکرۆفۆن,Podcast Plaza,daily/windscreen/daily_foam_windscreen,False
+daily_studio_headphones,studio headphones,هێدفۆنی ستۆدیۆ,Podcast Plaza,daily/studio_headphones/daily_studio_headphones,False
+daily_headphone_stand,headphone stand,پایەی هێدفۆن,Podcast Plaza,daily/headphone_stand/daily_headphone_stand,False
+daily_audio_interface,audio interface,ئینتەرفەیسی دەنگ,Podcast Plaza,daily/audio_interface/daily_audio_interface,False
+daily_mixing_desk,mixing desk,مێزی تێکەڵکردنی دەنگ,Podcast Plaza,daily/mixing_desk/daily_mixing_desk,False
+daily_fader,fader,سلایدەری دەنگ,Podcast Plaza,daily/fader/daily_fader,False
+daily_gain_knob,gain knob,دوگمەی گەینی دەنگ,Podcast Plaza,daily/gain_knob/daily_gain_knob,False
+daily_xlr_cable,XLR cable,کێبڵی ئێکس ئێڵ ئاڕ,Podcast Plaza,daily/xlr_cable/daily_xlr_cable,False
+daily_audio_jack,audio jack,جاکی دەنگ,Podcast Plaza,daily/audio_jack/daily_audio_jack,False
+daily_usb_microphone,USB microphone,مایکرۆفۆنی یو ئێس بی,Podcast Plaza,daily/usb_microphone/daily_usb_microphone,False
+daily_portable_recorder,portable recorder,تۆمارکەری هەڵگیراو,Podcast Plaza,daily/recorder/daily_portable_recorder,False
+daily_recording_booth,recording booth,ژووری تۆمارکردن,Podcast Plaza,daily/recording_booth/daily_recording_booth,False
+daily_acoustic_panel,acoustic panel,پانێڵی ئەکوستیک,Podcast Plaza,daily/acoustic_panel/daily_acoustic_panel,False
+daily_bass_trap,bass trap,جێگیرکەری دەنگی باس,Podcast Plaza,daily/bass_trap/daily_bass_trap,False
+daily_sound_diffuser,sound diffuser,بڵاوکەرەوەی دەنگ,Podcast Plaza,daily/diffuser/daily_sound_diffuser,False
+daily_studio_monitor_speaker,studio monitor speaker,سپیکەری مۆنیتەری ستۆدیۆ,Podcast Plaza,daily/studio_monitor/daily_studio_monitor_speaker,False
+daily_speaker_stand,speaker stand,پایەی سپیکەر,Podcast Plaza,daily/speaker_stand/daily_speaker_stand,False
+daily_on_air_light,on-air light,چرای لە پەخشدا,Podcast Plaza,daily/on_air/daily_on_air_light,False
+daily_record_button,record button,دوگمەی تۆمارکردن,Podcast Plaza,daily/record_button/daily_record_button,False
+daily_mute_button,mute button,دوگمەی بێدەنگکردن,Podcast Plaza,daily/mute_button/daily_mute_button,False
+daily_teleprompter,teleprompter,تێلێپرۆمپتەر,Podcast Plaza,daily/teleprompter/daily_teleprompter,False
+daily_episode_script,episode script,دەقی ئەڵقە,Podcast Plaza,daily/script/daily_episode_script,False
+daily_interview_notes,interview notes,تێبینیی چاوپێکەوتن,Podcast Plaza,daily/notes/daily_interview_notes,False
+daily_episode_planner,episode planner,پلانی ئەڵقە,Podcast Plaza,daily/planner/daily_episode_planner,False
+daily_cue_card,cue card,کارتی ئاماژە,Podcast Plaza,daily/cue_card/daily_cue_card,False
+daily_studio_clock,studio clock,کاتژمێری ستۆدیۆ,Podcast Plaza,accurate/clock,False
+daily_recording_timer,recording timer,کاتژمێری تۆمارکردن,Podcast Plaza,daily/timer/daily_recording_timer,False
+daily_waveform_display,waveform display,شاشەی شەپۆلی دەنگ,Podcast Plaza,daily/waveform/daily_waveform_display,False
+daily_audio_meter,audio meter,پێوەری دەنگ,Podcast Plaza,daily/audio_meter/daily_audio_meter,False
+daily_editing_workstation,editing workstation,وێستگەی دەستکاری,Podcast Plaza,daily/workstation/daily_editing_workstation,False
+daily_podcast_sofa,podcast sofa,قەنەفەی پۆدکاست,Podcast Plaza,furniture/loungeSofa,False
+daily_guest_armchair,guest armchair,کورسی میوان,Podcast Plaza,furniture/loungeChair,False
+daily_studio_coffee_table,studio coffee table,مێزی قاوەی ستۆدیۆ,Podcast Plaza,furniture/tableCoffee,False
+daily_studio_rug,studio rug,فەرشی ستۆدیۆ,Podcast Plaza,furniture/rugRectangle,False
+daily_studio_camera,studio camera,کامێرای ستۆدیۆ,Podcast Plaza,daily/video_camera/daily_studio_camera,False
+daily_ring_light,ring light,چرای ئەڵقەیی,Podcast Plaza,daily/ring_light/daily_ring_light,False
+daily_softbox_light,softbox light,چرای سۆفتبۆکس,Podcast Plaza,daily/softbox/daily_softbox_light,False
+daily_microphone_cable_clip,microphone cable clip,کلیپی کێبڵی مایکرۆفۆن,Podcast Plaza,daily/cable_clip/daily_microphone_cable_clip,False
+daily_studio_door,studio door,دەرگای ستۆدیۆ,Podcast Plaza,daily/studio_door/daily_studio_door,False
+daily_podcast_poster,podcast poster,پۆستەری پۆدکاست,Podcast Plaza,daily/poster/daily_podcast_poster,False

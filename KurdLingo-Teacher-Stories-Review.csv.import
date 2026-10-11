@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://tyvunkv84wuc"
+
+[deps]
+
+files=["res://KurdLingo-Teacher-Stories-Review.title.translation", "res://KurdLingo-Teacher-Stories-Review.sentence.translation", "res://KurdLingo-Teacher-Stories-Review.english.translation", "res://KurdLingo-Teacher-Stories-Review.sorani.translation", "res://KurdLingo-Teacher-Stories-Review.reviewed.translation"]
+
+source_file="res://KurdLingo-Teacher-Stories-Review.csv"
+dest_files=["res://KurdLingo-Teacher-Stories-Review.title.translation", "res://KurdLingo-Teacher-Stories-Review.sentence.translation", "res://KurdLingo-Teacher-Stories-Review.english.translation", "res://KurdLingo-Teacher-Stories-Review.sorani.translation", "res://KurdLingo-Teacher-Stories-Review.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

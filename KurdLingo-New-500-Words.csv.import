@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ch7rn8ci31u30"
+
+[deps]
+
+files=["res://KurdLingo-New-500-Words.en.translation", "res://KurdLingo-New-500-Words.ckb.translation", "res://KurdLingo-New-500-Words.region.translation", "res://KurdLingo-New-500-Words.model.translation", "res://KurdLingo-New-500-Words.reviewed.translation"]
+
+source_file="res://KurdLingo-New-500-Words.csv"
+dest_files=["res://KurdLingo-New-500-Words.en.translation", "res://KurdLingo-New-500-Words.ckb.translation", "res://KurdLingo-New-500-Words.region.translation", "res://KurdLingo-New-500-Words.model.translation", "res://KurdLingo-New-500-Words.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

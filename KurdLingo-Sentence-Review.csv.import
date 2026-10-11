@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dia72xaygh4jq"
+
+[deps]
+
+files=["res://KurdLingo-Sentence-Review.chapter.translation", "res://KurdLingo-Sentence-Review.english.translation", "res://KurdLingo-Sentence-Review.sorani.translation", "res://KurdLingo-Sentence-Review.reviewed.translation"]
+
+source_file="res://KurdLingo-Sentence-Review.csv"
+dest_files=["res://KurdLingo-Sentence-Review.chapter.translation", "res://KurdLingo-Sentence-Review.english.translation", "res://KurdLingo-Sentence-Review.sorani.translation", "res://KurdLingo-Sentence-Review.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

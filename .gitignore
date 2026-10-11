@@ -1,0 +1,16 @@
+.godot/
+*.tmp
+*.translation
+save/
+logs/
+export/
+exports/
+build/
+*.exe
+*.pck
+*.zip
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
