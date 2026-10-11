@@ -1,0 +1,242 @@
+[
+  {
+    "id": "town",
+    "region": "Town",
+    "target": "school",
+    "title": "A festival invitation",
+    "intro": "The town is preparing a Kurdish language festival. Help deliver the invitation.",
+    "steps": [
+      {
+        "id": "story_town_0",
+        "en": "The school is near the hospital.",
+        "ckb": "قوتابخانەکە نزیک نەخۆشخانەکەیە."
+      },
+      {
+        "id": "story_town_1",
+        "en": "I am going to school today.",
+        "ckb": "ئەمڕۆ دەچم بۆ قوتابخانە."
+      },
+      {
+        "id": "story_town_2",
+        "en": "We are learning Kurdish together.",
+        "ckb": "ئێمە پێکەوە کوردی فێر دەبین."
+      }
+    ]
+  },
+  {
+    "id": "homes",
+    "region": "Homes",
+    "target": "chair",
+    "title": "Welcome our guests",
+    "intro": "Prepare a comfortable place for the festival guests.",
+    "steps": [
+      {
+        "id": "story_homes_0",
+        "en": "Please sit on this chair.",
+        "ckb": "تکایە لەسەر ئەم کورسییە دابنیشە."
+      },
+      {
+        "id": "story_homes_1",
+        "en": "The chair is beside the table.",
+        "ckb": "کورسییەکە لە تەنیشت مێزەکەیە."
+      },
+      {
+        "id": "story_homes_2",
+        "en": "Our guests are in the house.",
+        "ckb": "میوانەکانمان لە ماڵەکەن."
+      }
+    ]
+  },
+  {
+    "id": "market",
+    "region": "Market",
+    "target": "apple",
+    "title": "Shopping for the feast",
+    "intro": "Visit the market and buy fruit to share.",
+    "steps": [
+      {
+        "id": "story_market_0",
+        "en": "I want to buy three apples.",
+        "ckb": "دەمەوێت سێ سێو بکڕم."
+      },
+      {
+        "id": "story_market_1",
+        "en": "How much does this apple cost?",
+        "ckb": "نرخی ئەم سێوە چەندە؟"
+      },
+      {
+        "id": "story_market_2",
+        "en": "These apples are fresh and delicious.",
+        "ckb": "ئەم سێوانە تازە و خۆشن."
+      }
+    ]
+  },
+  {
+    "id": "park",
+    "region": "Park",
+    "target": "tree",
+    "title": "A picnic meeting",
+    "intro": "Choose a peaceful place for the visitors to meet.",
+    "steps": [
+      {
+        "id": "story_park_0",
+        "en": "There is a tree in the park.",
+        "ckb": "دارێک لە پارکەکە هەیە."
+      },
+      {
+        "id": "story_park_1",
+        "en": "We are sitting under the tree.",
+        "ckb": "ئێمە لە ژێر دارەکە دانیشتووین."
+      },
+      {
+        "id": "story_park_2",
+        "en": "Please keep the park clean.",
+        "ckb": "تکایە پارکەکە بە پاکی ڕابگرە."
+      }
+    ]
+  },
+  {
+    "id": "farm",
+    "region": "Farm",
+    "target": "cow",
+    "title": "Help at the farm",
+    "intro": "Ask the farmer about the animals and festival supplies.",
+    "steps": [
+      {
+        "id": "story_farm_0",
+        "en": "The cow is eating grass.",
+        "ckb": "مانگاکە گیا دەخوات."
+      },
+      {
+        "id": "story_farm_1",
+        "en": "The farmer is working on the farm.",
+        "ckb": "جوتیارەکە لە کێڵگەکە کار دەکات."
+      },
+      {
+        "id": "story_farm_2",
+        "en": "We need milk for our guests.",
+        "ckb": "پێویستمان بە شیرە بۆ میوانەکانمان."
+      }
+    ]
+  },
+  {
+    "id": "kitchen",
+    "region": "Kitchen",
+    "target": "cupcake",
+    "title": "Bake a welcome treat",
+    "intro": "Help the kitchen team prepare something sweet.",
+    "steps": [
+      {
+        "id": "story_kitchen_0",
+        "en": "This small cake is delicious.",
+        "ckb": "ئەم کێکە بچووکە خۆشە."
+      },
+      {
+        "id": "story_kitchen_1",
+        "en": "Please wash your hands before cooking.",
+        "ckb": "تکایە پێش چێشت لێنان دەستەکانت بشۆ."
+      },
+      {
+        "id": "story_kitchen_2",
+        "en": "We are making food for the festival.",
+        "ckb": "ئێمە خواردن بۆ جەژنەکە ئامادە دەکەین."
+      }
+    ]
+  },
+  {
+    "id": "workshop",
+    "region": "Workshop",
+    "target": "screwdriver",
+    "title": "Repair the festival sign",
+    "intro": "Help the maker repair a sign before the guests arrive.",
+    "steps": [
+      {
+        "id": "story_workshop_0",
+        "en": "Please give me the screwdriver.",
+        "ckb": "تکایە دەڕنەفیزەکەم بدەرێ."
+      },
+      {
+        "id": "story_workshop_1",
+        "en": "The tools are on the table.",
+        "ckb": "ئامرازەکان لەسەر مێزەکەن."
+      },
+      {
+        "id": "story_workshop_2",
+        "en": "We are repairing the sign together.",
+        "ckb": "ئێمە پێکەوە تەختەکە چاک دەکەینەوە."
+      }
+    ]
+  },
+  {
+    "id": "discovery",
+    "region": "Discovery",
+    "target": "globe",
+    "title": "Visitors from around the world",
+    "intro": "Use the globe to welcome visitors and talk about travel.",
+    "steps": [
+      {
+        "id": "story_discovery_0",
+        "en": "This is a map of the world.",
+        "ckb": "ئەمە نەخشەی جیهانە."
+      },
+      {
+        "id": "story_discovery_1",
+        "en": "Where do you come from?",
+        "ckb": "تۆ خەڵکی کوێیت؟"
+      },
+      {
+        "id": "story_discovery_2",
+        "en": "I want to learn about other countries.",
+        "ckb": "دەمەوێت دەربارەی وڵاتانی دیکە فێر ببم."
+      }
+    ]
+  },
+  {
+    "id": "wildlife",
+    "region": "Wildlife",
+    "target": "rabbit",
+    "title": "A gentle wildlife walk",
+    "intro": "Show the visitors the animals without disturbing them.",
+    "steps": [
+      {
+        "id": "story_wildlife_0",
+        "en": "The rabbit has long ears.",
+        "ckb": "کەروێشکەکە گوێی درێژی هەیە."
+      },
+      {
+        "id": "story_wildlife_1",
+        "en": "Please do not frighten the animals.",
+        "ckb": "تکایە ئاژەڵەکان مەترسێنە."
+      },
+      {
+        "id": "story_wildlife_2",
+        "en": "We are watching the animals quietly.",
+        "ckb": "ئێمە بە بێدەنگی سەیری ئاژەڵەکان دەکەین."
+      }
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "region": "Lifestyle",
+    "target": "shirt",
+    "title": "Ready for the celebration",
+    "intro": "Get dressed and finish welcoming the festival guests.",
+    "steps": [
+      {
+        "id": "story_lifestyle_0",
+        "en": "I am wearing a blue shirt.",
+        "ckb": "من کراسێکی شینم لەبەردایە."
+      },
+      {
+        "id": "story_lifestyle_1",
+        "en": "The festival begins this evening.",
+        "ckb": "جەژنەکە ئەم ئێوارەیە دەست پێ دەکات."
+      },
+      {
+        "id": "story_lifestyle_2",
+        "en": "Welcome to our Kurdish language festival.",
+        "ckb": "بەخێربێن بۆ جەژنی زمانی کوردیی ئێمە."
+      }
+    ]
+  }
+]

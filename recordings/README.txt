@@ -1,0 +1,1 @@
+Optional native-speaker PCM WAV replacements: ckb/<word_id>.wav or en/<word_id>.wav. See Vocabulary-review.csv for IDs. Mono 24kHz / 16-bit recommended. Built-in speech is used when no replacement exists. Use recordings with speaker permission.

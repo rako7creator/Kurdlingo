@@ -1,0 +1,818 @@
+[
+  {
+    "id": "newroz",
+    "title": "A Newroz morning",
+    "ckb_title": "بەیانییەکی نەورۆز",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_newroz_0",
+        "en": "On a spring morning in Kurdistan, a child named Dilan opened the window.",
+        "ckb": "لە بەیانییەکی بەهاری کوردستان، منداڵێک بە ناوی دیلان پەنجەرەکەی کردەوە."
+      },
+      {
+        "id": "tale_newroz_1",
+        "en": "The garden was green, and the family was preparing for Newroz.",
+        "ckb": "باخچەکە سەوز بوو، خێزانەکەش خۆیان بۆ نەورۆز ئامادە دەکرد."
+      },
+      {
+        "id": "tale_newroz_2",
+        "en": "Her grandmother said that Newroz welcomes spring and a new beginning.",
+        "ckb": "داپیرەی گوتی نەورۆز پێشوازی لە بەهار و دەستپێکێکی نوێ دەکات."
+      },
+      {
+        "id": "tale_newroz_3",
+        "en": "Dilan put on her colorful clothes and helped pack bread and fruit.",
+        "ckb": "دیلان جلە ڕەنگاوڕەنگەکانی لەبەر کرد و یارمەتی کۆکردنەوەی نان و میوەی دا."
+      },
+      {
+        "id": "tale_newroz_4",
+        "en": "They went outside together and met their neighbors.",
+        "ckb": "پێکەوە چوونە دەرەوە و دراوسێکانیان بینی."
+      },
+      {
+        "id": "tale_newroz_5",
+        "en": "Music began, and everyone joined hands in a circle.",
+        "ckb": "مۆسیقا دەستی پێکرد و هەمووان لە بازنەیەکدا دەستی یەکتریان گرت."
+      },
+      {
+        "id": "tale_newroz_6",
+        "en": "Dilan was shy at first, but her grandmother helped her follow the steps.",
+        "ckb": "دیلان سەرەتا شەرم دەکرد، بەڵام داپیرەی یارمەتی دا هەنگاوەکان فێر ببێت."
+      },
+      {
+        "id": "tale_newroz_7",
+        "en": "At the end of the day, she understood that joy grows when we share it.",
+        "ckb": "لە کۆتایی ڕۆژەکەدا تێگەیشت کە خۆشی گەورەتر دەبێت کاتێک پێکەوە بەشی دەکەین."
+      }
+    ]
+  },
+  {
+    "id": "citadel",
+    "title": "The old walls of Erbil",
+    "ckb_title": "دیوارە کۆنەکانی هەولێر",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_citadel_0",
+        "en": "One day, a boy named Aram visited the citadel of Erbil with his grandfather.",
+        "ckb": "ڕۆژێک کوڕێک بە ناوی ئارام لەگەڵ باپیرەی سەردانی قەڵای هەولێری کرد."
+      },
+      {
+        "id": "tale_citadel_1",
+        "en": "The citadel stood on a high mound above the city.",
+        "ckb": "قەڵاکە لەسەر گردێکی بەرز لە سەرووی شارەکەوە بوو."
+      },
+      {
+        "id": "tale_citadel_2",
+        "en": "They walked slowly beside the old walls and looked at the doorways.",
+        "ckb": "بە هێواشی بە تەنیشت دیوارە کۆنەکاندا ڕۆیشتن و سەیری دەرگاکانیان کرد."
+      },
+      {
+        "id": "tale_citadel_3",
+        "en": "Aram asked who had lived behind those doors.",
+        "ckb": "ئارام پرسی کێ لە پشت ئەو دەرگایانەدا ژیاوە."
+      },
+      {
+        "id": "tale_citadel_4",
+        "en": "His grandfather said that many generations had made their homes here.",
+        "ckb": "باپیرەی گوتی نەوەی زۆر لێرە ماڵی خۆیان دروست کردووە."
+      },
+      {
+        "id": "tale_citadel_5",
+        "en": "He explained that caring for old places helps us remember the people before us.",
+        "ckb": "ڕوونی کردەوە کە پاراستنی شوێنە کۆنەکان یارمەتیمان دەدات خەڵکی پێش خۆمان لەبیر نەکەین."
+      },
+      {
+        "id": "tale_citadel_6",
+        "en": "Aram picked up a piece of litter and put it in a bin.",
+        "ckb": "ئارام پارچەیەک زبڵی هەڵگرت و خستییە ناو سەتڵێکەوە."
+      },
+      {
+        "id": "tale_citadel_7",
+        "en": "He left with a promise to treat the city and its history with care.",
+        "ckb": "بە بەڵێنێکەوە گەڕایەوە کە بە ئاگادارییەوە مامەڵە لەگەڵ شارەکە و مێژووەکەی بکات."
+      }
+    ]
+  },
+  {
+    "id": "hawraman",
+    "title": "The paths of Hawraman",
+    "ckb_title": "ڕێگاکانی هەورامان",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_hawraman_0",
+        "en": "In a mountain village in Hawraman, a girl named Shilan carried a small basket.",
+        "ckb": "لە گوندێکی شاخاوی هەورامان، کچێک بە ناوی شیلان سەبەتەیەکی بچووکی هەڵگرتبوو."
+      },
+      {
+        "id": "tale_hawraman_1",
+        "en": "Stone houses stood along the hillside, and narrow paths joined the neighbors.",
+        "ckb": "ماڵە بەردینەکان لەسەر لێژییەکە بوون و ڕێگا تەسکەکان دراوسێکانیان پێکەوە دەبەستەوە."
+      },
+      {
+        "id": "tale_hawraman_2",
+        "en": "She was taking fresh fruit to an elderly neighbor.",
+        "ckb": "میوەی تازەی بۆ دراوسێیەکی بەساڵاچوو دەبرد."
+      },
+      {
+        "id": "tale_hawraman_3",
+        "en": "Halfway there, she stopped to listen to a stream.",
+        "ckb": "لە نیوەی ڕێگاکەدا وەستا تا گوێ لە جۆگەیەک بگرێت."
+      },
+      {
+        "id": "tale_hawraman_4",
+        "en": "Her mother reminded her to walk carefully and keep the water clean.",
+        "ckb": "دایکی بیری خستەوە کە بە وریاییەوە بڕوات و ئاوەکە پاک ڕابگرێت."
+      },
+      {
+        "id": "tale_hawraman_5",
+        "en": "The neighbor welcomed them and shared bread from his home.",
+        "ckb": "دراوسێکە پێشوازی لێکردن و نانی ماڵەکەی لەگەڵیان بەش کرد."
+      },
+      {
+        "id": "tale_hawraman_6",
+        "en": "Shilan learned that a village is more than houses and roads.",
+        "ckb": "شیلان فێر بوو کە گوند تەنها ماڵ و ڕێگا نییە."
+      },
+      {
+        "id": "tale_hawraman_7",
+        "en": "It is also the kindness that carries people from one door to another.",
+        "ckb": "هەروەها ئەو میهرەبانییەیە کە خەڵک لە دەرگایەکەوە بۆ دەرگایەکی تر دەبات."
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "title": "The mountain and the little tree",
+    "ckb_title": "شاخەکە و دارە بچووکەکە",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_mountain_0",
+        "en": "A little tree grew beside a path in the mountains of Kurdistan.",
+        "ckb": "دارێکی بچووک لە تەنیشت ڕێگایەک لە شاخەکانی کوردستان گەشەی دەکرد."
+      },
+      {
+        "id": "tale_mountain_1",
+        "en": "A child named Roj passed it every morning on the way to school.",
+        "ckb": "منداڵێک بە ناوی ڕۆژ هەموو بەیانییەک لە ڕێگای قوتابخانە بە لایدا تێدەپەڕی."
+      },
+      {
+        "id": "tale_mountain_2",
+        "en": "During a dry week, the leaves began to droop.",
+        "ckb": "لە هەفتەیەکی وشکدا گەڵاکان دەستیان بە پژموردەبوون کرد."
+      },
+      {
+        "id": "tale_mountain_3",
+        "en": "Roj brought a little water and poured it gently beside the roots.",
+        "ckb": "ڕۆژ کەمێک ئاوی هێنا و بە هێواشی لە تەنیشت ڕەگەکاندا ڕشتی."
+      },
+      {
+        "id": "tale_mountain_4",
+        "en": "His friends helped protect the tree from being stepped on.",
+        "ckb": "هاوڕێکانی یارمەتییان دا دارەکە لە پێداکردن بپارێزن."
+      },
+      {
+        "id": "tale_mountain_5",
+        "en": "When rain returned, new green leaves appeared.",
+        "ckb": "کاتێک باران گەڕایەوە، گەڵای سەوزی نوێ دەرکەوت."
+      },
+      {
+        "id": "tale_mountain_6",
+        "en": "The children sat nearby and listened to the birds.",
+        "ckb": "منداڵەکان لە نزیکیدا دانیشتن و گوێیان لە باڵندەکان گرت."
+      },
+      {
+        "id": "tale_mountain_7",
+        "en": "They learned that caring for a small thing can make a big difference.",
+        "ckb": "فێر بوون کە ئاگاداربوون لە شتێکی بچووک دەتوانێت گۆڕانکارییەکی گەورە دروست بکات."
+      }
+    ]
+  },
+  {
+    "id": "tea",
+    "title": "A cup of welcome",
+    "ckb_title": "پیاڵەیەک پێشوازی",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_tea_0",
+        "en": "On a rainy afternoon, a traveler arrived at a home in Kurdistan.",
+        "ckb": "لە دواینیوەڕۆیەکی باراناویدا، گەشتیارێک گەیشتە ماڵێک لە کوردستان."
+      },
+      {
+        "id": "tale_tea_1",
+        "en": "A child named Hewa opened the door and called his mother.",
+        "ckb": "منداڵێک بە ناوی هیوا دەرگاکەی کردەوە و بانگی دایکی کرد."
+      },
+      {
+        "id": "tale_tea_2",
+        "en": "The family invited the traveler inside to rest.",
+        "ckb": "خێزانەکە گەشتیارەکەیان بانگهێشت کردە ژوورەوە تا پشوو بدات."
+      },
+      {
+        "id": "tale_tea_3",
+        "en": "Hewa brought tea, and his mother placed warm bread on the table.",
+        "ckb": "هیوا چای هێنا و دایکی نانی گەرمی لەسەر مێزەکە دانا."
+      },
+      {
+        "id": "tale_tea_4",
+        "en": "The traveler told them about the villages he had visited.",
+        "ckb": "گەشتیارەکە باسی ئەو گوندانەی بۆ کردن کە سەردانی کردبوون."
+      },
+      {
+        "id": "tale_tea_5",
+        "en": "Hewa listened and asked how people said hello in different places.",
+        "ckb": "هیوا گوێی گرت و پرسی خەڵک لە شوێنە جیاوازەکان چۆن سڵاو دەکەن."
+      },
+      {
+        "id": "tale_tea_6",
+        "en": "Soon the room was full of questions, laughter, and new friendship.",
+        "ckb": "زوو ژوورەکە پڕ بوو لە پرسیار و پێکەنین و هاوڕێیەتیی نوێ."
+      },
+      {
+        "id": "tale_tea_7",
+        "en": "Hewa learned that a warm welcome can turn a stranger into a friend.",
+        "ckb": "هیوا فێر بوو کە پێشوازییەکی گەرم دەتوانێت نامۆیەک بکاتە هاوڕێ."
+      }
+    ]
+  },
+  {
+    "id": "weaving",
+    "title": "The colors in the woven cloth",
+    "ckb_title": "ڕەنگەکانی قوماشە چنراوەکە",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_weaving_0",
+        "en": "A girl named Narin watched her grandmother weaving a colorful cloth.",
+        "ckb": "کچێک بە ناوی نارین سەیری داپیرەی دەکرد کە قوماشێکی ڕەنگاوڕەنگی دەچنی."
+      },
+      {
+        "id": "tale_weaving_1",
+        "en": "The threads crossed each other carefully, one row at a time.",
+        "ckb": "داوەکان بە وردی بە یەکتردا تێدەپەڕین، ڕیزێک دوای ڕیزێکی تر."
+      },
+      {
+        "id": "tale_weaving_2",
+        "en": "Narin asked why the work took so much patience.",
+        "ckb": "نارین پرسی بۆچی کارەکە ئەوەندە پشوودرێژی دەوێت."
+      },
+      {
+        "id": "tale_weaving_3",
+        "en": "Her grandmother showed her how every thread supported the others.",
+        "ckb": "داپیرەی پیشانی دا کە چۆن هەر داوێک پشتگیری لە داوەکانی تر دەکات."
+      },
+      {
+        "id": "tale_weaving_4",
+        "en": "Together they chose colors that reminded them of a Kurdish garden.",
+        "ckb": "پێکەوە ڕەنگیان هەڵبژارد کە بیریان لە باخچەیەکی کوردی دەخستەوە."
+      },
+      {
+        "id": "tale_weaving_5",
+        "en": "There was green for the leaves and bright colors for the flowers.",
+        "ckb": "سەوز بۆ گەڵاکان و ڕەنگی ڕوون بۆ گوڵەکان هەبوو."
+      },
+      {
+        "id": "tale_weaving_6",
+        "en": "Narin made a mistake, but they untied the thread and tried again.",
+        "ckb": "نارین هەڵەیەکی کرد، بەڵام داوەکەیان کردەوە و دووبارە هەوڵیان دا."
+      },
+      {
+        "id": "tale_weaving_7",
+        "en": "She learned that beautiful work grows through practice and care.",
+        "ckb": "فێر بوو کە کاری جوان بە ڕاهێنان و ئاگاداری گەشە دەکات."
+      }
+    ]
+  },
+  {
+    "id": "language",
+    "title": "The book that traveled",
+    "ckb_title": "ئەو کتێبەی گەشتێکی کرد",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_language_0",
+        "en": "Our last story begins with a small book in a classroom in Kurdistan.",
+        "ckb": "دوا چیرۆکمان بە کتێبێکی بچووک لە پۆلێکی کوردستان دەست پێدەکات."
+      },
+      {
+        "id": "tale_language_1",
+        "en": "A teacher wrote a Sorani sentence on the board and read it aloud.",
+        "ckb": "مامۆستایەک ڕستەیەکی سۆرانی لەسەر تەختەکە نووسی و بە دەنگی بەرز خوێندییەوە."
+      },
+      {
+        "id": "tale_language_2",
+        "en": "Then she read the same idea in English.",
+        "ckb": "پاشان هەمان بیرۆکەی بە ئینگلیزی خوێندەوە."
+      },
+      {
+        "id": "tale_language_3",
+        "en": "A child named Sara wrote both sentences in her notebook.",
+        "ckb": "منداڵێک بە ناوی سارا هەردوو ڕستەکەی لە دەفتەرەکەی نووسی."
+      },
+      {
+        "id": "tale_language_4",
+        "en": "At home, she shared the new words with her younger brother.",
+        "ckb": "لە ماڵەوە وشە نوێیەکانی لەگەڵ برای بچووکترەکەی بەش کرد."
+      },
+      {
+        "id": "tale_language_5",
+        "en": "The next day, he taught one of those words to his friend.",
+        "ckb": "ڕۆژی دواتر، ئەویش یەکێک لەو وشانەی بە هاوڕێکەی فێر کرد."
+      },
+      {
+        "id": "tale_language_6",
+        "en": "The book stayed in the classroom, but its ideas traveled from person to person.",
+        "ckb": "کتێبەکە لە پۆلەکە مایەوە، بەڵام بیرۆکەکانی لە کەسێکەوە بۆ کەسێکی تر گەشتیان کرد."
+      },
+      {
+        "id": "tale_language_7",
+        "en": "The teacher smiled: every language we learn opens another door to friendship.",
+        "ckb": "مامۆستاکە پێکەنی؛ هەر زمانێک فێری دەبین دەرگایەکی تر بۆ هاوڕێیەتی دەکاتەوە."
+      }
+    ]
+  },
+  {
+    "id": "library",
+    "title": "The village library",
+    "ckb_title": "کتێبخانەی گوند",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_library_0",
+        "en": "In a Kurdish village, Lana found a room full of books.",
+        "ckb": "لە گوندێکی کوردی، لانا ژوورێکی پڕ لە کتێبی دۆزییەوە."
+      },
+      {
+        "id": "tale_library_1",
+        "en": "The librarian welcomed her with a smile.",
+        "ckb": "کتێبخانەوانەکە بە پێکەنینێکەوە پێشوازی لێکرد."
+      },
+      {
+        "id": "tale_library_2",
+        "en": "Lana chose a story about a brave little bird.",
+        "ckb": "لانا چیرۆکێکی دەربارەی باڵندەیەکی بچووکی ئازا هەڵبژارد."
+      },
+      {
+        "id": "tale_library_3",
+        "en": "She read it slowly beside the window.",
+        "ckb": "بە هێواشی لە تەنیشت پەنجەرەکە خوێندییەوە."
+      },
+      {
+        "id": "tale_library_4",
+        "en": "When a word was difficult, she asked for help.",
+        "ckb": "کاتێک وشەیەک قورس بوو، داوای یارمەتی کرد."
+      },
+      {
+        "id": "tale_library_5",
+        "en": "Later, she read the story to her younger sister.",
+        "ckb": "دواتر چیرۆکەکەی بۆ خوشکی بچووکترەکەی خوێندەوە."
+      },
+      {
+        "id": "tale_library_6",
+        "en": "They decided to visit the library every week.",
+        "ckb": "بڕیاریان دا هەموو هەفتەیەک سەردانی کتێبخانە بکەن."
+      },
+      {
+        "id": "tale_library_7",
+        "en": "One book had opened a whole new world for them.",
+        "ckb": "یەک کتێب جیهانێکی نوێی بۆ کردنەوە."
+      }
+    ]
+  },
+  {
+    "id": "marketday",
+    "title": "A fair day at the market",
+    "ckb_title": "ڕۆژێک لە بازاڕ",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_marketday_0",
+        "en": "Bahar went to a Kurdish market with her father.",
+        "ckb": "بەهار لەگەڵ باوکی چوو بۆ بازاڕێکی کوردی."
+      },
+      {
+        "id": "tale_marketday_1",
+        "en": "The stalls were full of fresh fruit and vegetables.",
+        "ckb": "دوکانەکان پڕ بوون لە میوە و سەوزەی تازە."
+      },
+      {
+        "id": "tale_marketday_2",
+        "en": "She counted three apples and put them in a basket.",
+        "ckb": "سێ سێوی ژمارد و خستییە ناو سەبەتەیەکەوە."
+      },
+      {
+        "id": "tale_marketday_3",
+        "en": "The seller told her the price kindly.",
+        "ckb": "فرۆشیارەکە بە میهرەبانی نرخەکەی پێگوت."
+      },
+      {
+        "id": "tale_marketday_4",
+        "en": "Bahar checked her coins before she paid.",
+        "ckb": "بەهار پێش پارەدان سەیری دراوەکانی کرد."
+      },
+      {
+        "id": "tale_marketday_5",
+        "en": "She noticed that the seller had given her too much change.",
+        "ckb": "بینی کە فرۆشیارەکە پارەی زۆری بۆ گەڕاندووەتەوە."
+      },
+      {
+        "id": "tale_marketday_6",
+        "en": "She returned the extra money and thanked him.",
+        "ckb": "پارە زیادەکەی گەڕاندەوە و سوپاسی کرد."
+      },
+      {
+        "id": "tale_marketday_7",
+        "en": "Her father said that honesty is worth more than a coin.",
+        "ckb": "باوکی گوتی ڕاستگۆیی لە دراوێک بە نرخترە."
+      }
+    ]
+  },
+  {
+    "id": "garden",
+    "title": "The shared garden",
+    "ckb_title": "باخچەی هاوبەش",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_garden_0",
+        "en": "Three neighbors in Kurdistan shared a small garden.",
+        "ckb": "سێ دراوسێ لە کوردستان باخچەیەکی بچووکیان هاوبەش کرد."
+      },
+      {
+        "id": "tale_garden_1",
+        "en": "One brought seeds, another brought tools, and the third brought water.",
+        "ckb": "یەکێک تۆوی هێنا، یەکێکی تر ئامرازی هێنا و سێیەمیش ئاوی هێنا."
+      },
+      {
+        "id": "tale_garden_2",
+        "en": "Their children helped them prepare the soil.",
+        "ckb": "منداڵەکانیان یارمەتییان دان خاکەکە ئامادە بکەن."
+      },
+      {
+        "id": "tale_garden_3",
+        "en": "Every afternoon, they took turns watering the plants.",
+        "ckb": "هەموو دواینیوەڕۆیەک بە نۆرە ئاوەکانیان بە ڕووەکەکان دەدا."
+      },
+      {
+        "id": "tale_garden_4",
+        "en": "At first, the ground looked almost empty.",
+        "ckb": "سەرەتا زەوییەکە نزیکەی بەتاڵ دیار بوو."
+      },
+      {
+        "id": "tale_garden_5",
+        "en": "After some weeks, green leaves appeared.",
+        "ckb": "دوای چەند هەفتەیەک گەڵای سەوز دەرکەوت."
+      },
+      {
+        "id": "tale_garden_6",
+        "en": "When the vegetables were ready, everyone received a share.",
+        "ckb": "کاتێک سەوزەکان ئامادە بوون، هەمووان بەشێکیان وەرگرت."
+      },
+      {
+        "id": "tale_garden_7",
+        "en": "The garden taught them that working together helps everyone grow.",
+        "ckb": "باخچەکە فێری کردن کە کارکردنی پێکەوە یارمەتی گەشەی هەمووان دەدات."
+      }
+    ]
+  },
+  {
+    "id": "melody",
+    "title": "A melody across the courtyard",
+    "ckb_title": "ئاوازێک لە حەوشە",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_melody_0",
+        "en": "On a quiet evening, Dara heard music in a courtyard.",
+        "ckb": "لە ئێوارەیەکی بێدەنگدا، دارا لە حەوشەیەک دەنگی مۆسیقای بیست."
+      },
+      {
+        "id": "tale_melody_1",
+        "en": "His uncle was playing a gentle Kurdish melody.",
+        "ckb": "مامی ئاوازێکی هێمنی کوردی دەژەنی."
+      },
+      {
+        "id": "tale_melody_2",
+        "en": "Dara sat beside him and listened carefully.",
+        "ckb": "دارا لە تەنیشتی دانیشت و بە وردی گوێی گرت."
+      },
+      {
+        "id": "tale_melody_3",
+        "en": "He tried to follow the rhythm with his hands.",
+        "ckb": "هەوڵی دا بە دەستەکانی ڕیتمەکە دووبارە بکاتەوە."
+      },
+      {
+        "id": "tale_melody_4",
+        "en": "At first, his claps were too fast.",
+        "ckb": "سەرەتا چەپڵەکانی زۆر خێرا بوون."
+      },
+      {
+        "id": "tale_melody_5",
+        "en": "His uncle slowed down and helped him listen again.",
+        "ckb": "مامی هێواشتر ژەنی و یارمەتی دا دووبارە گوێ بگرێت."
+      },
+      {
+        "id": "tale_melody_6",
+        "en": "Soon they were making music together.",
+        "ckb": "زوو پێکەوە مۆسیقایان دەژەنی."
+      },
+      {
+        "id": "tale_melody_7",
+        "en": "Dara learned that listening is the first step toward joining in.",
+        "ckb": "دارا فێر بوو کە گوێگرتن یەکەم هەنگاوە بۆ بەشداریکردن."
+      }
+    ]
+  },
+  {
+    "id": "rain",
+    "title": "After the mountain rain",
+    "ckb_title": "دوای بارانی شاخ",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_rain_0",
+        "en": "Rain fell on a village in the Kurdish mountains.",
+        "ckb": "باران بەسەر گوندێک لە شاخەکانی کوردستاندا باری."
+      },
+      {
+        "id": "tale_rain_1",
+        "en": "A child named Soran watched the clouds from home.",
+        "ckb": "منداڵێک بە ناوی سۆران لە ماڵەوە سەیری هەورەکانی دەکرد."
+      },
+      {
+        "id": "tale_rain_2",
+        "en": "When the rain stopped, he put on his boots.",
+        "ckb": "کاتێک بارانەکە وەستا، پێڵاوە درێژەکانی لە پێکرد."
+      },
+      {
+        "id": "tale_rain_3",
+        "en": "He went outside with his older sister.",
+        "ckb": "لەگەڵ خوشکی گەورەترەکەی چووە دەرەوە."
+      },
+      {
+        "id": "tale_rain_4",
+        "en": "They found that water was blocking a small path.",
+        "ckb": "بینییان کە ئاو ڕێگایەکی بچووکی گرتووە."
+      },
+      {
+        "id": "tale_rain_5",
+        "en": "They called an adult instead of crossing the deep water.",
+        "ckb": "لەبری تێپەڕین بە ئاوە قووڵەکەدا، بانگی کەسێکی گەورەیان کرد."
+      },
+      {
+        "id": "tale_rain_6",
+        "en": "Together, the neighbors cleared the blocked drain safely.",
+        "ckb": "دراوسێکان پێکەوە بە سەلامەتی کەناڵە گیراوەکەیان پاک کردەوە."
+      },
+      {
+        "id": "tale_rain_7",
+        "en": "Soran learned that asking for help can keep everyone safe.",
+        "ckb": "سۆران فێر بوو کە داواکردنی یارمەتی دەتوانێت هەمووان بپارێزێت."
+      }
+    ]
+  },
+  {
+    "id": "picnic",
+    "title": "The picnic with no litter",
+    "ckb_title": "سەیرانێک بەبێ زبڵ",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_picnic_0",
+        "en": "A class in Kurdistan went on a picnic beside a stream.",
+        "ckb": "پۆلێک لە کوردستان بۆ سەیران چوونە تەنیشت جۆگەیەک."
+      },
+      {
+        "id": "tale_picnic_1",
+        "en": "They carried food, blankets, and a bag for rubbish.",
+        "ckb": "خواردن و بەتانی و کیسەیەکی زبڵیان هەڵگرتبوو."
+      },
+      {
+        "id": "tale_picnic_2",
+        "en": "The teacher asked them to leave the place clean.",
+        "ckb": "مامۆستاکە داوای لێکردن شوێنەکە پاک جێبهێڵن."
+      },
+      {
+        "id": "tale_picnic_3",
+        "en": "After lunch, they played games in the grass.",
+        "ckb": "دوای نانی نیوەڕۆ، لە ناو گیاکە یارییان کرد."
+      },
+      {
+        "id": "tale_picnic_4",
+        "en": "One child found an empty bottle near the water.",
+        "ckb": "منداڵێک بوتڵێکی بەتاڵی لە نزیک ئاوەکە دۆزییەوە."
+      },
+      {
+        "id": "tale_picnic_5",
+        "en": "He put it in the rubbish bag with the other litter.",
+        "ckb": "لەگەڵ زبڵەکانی تر خستییە ناو کیسەی زبڵەکەوە."
+      },
+      {
+        "id": "tale_picnic_6",
+        "en": "Before leaving, the class checked the whole area.",
+        "ckb": "پێش ڕۆیشتن، پۆلەکە سەیری هەموو شوێنەکەیان کرد."
+      },
+      {
+        "id": "tale_picnic_7",
+        "en": "The next visitors would find a beautiful place too.",
+        "ckb": "سەردانکەرەکانی دواتریش شوێنێکی جوانیان دەبینی."
+      }
+    ]
+  },
+  {
+    "id": "goatpath",
+    "title": "The goat on the wrong path",
+    "ckb_title": "بزنەکە لە ڕێگایەکی هەڵە",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_goatpath_0",
+        "en": "A young goat wandered away from a Kurdish farm.",
+        "ckb": "بزنێکی بچووک لە کێڵگەیەکی کوردی دوور کەوتەوە."
+      },
+      {
+        "id": "tale_goatpath_1",
+        "en": "A boy named Azad saw it near the village road.",
+        "ckb": "کوڕێک بە ناوی ئازاد لە نزیک ڕێگای گوندەکە بینی."
+      },
+      {
+        "id": "tale_goatpath_2",
+        "en": "He stayed calm and did not chase the animal.",
+        "ckb": "هێمن مایەوە و بەدوای ئاژەڵەکەدا ڕانەکرد."
+      },
+      {
+        "id": "tale_goatpath_3",
+        "en": "He called the farmer and pointed to the goat.",
+        "ckb": "بانگی کێڵگەوانەکەی کرد و ئاماژەی بۆ بزنەکە کرد."
+      },
+      {
+        "id": "tale_goatpath_4",
+        "en": "The farmer came with food and spoke softly.",
+        "ckb": "کێڵگەوانەکە بە خواردنەوە هات و بە هێواشی قسەی کرد."
+      },
+      {
+        "id": "tale_goatpath_5",
+        "en": "The goat followed him back through the gate.",
+        "ckb": "بزنەکە بەدوایدا بە دەروازەکەدا گەڕایەوە."
+      },
+      {
+        "id": "tale_goatpath_6",
+        "en": "Azad helped check that the gate was closed.",
+        "ckb": "ئازاد یارمەتی دا دڵنیابن دەروازەکە داخراوە."
+      },
+      {
+        "id": "tale_goatpath_7",
+        "en": "He learned that patience can help more than noise.",
+        "ckb": "فێر بوو کە پشوودرێژی دەتوانێت لە دەنگەدەنگ زیاتر یارمەتی بدات."
+      }
+    ]
+  },
+  {
+    "id": "nightstars",
+    "title": "Stars above the village",
+    "ckb_title": "ئەستێرەکان لە سەرووی گوند",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_nightstars_0",
+        "en": "On a clear night, a Kurdish family sat outside together.",
+        "ckb": "لە شەوێکی ڕووندا، خێزانێکی کوردی پێکەوە لە دەرەوە دانیشتن."
+      },
+      {
+        "id": "tale_nightstars_1",
+        "en": "A girl named Ronak looked up at the stars.",
+        "ckb": "کچێک بە ناوی ڕۆناک سەیری ئەستێرەکانی سەرەوەی کرد."
+      },
+      {
+        "id": "tale_nightstars_2",
+        "en": "She asked why the sky seemed so large.",
+        "ckb": "پرسی بۆچی ئاسمان ئەوەندە گەورە دیارە."
+      },
+      {
+        "id": "tale_nightstars_3",
+        "en": "Her father said that there was much to discover.",
+        "ckb": "باوکی گوتی شتی زۆر هەیە بۆ دۆزینەوە."
+      },
+      {
+        "id": "tale_nightstars_4",
+        "en": "They looked through a small telescope together.",
+        "ckb": "پێکەوە بە تەلەسکۆپێکی بچووکدا سەیریان کرد."
+      },
+      {
+        "id": "tale_nightstars_5",
+        "en": "Ronak drew the moon in her notebook.",
+        "ckb": "ڕۆناک مانگەکەی لە دەفتەرەکەی کێشا."
+      },
+      {
+        "id": "tale_nightstars_6",
+        "en": "She wrote down her questions for the next school day.",
+        "ckb": "پرسیارەکانی بۆ ڕۆژی دواتری قوتابخانە نووسی."
+      },
+      {
+        "id": "tale_nightstars_7",
+        "en": "The quiet night gave her a new love of learning.",
+        "ckb": "شەوە بێدەنگەکە خۆشەویستییەکی نوێی بۆ فێربوون پێبەخشی."
+      }
+    ]
+  },
+  {
+    "id": "breadoven",
+    "title": "The bread we shared",
+    "ckb_title": "ئەو نانەی بەشمان کرد",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_breadoven_0",
+        "en": "In a Kurdish home, a grandmother was preparing bread.",
+        "ckb": "لە ماڵێکی کوردیدا، داپیرەیەک نانی ئامادە دەکرد."
+      },
+      {
+        "id": "tale_breadoven_1",
+        "en": "Her grandson Alan helped measure the flour.",
+        "ckb": "نەوەکەی ئاڵان یارمەتی پێوانەکردنی ئاردەکەی دا."
+      },
+      {
+        "id": "tale_breadoven_2",
+        "en": "They mixed the dough and waited patiently.",
+        "ckb": "هەویرەکەیان تێکەڵ کرد و بە پشوودرێژی چاوەڕێیان کرد."
+      },
+      {
+        "id": "tale_breadoven_3",
+        "en": "Alan watched from a safe distance while the bread baked.",
+        "ckb": "ئاڵان لە دوورییەکی سەلامەتەوە سەیری دەکرد کاتێک نانەکە دەبرژا."
+      },
+      {
+        "id": "tale_breadoven_4",
+        "en": "Soon a warm smell filled the kitchen.",
+        "ckb": "زوو بۆنێکی گەرم چێشتخانەکەی پڕ کرد."
+      },
+      {
+        "id": "tale_breadoven_5",
+        "en": "They kept some bread for a neighbor who was ill.",
+        "ckb": "هەندێک نانیان بۆ دراوسێیەک هەڵگرت کە نەخۆش بوو."
+      },
+      {
+        "id": "tale_breadoven_6",
+        "en": "Alan carried it carefully with his father.",
+        "ckb": "ئاڵان لەگەڵ باوکی بە وریاییەوە نانەکەی برد."
+      },
+      {
+        "id": "tale_breadoven_7",
+        "en": "He learned that food tastes better when kindness comes with it.",
+        "ckb": "فێر بوو کە خواردن خۆشترە کاتێک میهرەبانی لەگەڵیدا بێت."
+      }
+    ]
+  },
+  {
+    "id": "bridgefriends",
+    "title": "The bridge between friends",
+    "ckb_title": "پردی نێوان هاوڕێکان",
+    "type": "original fictional cultural story",
+    "segments": [
+      {
+        "id": "tale_bridgefriends_0",
+        "en": "Two children met at a school in Kurdistan.",
+        "ckb": "دوو منداڵ لە قوتابخانەیەک لە کوردستان یەکتریان بینی."
+      },
+      {
+        "id": "tale_bridgefriends_1",
+        "en": "One spoke Sorani, and the other was learning it.",
+        "ckb": "یەکێکیان سۆرانی دەزانی و ئەوی تریش فێری دەبوو."
+      },
+      {
+        "id": "tale_bridgefriends_2",
+        "en": "At first, they found it difficult to talk.",
+        "ckb": "سەرەتا قسەکردنیان پێ قورس بوو."
+      },
+      {
+        "id": "tale_bridgefriends_3",
+        "en": "They began by pointing to objects and saying their names.",
+        "ckb": "بە ئاماژەکردن بۆ شتەکان و گوتنی ناوەکانیان دەستیان پێکرد."
+      },
+      {
+        "id": "tale_bridgefriends_4",
+        "en": "Every day, they taught each other a new sentence.",
+        "ckb": "هەموو ڕۆژێک ڕستەیەکی نوێیان بە یەکتر فێر دەکرد."
+      },
+      {
+        "id": "tale_bridgefriends_5",
+        "en": "They laughed kindly when they made mistakes.",
+        "ckb": "کاتێک هەڵەیان دەکرد، بە میهرەبانی پێدەکەنین."
+      },
+      {
+        "id": "tale_bridgefriends_6",
+        "en": "Soon they could share stories about their families.",
+        "ckb": "زوو توانییان چیرۆکی خێزانەکانیان بۆ یەکتر بگێڕنەوە."
+      },
+      {
+        "id": "tale_bridgefriends_7",
+        "en": "Their new words had built a bridge of friendship.",
+        "ckb": "وشە نوێیەکانیان پردێکی هاوڕێیەتییان دروست کردبوو."
+      }
+    ]
+  }
+]

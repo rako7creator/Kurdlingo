@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bvqtc6aky8iml"
+
+[deps]
+
+files=["res://KurdLingo-Podcast-Review.title.translation", "res://KurdLingo-Podcast-Review.segment.translation", "res://KurdLingo-Podcast-Review.speaker.translation", "res://KurdLingo-Podcast-Review.english.translation", "res://KurdLingo-Podcast-Review.sorani.translation", "res://KurdLingo-Podcast-Review.duration.translation", "res://KurdLingo-Podcast-Review.reviewed.translation"]
+
+source_file="res://KurdLingo-Podcast-Review.csv"
+dest_files=["res://KurdLingo-Podcast-Review.title.translation", "res://KurdLingo-Podcast-Review.segment.translation", "res://KurdLingo-Podcast-Review.speaker.translation", "res://KurdLingo-Podcast-Review.english.translation", "res://KurdLingo-Podcast-Review.sorani.translation", "res://KurdLingo-Podcast-Review.duration.translation", "res://KurdLingo-Podcast-Review.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,5502 @@
+[
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0773267447948456
+    ],
+    "en": "passport",
+    "id": "daily_passport",
+    "model": "daily/passport/daily_passport",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "boarding pass",
+    "id": "daily_boarding_pass",
+    "model": "daily/boarding_pass/daily_boarding_pass",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "hotel keycard",
+    "id": "daily_hotel_keycard",
+    "model": "daily/keycard/daily_hotel_keycard",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.487499982118607,
+      0.125568181276321,
+      0.650000035762787
+    ],
+    "en": "travel guidebook",
+    "id": "daily_travel_guidebook",
+    "model": "accurate/book",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.379166603088379,
+      0.0284375250339508
+    ],
+    "en": "city guide",
+    "id": "daily_city_guide",
+    "model": "accurate/map",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0529069788753986
+    ],
+    "en": "tourist brochure",
+    "id": "daily_tourist_brochure",
+    "model": "daily/brochure/daily_tourist_brochure",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "booking confirmation",
+    "id": "daily_booking_confirmation",
+    "model": "daily/document/daily_booking_confirmation",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "admission ticket",
+    "id": "daily_admission_ticket",
+    "model": "daily/ticket/daily_admission_ticket",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      1.66292798519135,
+      1.68093812465668,
+      4.39999961853027
+    ],
+    "en": "tour bus",
+    "id": "daily_tour_bus",
+    "model": "daily/bus/daily_tour_bus",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.80137699842453,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "tour guide",
+    "id": "daily_tour_guide",
+    "model": "daily/person/daily_tour_guide",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "hotel receptionist",
+    "id": "daily_hotel_receptionist",
+    "model": "daily/person/daily_hotel_receptionist",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      1.12587416172028,
+      2.29999995231628,
+      1.44755244255066
+    ],
+    "en": "luggage trolley",
+    "id": "daily_luggage_trolley",
+    "model": "daily/luggage_trolley/daily_luggage_trolley",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.459905683994293,
+      0.649999976158142,
+      0.214622646570206
+    ],
+    "en": "rolling suitcase",
+    "id": "daily_rolling_suitcase",
+    "model": "daily/suitcase/daily_rolling_suitcase",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.14580138027668,
+      0.620945572853088
+    ],
+    "en": "travel pillow",
+    "id": "daily_travel_pillow",
+    "model": "daily/travel_pillow/daily_travel_pillow",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.306603789329529,
+      0.31199061870575
+    ],
+    "en": "sleep mask",
+    "id": "daily_sleep_mask",
+    "model": "daily/sleep_mask/daily_sleep_mask",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.448275864124298,
+      0.201724141836166
+    ],
+    "en": "earplugs",
+    "id": "daily_earplugs",
+    "model": "daily/earplugs/daily_earplugs",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.33799996972084,
+      0.390000015497208
+    ],
+    "en": "travel adapter",
+    "id": "daily_travel_adapter",
+    "model": "daily/adapter/daily_travel_adapter",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.170299991965294,
+      0.390000015497208
+    ],
+    "en": "power bank",
+    "id": "daily_power_bank",
+    "model": "daily/powerbank/daily_power_bank",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.578167080879211,
+      0.649999976158142,
+      0.578167080879211
+    ],
+    "en": "camera lens",
+    "id": "daily_camera_lens",
+    "model": "daily/lens/daily_camera_lens",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.201030924916267,
+      0.649999976158142,
+      0.0301546398550272
+    ],
+    "en": "selfie stick",
+    "id": "daily_selfie_stick",
+    "model": "daily/selfie_stick/daily_selfie_stick",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.557142913341522,
+      0.0947142839431763
+    ],
+    "en": "souvenir magnet",
+    "id": "daily_souvenir_magnet",
+    "model": "daily/magnet/daily_souvenir_magnet",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0655995830893517,
+      0.649999976158142
+    ],
+    "en": "souvenir plate",
+    "id": "daily_souvenir_plate",
+    "model": "food/plate",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      1.56138217449188,
+      2.29999995231628,
+      0.860162615776062
+    ],
+    "en": "postcard rack",
+    "id": "daily_postcard_rack",
+    "model": "daily/rack/daily_postcard_rack",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.40625,
+      0.650000035762787
+    ],
+    "en": "hotel bell",
+    "id": "daily_hotel_bell",
+    "model": "daily/bell/daily_hotel_bell",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      2.24651145935059,
+      1.12325572967529
+    ],
+    "en": "reception counter",
+    "id": "daily_reception_counter",
+    "model": "furniture/kitchenBar",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.406249970197678,
+      0.649999976158142,
+      0.308013707399368
+    ],
+    "en": "hotel safe",
+    "id": "daily_hotel_safe",
+    "model": "daily/safe/daily_hotel_safe",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0984112992882729,
+      0.544018566608429
+    ],
+    "en": "room service tray",
+    "id": "daily_room_service_tray",
+    "model": "food/plate-rectangle",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.185714289546013,
+      0.650000035762787,
+      0.019781980663538
+    ],
+    "en": "door hanger",
+    "id": "daily_door_hanger",
+    "model": "daily/door_hanger/daily_door_hanger",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.650000035762787,
+      0.650000035762787
+    ],
+    "en": "beach parasol",
+    "id": "daily_beach_parasol",
+    "model": "daily/parasol/daily_beach_parasol",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.980446338653564,
+      1.26057386398315,
+      1.35000002384186
+    ],
+    "en": "deck chair",
+    "id": "daily_deck_chair",
+    "model": "furniture/loungeChairRelax",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.478355020284653,
+      0.0627489313483238,
+      0.650000035762787
+    ],
+    "en": "beach towel",
+    "id": "daily_beach_towel",
+    "model": "accurate/towel",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.576813161373138,
+      0.0885772779583931,
+      0.649999976158142
+    ],
+    "en": "swim fins",
+    "id": "daily_swim_fins",
+    "model": "daily/fins/daily_swim_fins",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.246967956423759,
+      0.649999976158142,
+      0.0538839139044285
+    ],
+    "en": "snorkel",
+    "id": "daily_snorkel",
+    "model": "daily/snorkel/daily_snorkel",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.552025258541107,
+      0.650000035762787,
+      0.523533165454865
+    ],
+    "en": "picnic basket",
+    "id": "daily_picnic_basket",
+    "model": "accurate/basket",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.478355020284653,
+      0.0627489313483238,
+      0.650000035762787
+    ],
+    "en": "picnic blanket",
+    "id": "daily_picnic_blanket",
+    "model": "accurate/blanket",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.331724107265472,
+      0.649999976158142,
+      0.331724107265472
+    ],
+    "en": "thermal flask",
+    "id": "daily_thermal_flask",
+    "model": "daily/flask/daily_thermal_flask",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.163267374038696,
+      0.650000035762787,
+      0.0318875834345818
+    ],
+    "en": "walking stick",
+    "id": "daily_walking_stick",
+    "model": "daily/walking_stick/daily_walking_stick",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.508181810379028,
+      0.142999991774559
+    ],
+    "en": "rain poncho",
+    "id": "daily_rain_poncho",
+    "model": "daily/poncho/daily_rain_poncho",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.283064514398575,
+      0.649999976158142,
+      0.167741924524307
+    ],
+    "en": "sun cream",
+    "id": "daily_sun_cream",
+    "model": "daily/tube/daily_sun_cream",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.318709701299667,
+      0.650000035762787,
+      0.301935493946075
+    ],
+    "en": "insect repellent",
+    "id": "daily_insect_repellent",
+    "model": "daily/spray/daily_insect_repellent",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.271620124578476
+    ],
+    "en": "first aid pouch",
+    "id": "daily_first_aid_pouch",
+    "model": "daily/medical_bag/daily_first_aid_pouch",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.363128513097763
+    ],
+    "en": "waterproof bag",
+    "id": "daily_waterproof_bag",
+    "model": "daily/dry_bag/daily_waterproof_bag",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "ferry ticket",
+    "id": "daily_ferry_ticket",
+    "model": "daily/ticket/daily_ferry_ticket",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "currency exchange sign",
+    "id": "daily_currency_exchange_sign",
+    "model": "daily/sign/daily_currency_exchange_sign",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      3.86122465133667,
+      4.40000009536743,
+      2.24489808082581
+    ],
+    "en": "information booth",
+    "id": "daily_information_booth",
+    "model": "daily/kiosk/daily_information_booth",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.323030322790146,
+      0.650000035762787,
+      0.323030322790146
+    ],
+    "en": "observation binoculars",
+    "id": "daily_observation_binoculars",
+    "model": "daily/binocular_stand/daily_observation_binoculars",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.68392848968506,
+      0.821428537368774
+    ],
+    "en": "viewpoint railing",
+    "id": "daily_viewpoint_railing",
+    "model": "daily/railing/daily_viewpoint_railing",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "heritage plaque",
+    "id": "daily_heritage_plaque",
+    "model": "daily/plaque/daily_heritage_plaque",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "route marker",
+    "id": "daily_route_marker",
+    "model": "daily/wayfinding/daily_route_marker",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.487499982118607,
+      0.125568181276321,
+      0.650000035762787
+    ],
+    "en": "travel journal",
+    "id": "daily_travel_journal",
+    "model": "accurate/notebook",
+    "region": "Tourist Quarter"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "museum ticket",
+    "id": "daily_museum_ticket",
+    "model": "daily/ticket/daily_museum_ticket",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.80137699842453,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "museum guide",
+    "id": "daily_museum_guide",
+    "model": "daily/person/daily_museum_guide",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      1.79877781867981,
+      2.29999995231628,
+      0.936863481998444
+    ],
+    "en": "display case",
+    "id": "daily_display_case",
+    "model": "daily/display_case/daily_display_case",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "exhibit label",
+    "id": "daily_exhibit_label",
+    "model": "daily/plaque/daily_exhibit_label",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.61388885974884,
+      0.649999976158142,
+      0.61388885974884
+    ],
+    "en": "pottery jar",
+    "id": "daily_pottery_jar",
+    "model": "daily/pottery/daily_pottery_jar",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.51152515411377,
+      0.483107089996338
+    ],
+    "en": "clay jug",
+    "id": "daily_clay_jug",
+    "model": "daily/jug/daily_clay_jug",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.562916457653046,
+      0.239698812365532,
+      0.649999976158142
+    ],
+    "en": "ceramic bowl",
+    "id": "daily_ceramic_bowl",
+    "model": "food/bowl",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.428542912006378,
+      0.360878258943558
+    ],
+    "en": "oil lamp",
+    "id": "daily_oil_lamp",
+    "model": "daily/oil_lamp/daily_oil_lamp",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.120786987245083,
+      0.649999976158142
+    ],
+    "en": "bronze coin",
+    "id": "daily_bronze_coin",
+    "model": "daily/coin/daily_bronze_coin",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.120786987245083,
+      0.649999976158142
+    ],
+    "en": "silver coin",
+    "id": "daily_silver_coin",
+    "model": "daily/coin/daily_silver_coin",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0479675866663456,
+      0.464285731315613
+    ],
+    "en": "coin collection",
+    "id": "daily_coin_collection",
+    "model": "daily/coin_collection/daily_coin_collection",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.567272663116455,
+      0.103999994695187
+    ],
+    "en": "clay tablet",
+    "id": "daily_clay_tablet",
+    "model": "daily/clay_tablet/daily_clay_tablet",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.567272663116455,
+      0.103999994695187
+    ],
+    "en": "stone tablet",
+    "id": "daily_stone_tablet",
+    "model": "daily/clay_tablet/daily_stone_tablet",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.514285683631897,
+      0.0785714462399483,
+      0.649999976158142
+    ],
+    "en": "scroll",
+    "id": "daily_scroll",
+    "model": "daily/scroll/daily_scroll",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0529069788753986
+    ],
+    "en": "manuscript",
+    "id": "daily_manuscript",
+    "model": "daily/manuscript/daily_manuscript",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.240738347172737,
+      0.650000035762787,
+      0.0239239577203989
+    ],
+    "en": "quill",
+    "id": "daily_quill",
+    "model": "daily/quill/daily_quill",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.309705883264542,
+      0.650000035762787
+    ],
+    "en": "ink pot",
+    "id": "daily_ink_pot",
+    "model": "daily/inkpot/daily_ink_pot",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.127043932676315,
+      0.649999976158142
+    ],
+    "en": "wax seal",
+    "id": "daily_wax_seal",
+    "model": "daily/wax_seal/daily_wax_seal",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.393023252487183,
+      0.650000035762787,
+      0.393023252487183
+    ],
+    "en": "seal stamp",
+    "id": "daily_seal_stamp",
+    "model": "daily/seal_stamp/daily_seal_stamp",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.46428570151329,
+      0.649999976158142,
+      0.46428570151329
+    ],
+    "en": "hourglass display",
+    "id": "daily_hourglass_display",
+    "model": "new/hourglass",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.288420408964157,
+      0.650000035762787
+    ],
+    "en": "sundial",
+    "id": "daily_sundial",
+    "model": "daily/sundial/daily_sundial",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.548192799091339,
+      0.650000035762787,
+      0.0729907378554344
+    ],
+    "en": "astrolabe",
+    "id": "daily_astrolabe",
+    "model": "daily/astrolabe/daily_astrolabe",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.130811959505081,
+      0.650000035762787
+    ],
+    "en": "old compass",
+    "id": "daily_old_compass",
+    "model": "accurate/compass",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.379166603088379,
+      0.0284375250339508
+    ],
+    "en": "historic map",
+    "id": "daily_historic_map",
+    "model": "accurate/map",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "timeline panel",
+    "id": "daily_timeline_panel",
+    "model": "daily/timeline/daily_timeline_panel",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "family tree chart",
+    "id": "daily_family_tree_chart",
+    "model": "daily/chart/daily_family_tree_chart",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.50555557012558,
+      0.650000035762787,
+      0.052361112087965
+    ],
+    "en": "portrait painting",
+    "id": "daily_portrait_painting",
+    "model": "daily/portrait/daily_portrait_painting",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.50555557012558,
+      0.650000035762787,
+      0.052361112087965
+    ],
+    "en": "framed photograph",
+    "id": "daily_framed_photograph",
+    "model": "daily/portrait/daily_framed_photograph",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.427264362573624,
+      0.650000035762787,
+      0.238532111048698
+    ],
+    "en": "marble bust",
+    "id": "daily_marble_bust",
+    "model": "daily/bust/daily_marble_bust",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.260906487703323,
+      0.649999976158142,
+      0.154812321066856
+    ],
+    "en": "stone statue",
+    "id": "daily_stone_statue",
+    "model": "daily/statue/daily_stone_statue",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0230769217014313,
+      0.649999976158142
+    ],
+    "en": "mosaic tile",
+    "id": "daily_mosaic_tile",
+    "model": "daily/mosaic/daily_mosaic_tile",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.650000035762787,
+      0.12950624525547
+    ],
+    "en": "wall relief",
+    "id": "daily_wall_relief",
+    "model": "daily/relief/daily_wall_relief",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      1.85827815532684,
+      2.29999995231628,
+      0.456953674554825
+    ],
+    "en": "archway",
+    "id": "daily_archway",
+    "model": "daily/arch/daily_archway",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.851851940155029,
+      2.30000019073486,
+      0.851851940155029
+    ],
+    "en": "stone column",
+    "id": "daily_stone_column",
+    "model": "daily/column/daily_stone_column",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.331372529268265,
+      0.637254893779755
+    ],
+    "en": "column capital",
+    "id": "daily_column_capital",
+    "model": "daily/capital/daily_column_capital",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      3.53294110298157,
+      3.62352919578552
+    ],
+    "en": "castle model",
+    "id": "daily_castle_model",
+    "model": "daily/castle/daily_castle_model",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      3.53294110298157,
+      3.62352919578552
+    ],
+    "en": "citadel model",
+    "id": "daily_citadel_model",
+    "model": "daily/citadel/daily_citadel_model",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      2.57465744018555,
+      2.95260095596313
+    ],
+    "en": "watermill model",
+    "id": "daily_watermill_model",
+    "model": "daily/watermill/daily_watermill_model",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      1.99271261692047,
+      2.29999995231628,
+      0.130364373326302
+    ],
+    "en": "wooden loom",
+    "id": "daily_wooden_loom",
+    "model": "daily/loom/daily_wooden_loom",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.87392044067383,
+      0.907372057437897
+    ],
+    "en": "spinning wheel",
+    "id": "daily_spinning_wheel",
+    "model": "daily/spinning_wheel/daily_spinning_wheel",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      0.00860732421278954,
+      0.791082859039307
+    ],
+    "en": "woven rug",
+    "id": "daily_woven_rug",
+    "model": "furniture/rugRectangle",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.50859546661377,
+      0.253154844045639
+    ],
+    "en": "traditional vest",
+    "id": "daily_traditional_vest",
+    "model": "daily/vest/daily_traditional_vest",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.117469899356365,
+      0.0201656650751829,
+      0.650000035762787
+    ],
+    "en": "traditional sash",
+    "id": "daily_traditional_sash",
+    "model": "accurate/scarf",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.308333367109299,
+      0.251741200685501,
+      0.649999976158142
+    ],
+    "en": "traditional shoes",
+    "id": "daily_traditional_shoes",
+    "model": "accurate/shoe",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0255937501788139,
+      0.487500011920929
+    ],
+    "en": "embroidered cloth",
+    "id": "daily_embroidered_cloth",
+    "model": "daily/cloth/daily_embroidered_cloth",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0984112992882729,
+      0.544018566608429
+    ],
+    "en": "copper tray",
+    "id": "daily_copper_tray",
+    "model": "food/plate-rectangle",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.428542912006378,
+      0.360878258943558
+    ],
+    "en": "copper kettle",
+    "id": "daily_copper_kettle",
+    "model": "daily/kettle/daily_copper_kettle",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.270530730485916
+    ],
+    "en": "wooden chest",
+    "id": "daily_wooden_chest",
+    "model": "daily/chest/daily_wooden_chest",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.0825396776199341,
+      0.649999976158142,
+      0.041269838809967
+    ],
+    "en": "restoration brush",
+    "id": "daily_restoration_brush",
+    "model": "accurate/paintbrush",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.602813839912415,
+      0.649999976158142,
+      0.198488369584084
+    ],
+    "en": "audio guide",
+    "id": "daily_audio_guide",
+    "model": "daily/audio_guide/daily_audio_guide",
+    "region": "History Museum"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "office worker",
+    "id": "daily_office_worker",
+    "model": "daily/person/daily_office_worker",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "team leader",
+    "id": "daily_team_leader",
+    "model": "daily/person/daily_team_leader",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.80137699842453,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "interviewer",
+    "id": "daily_interviewer",
+    "model": "daily/person/daily_interviewer",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "job applicant",
+    "id": "daily_job_applicant",
+    "model": "daily/person/daily_job_applicant",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "CV",
+    "id": "daily_cv",
+    "model": "daily/document/daily_cv",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "job application",
+    "id": "daily_job_application",
+    "model": "daily/document/daily_job_application",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "employment contract",
+    "id": "daily_employment_contract",
+    "model": "daily/document/daily_employment_contract",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "invoice",
+    "id": "daily_invoice",
+    "model": "daily/invoice/daily_invoice",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "purchase order",
+    "id": "daily_purchase_order",
+    "model": "daily/document/daily_purchase_order",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "delivery note",
+    "id": "daily_delivery_note",
+    "model": "daily/document/daily_delivery_note",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "pay slip",
+    "id": "daily_pay_slip",
+    "model": "daily/document/daily_pay_slip",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "business card",
+    "id": "daily_business_card",
+    "model": "daily/card/daily_business_card",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.627250015735626,
+      0.0219375006854534
+    ],
+    "en": "name badge",
+    "id": "daily_name_badge",
+    "model": "daily/badge/daily_name_badge",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "lanyard",
+    "id": "daily_lanyard",
+    "model": "daily/lanyard/daily_lanyard",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "ID card",
+    "id": "daily_id_card",
+    "model": "daily/card/daily_id_card",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "meeting agenda",
+    "id": "daily_meeting_agenda",
+    "model": "daily/document/daily_meeting_agenda",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "meeting minutes",
+    "id": "daily_meeting_minutes",
+    "model": "daily/document/daily_meeting_minutes",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.018517442047596
+    ],
+    "en": "project planner",
+    "id": "daily_project_planner",
+    "model": "daily/planner/daily_project_planner",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.018517442047596
+    ],
+    "en": "wall planner",
+    "id": "daily_wall_planner",
+    "model": "daily/planner/daily_wall_planner",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      2.15000009536743,
+      0.920000016689301
+    ],
+    "en": "noticeboard",
+    "id": "daily_noticeboard",
+    "model": "daily/noticeboard/daily_noticeboard",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      2.15000009536743,
+      0.920000016689301
+    ],
+    "en": "whiteboard",
+    "id": "daily_whiteboard",
+    "model": "daily/whiteboard/daily_whiteboard",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.0480749793350697,
+      0.649999976158142,
+      0.0368794351816177
+    ],
+    "en": "whiteboard marker",
+    "id": "daily_whiteboard_marker",
+    "model": "accurate/pen",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "sticky notes",
+    "id": "daily_sticky_notes",
+    "model": "daily/sticky_notes/daily_sticky_notes",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.159999996423721,
+      0.449999988079071
+    ],
+    "en": "document tray",
+    "id": "daily_document_tray",
+    "model": "daily/document_tray/daily_document_tray",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      1.4375,
+      2.29999995231628,
+      1.0771666765213
+    ],
+    "en": "filing cabinet",
+    "id": "daily_filing_cabinet",
+    "model": "daily/filing_cabinet/daily_filing_cabinet",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0529069788753986
+    ],
+    "en": "ring binder",
+    "id": "daily_ring_binder",
+    "model": "daily/binder/daily_ring_binder",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.407333344221115,
+      0.535166680812836
+    ],
+    "en": "document shredder",
+    "id": "daily_document_shredder",
+    "model": "daily/shredder/daily_document_shredder",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.590909123420715,
+      0.323030322790146,
+      0.650000035762787
+    ],
+    "en": "laser printer",
+    "id": "daily_laser_printer",
+    "model": "daily/printer/daily_laser_printer",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.181999996304512,
+      0.535166680812836
+    ],
+    "en": "flatbed scanner",
+    "id": "daily_flatbed_scanner",
+    "model": "daily/scanner/daily_flatbed_scanner",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.00581383705139,
+      2.29999995231628,
+      2.20639514923096
+    ],
+    "en": "photocopier",
+    "id": "daily_photocopier",
+    "model": "daily/copier/daily_photocopier",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.465923219919205,
+      0.524203300476074
+    ],
+    "en": "paper cutter",
+    "id": "daily_paper_cutter",
+    "model": "daily/paper_cutter/daily_paper_cutter",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.323488086462021,
+      0.344348669052124
+    ],
+    "en": "hole punch",
+    "id": "daily_hole_punch",
+    "model": "daily/hole_punch/daily_hole_punch",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.382352948188782,
+      0.649999976158142,
+      0.24852941930294
+    ],
+    "en": "binder clip",
+    "id": "daily_binder_clip",
+    "model": "daily/binder_clip/daily_binder_clip",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.600000023841858,
+      0.449999988079071
+    ],
+    "en": "desk organizer",
+    "id": "daily_desk_organizer",
+    "model": "daily/desk_organizer/daily_desk_organizer",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.581483483314514,
+      0.650000035762787,
+      0.302825719118118
+    ],
+    "en": "office headset",
+    "id": "daily_office_headset",
+    "model": "daily/headset/daily_office_headset",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.362142860889435,
+      0.371428579092026
+    ],
+    "en": "webcam",
+    "id": "daily_webcam",
+    "model": "daily/webcam/daily_webcam",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      1.01170659065247,
+      0.357549488544464
+    ],
+    "en": "computer monitor",
+    "id": "daily_computer_monitor",
+    "model": "furniture/computerScreen",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.5,
+      0.649999976158142,
+      0.349999994039536
+    ],
+    "en": "monitor stand",
+    "id": "daily_monitor_stand",
+    "model": "daily/monitor_stand/daily_monitor_stand",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      0.131823524832726,
+      0.565411746501923
+    ],
+    "en": "wireless keyboard",
+    "id": "daily_wireless_keyboard",
+    "model": "furniture/computerKeyboard",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.670949995517731,
+      0.318221986293793,
+      1.14890122413635
+    ],
+    "en": "wireless mouse",
+    "id": "daily_wireless_mouse",
+    "model": "furniture/computerMouse",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.15599998831749,
+      0.584999978542328
+    ],
+    "en": "USB drive",
+    "id": "daily_usb_drive",
+    "model": "daily/usb/daily_usb_drive",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.170299991965294,
+      0.390000015497208
+    ],
+    "en": "external hard drive",
+    "id": "daily_external_hard_drive",
+    "model": "daily/hard_drive/daily_external_hard_drive",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.587263166904449,
+      0.432747781276703
+    ],
+    "en": "router",
+    "id": "daily_router",
+    "model": "daily/router/daily_router",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0881385281682014,
+      0.607567608356476
+    ],
+    "en": "network cable",
+    "id": "daily_network_cable",
+    "model": "accurate/electric_cable",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.178907603025436,
+      0.519999921321869
+    ],
+    "en": "extension lead",
+    "id": "daily_extension_lead",
+    "model": "daily/power_strip/daily_extension_lead",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.390000015497208,
+      0.649999976158142,
+      0.311999976634979
+    ],
+    "en": "desk fan",
+    "id": "daily_desk_fan",
+    "model": "daily/fan/daily_desk_fan",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.51947426795959,
+      2.18742990493774
+    ],
+    "en": "office chair",
+    "id": "daily_office_chair",
+    "model": "furniture/chairDesk",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      0.893046855926514,
+      1.22278487682343
+    ],
+    "en": "conference table",
+    "id": "daily_conference_table",
+    "model": "furniture/table",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      0.862499952316284,
+      2.29999995231628,
+      0.996666610240936
+    ],
+    "en": "water cooler",
+    "id": "daily_water_cooler",
+    "model": "daily/water_cooler/daily_water_cooler",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      1.06542098522186,
+      0.997681200504303,
+      1.35000002384186
+    ],
+    "en": "coffee dispenser",
+    "id": "daily_coffee_dispenser",
+    "model": "furniture/kitchenCoffeeMachine",
+    "region": "Work Hub"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.81124997138977,
+      0.528999984264374
+    ],
+    "en": "cinema screen",
+    "id": "daily_cinema_screen",
+    "model": "daily/screen/daily_cinema_screen",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      1.26734697818756,
+      1.1295919418335
+    ],
+    "en": "cinema seat",
+    "id": "daily_cinema_seat",
+    "model": "furniture/loungeChair",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "film ticket",
+    "id": "daily_film_ticket",
+    "model": "daily/ticket/daily_film_ticket",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.620229005813599,
+      0.649999976158142,
+      0.620229005813599
+    ],
+    "en": "popcorn bucket",
+    "id": "daily_popcorn_bucket",
+    "model": "daily/popcorn/daily_popcorn_bucket",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.555425405502319,
+      0.0425932183861732
+    ],
+    "en": "clapperboard",
+    "id": "daily_clapperboard",
+    "model": "daily/clapperboard/daily_clapperboard",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0920833274722099,
+      0.649999976158142
+    ],
+    "en": "film reel",
+    "id": "daily_film_reel",
+    "model": "daily/film_reel/daily_film_reel",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.339425593614578,
+      0.336879909038544,
+      0.649999976158142
+    ],
+    "en": "video camera",
+    "id": "daily_video_camera",
+    "model": "daily/video_camera/daily_video_camera",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.64992618560791,
+      0.568320870399475
+    ],
+    "en": "camera tripod",
+    "id": "daily_camera_tripod",
+    "model": "new/tripod",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      2.06920409202576,
+      2.29999995231628,
+      0.20692041516304
+    ],
+    "en": "stage curtain",
+    "id": "daily_stage_curtain",
+    "model": "daily/curtain/daily_stage_curtain",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      0.496000021696091,
+      3.59999990463257
+    ],
+    "en": "theatre stage",
+    "id": "daily_theatre_stage",
+    "model": "daily/stage/daily_theatre_stage",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.303028017282486,
+      0.649999976158142,
+      0.344427943229675
+    ],
+    "en": "spotlight",
+    "id": "daily_spotlight",
+    "model": "daily/spotlight/daily_spotlight",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      3.86122465133667,
+      4.40000009536743,
+      2.24489808082581
+    ],
+    "en": "ticket booth",
+    "id": "daily_ticket_booth",
+    "model": "daily/kiosk/daily_ticket_booth",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "concert poster",
+    "id": "daily_concert_poster",
+    "model": "daily/poster/daily_concert_poster",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.286952555179596,
+      0.649999976158142,
+      0.0814896523952484
+    ],
+    "en": "acoustic guitar",
+    "id": "daily_acoustic_guitar",
+    "model": "new/guitar",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.240035012364388,
+      0.649999976158142,
+      0.0603161454200745
+    ],
+    "en": "electric guitar",
+    "id": "daily_electric_guitar",
+    "model": "daily/electric_guitar/daily_electric_guitar",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.240035012364388,
+      0.649999976158142,
+      0.0603161454200745
+    ],
+    "en": "bass guitar",
+    "id": "daily_bass_guitar",
+    "model": "daily/electric_guitar/daily_bass_guitar",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.44687494635582,
+      0.406249970197678
+    ],
+    "en": "drum kit",
+    "id": "daily_drum_kit",
+    "model": "daily/drum_kit/daily_drum_kit",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0557142831385136,
+      0.650000035762787
+    ],
+    "en": "cymbal",
+    "id": "daily_cymbal",
+    "model": "daily/cymbal/daily_cymbal",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.154374986886978,
+      0.216666653752327
+    ],
+    "en": "digital piano",
+    "id": "daily_digital_piano",
+    "model": "daily/digital_piano/daily_digital_piano",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.154374986886978,
+      0.216666653752327
+    ],
+    "en": "synthesizer",
+    "id": "daily_synthesizer",
+    "model": "daily/synthesizer/daily_synthesizer",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.568749964237213,
+      0.650000035762787,
+      0.302656263113022
+    ],
+    "en": "guitar amplifier",
+    "id": "daily_guitar_amplifier",
+    "model": "daily/amplifier/daily_guitar_amplifier",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.383144348859787,
+      0.650000035762787,
+      0.438726246356964
+    ],
+    "en": "microphone stand",
+    "id": "daily_microphone_stand",
+    "model": "daily/mic_stand/daily_microphone_stand",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "sheet music",
+    "id": "daily_sheet_music",
+    "model": "daily/sheet_music/daily_sheet_music",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.520000040531158,
+      0.132005468010902,
+      0.650000035762787
+    ],
+    "en": "guitar pick",
+    "id": "daily_guitar_pick",
+    "model": "daily/pick/daily_guitar_pick",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "guitar strap",
+    "id": "daily_guitar_strap",
+    "model": "daily/strap/daily_guitar_strap",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.258510679006577,
+      0.517090141773224
+    ],
+    "en": "game controller",
+    "id": "daily_game_controller",
+    "model": "daily/controller/daily_game_controller",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.212727278470993,
+      0.543636322021484
+    ],
+    "en": "game console",
+    "id": "daily_game_console",
+    "model": "daily/console/daily_game_console",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      1.23214292526245,
+      2.29999995231628,
+      1.46214294433594
+    ],
+    "en": "arcade machine",
+    "id": "daily_arcade_machine",
+    "model": "daily/arcade/daily_arcade_machine",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.324999988079071,
+      0.557142853736877
+    ],
+    "en": "VR headset",
+    "id": "daily_vr_headset",
+    "model": "daily/vr_headset/daily_vr_headset",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0491562485694885,
+      0.487500011920929
+    ],
+    "en": "board game",
+    "id": "daily_board_game",
+    "model": "daily/board_game/daily_board_game",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0487499982118607,
+      0.487500011920929
+    ],
+    "en": "playing cards",
+    "id": "daily_playing_cards",
+    "model": "daily/playing_cards/daily_playing_cards",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0487499982118607,
+      0.487500011920929
+    ],
+    "en": "dominoes",
+    "id": "daily_dominoes",
+    "model": "daily/dominoes/daily_dominoes",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0491562485694885,
+      0.487500011920929
+    ],
+    "en": "jigsaw puzzle",
+    "id": "daily_jigsaw_puzzle",
+    "model": "daily/puzzle/daily_jigsaw_puzzle",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.650000035762787,
+      0.0778915584087372
+    ],
+    "en": "dartboard",
+    "id": "daily_dartboard",
+    "model": "daily/dartboard/daily_dartboard",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.415999978780746,
+      0.031199999153614,
+      0.649999976158142
+    ],
+    "en": "darts",
+    "id": "daily_darts",
+    "model": "daily/darts/daily_darts",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      1.48823535442352,
+      1.17705881595612,
+      2.29999995231628
+    ],
+    "en": "pool table",
+    "id": "daily_pool_table",
+    "model": "daily/pool_table/daily_pool_table",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0130000021308661,
+      0.0130000011995435
+    ],
+    "en": "pool cue",
+    "id": "daily_pool_cue",
+    "model": "daily/cue/daily_pool_cue",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      1.48823535442352,
+      1.36376476287842,
+      2.29999995231628
+    ],
+    "en": "table tennis table",
+    "id": "daily_table_tennis_table",
+    "model": "daily/pingpong/daily_table_tennis_table",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.338486731052399,
+      0.0687416791915894,
+      0.649999976158142
+    ],
+    "en": "table tennis paddle",
+    "id": "daily_table_tennis_paddle",
+    "model": "daily/paddle/daily_table_tennis_paddle",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      2.02941179275513,
+      1.33941173553467,
+      2.29999995231628
+    ],
+    "en": "foosball table",
+    "id": "daily_foosball_table",
+    "model": "daily/foosball/daily_foosball_table",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.640125036239624,
+      0.650000035762787,
+      0.640125036239624
+    ],
+    "en": "bowling ball",
+    "id": "daily_bowling_ball",
+    "model": "daily/bowling_ball/daily_bowling_ball",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.568749964237213,
+      0.650000035762787,
+      0.302656263113022
+    ],
+    "en": "karaoke machine",
+    "id": "daily_karaoke_machine",
+    "model": "daily/karaoke/daily_karaoke_machine",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0732727274298668,
+      0.531818151473999
+    ],
+    "en": "dance floor",
+    "id": "daily_dance_floor",
+    "model": "daily/dance_floor/daily_dance_floor",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649187028408051,
+      0.649999976158142,
+      0.649187028408051
+    ],
+    "en": "disco ball",
+    "id": "daily_disco_ball",
+    "model": "daily/disco_ball/daily_disco_ball",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.245283037424088,
+      0.649999976158142,
+      0.130349069833755
+    ],
+    "en": "puppet",
+    "id": "daily_puppet",
+    "model": "daily/puppet/daily_puppet",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      3.70206904411316,
+      4.40000009536743,
+      0.910344839096069
+    ],
+    "en": "puppet theatre",
+    "id": "daily_puppet_theatre",
+    "model": "daily/puppet_stage/daily_puppet_theatre",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.43180713057518,
+      0.151332587003708
+    ],
+    "en": "costume",
+    "id": "daily_costume",
+    "model": "daily/costume/daily_costume",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.480093717575073,
+      0.649999976158142,
+      0.129204347729683
+    ],
+    "en": "theatre mask",
+    "id": "daily_theatre_mask",
+    "model": "daily/theatre_mask/daily_theatre_mask",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "festival wristband",
+    "id": "daily_festival_wristband",
+    "model": "daily/wristband/daily_festival_wristband",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      3.86122465133667,
+      4.40000009536743,
+      2.24489808082581
+    ],
+    "en": "photo booth",
+    "id": "daily_photo_booth",
+    "model": "daily/photo_booth/daily_photo_booth",
+    "region": "Entertainment Park"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "barista",
+    "id": "daily_barista",
+    "model": "daily/person/daily_barista",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "waiter",
+    "id": "daily_waiter",
+    "model": "daily/person/daily_waiter",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "menu",
+    "id": "daily_menu",
+    "model": "daily/menu/daily_menu",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "bill",
+    "id": "daily_bill",
+    "model": "daily/receipt/daily_bill",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.593288600444794,
+      0.649999976158142,
+      0.593288600444794
+    ],
+    "en": "takeaway cup",
+    "id": "daily_takeaway_cup",
+    "model": "daily/takeaway_cup/daily_takeaway_cup",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.324999988079071,
+      0.649999976158142
+    ],
+    "en": "cup sleeve",
+    "id": "daily_cup_sleeve",
+    "model": "daily/cup_sleeve/daily_cup_sleeve",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.137610003352165,
+      0.649999976158142,
+      0.027470787987113
+    ],
+    "en": "drinking straw",
+    "id": "daily_drinking_straw",
+    "model": "daily/straw/daily_drinking_straw",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0185714289546013,
+      0.650000035762787
+    ],
+    "en": "paper napkin",
+    "id": "daily_paper_napkin",
+    "model": "daily/napkin/daily_paper_napkin",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.609375,
+      0.40625
+    ],
+    "en": "napkin holder",
+    "id": "daily_napkin_holder",
+    "model": "daily/napkin_holder/daily_napkin_holder",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.487500011920929,
+      0.650000035762787,
+      0.0292499996721745
+    ],
+    "en": "sugar packet",
+    "id": "daily_sugar_packet",
+    "model": "daily/packet/daily_sugar_packet",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.253246754407883,
+      0.649999976158142,
+      0.0151948034763336
+    ],
+    "en": "tea bag",
+    "id": "daily_tea_bag",
+    "model": "daily/tea_bag/daily_tea_bag",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0461579523980618,
+      0.346666663885117
+    ],
+    "en": "tea strainer",
+    "id": "daily_tea_strainer",
+    "model": "daily/strainer/daily_tea_strainer",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.428542912006378,
+      0.360878258943558
+    ],
+    "en": "teapot",
+    "id": "daily_teapot",
+    "model": "daily/teapot/daily_teapot",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.51152515411377,
+      0.483107089996338
+    ],
+    "en": "milk jug",
+    "id": "daily_milk_jug",
+    "model": "daily/jug/daily_milk_jug",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.557142913341522,
+      0.575714230537415
+    ],
+    "en": "espresso machine",
+    "id": "daily_espresso_machine",
+    "model": "daily/espresso_machine/daily_espresso_machine",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.412075489759445,
+      0.650000035762787,
+      0.475849092006683
+    ],
+    "en": "coffee grinder",
+    "id": "daily_coffee_grinder",
+    "model": "daily/grinder/daily_coffee_grinder",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.149338915944099,
+      0.605118036270142
+    ],
+    "en": "coffee beans",
+    "id": "daily_coffee_beans",
+    "model": "daily/coffee_beans/daily_coffee_beans",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.423913061618805,
+      0.650000035762787
+    ],
+    "en": "coffee filter",
+    "id": "daily_coffee_filter",
+    "model": "daily/coffee_filter/daily_coffee_filter",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.408139556646347,
+      0.650000035762787,
+      0.287209302186966
+    ],
+    "en": "French press",
+    "id": "daily_french_press",
+    "model": "daily/french_press/daily_french_press",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.323920279741287,
+      0.496677756309509
+    ],
+    "en": "coffee dripper",
+    "id": "daily_coffee_dripper",
+    "model": "daily/dripper/daily_coffee_dripper",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.479957789182663,
+      0.466244727373123
+    ],
+    "en": "latte",
+    "id": "daily_latte",
+    "model": "daily/latte/daily_latte",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.479957789182663,
+      0.466244727373123
+    ],
+    "en": "cappuccino",
+    "id": "daily_cappuccino",
+    "model": "daily/cappuccino/daily_cappuccino",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.479957818984985,
+      0.466244757175446
+    ],
+    "en": "espresso",
+    "id": "daily_espresso",
+    "model": "daily/espresso/daily_espresso",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.306240499019623,
+      0.649999976158142,
+      0.306240499019623
+    ],
+    "en": "iced coffee",
+    "id": "daily_iced_coffee",
+    "model": "daily/iced_coffee/daily_iced_coffee",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.479957818984985,
+      0.466244757175446
+    ],
+    "en": "hot chocolate",
+    "id": "daily_hot_chocolate",
+    "model": "daily/hot_chocolate/daily_hot_chocolate",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.306240499019623,
+      0.649999976158142,
+      0.306240499019623
+    ],
+    "en": "lemonade",
+    "id": "daily_lemonade",
+    "model": "daily/lemonade/daily_lemonade",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.306240499019623,
+      0.649999976158142,
+      0.306240499019623
+    ],
+    "en": "smoothie",
+    "id": "daily_smoothie",
+    "model": "daily/smoothie/daily_smoothie",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.322758615016937,
+      0.649999976158142,
+      0.322758615016937
+    ],
+    "en": "sparkling water",
+    "id": "daily_sparkling_water",
+    "model": "daily/sparkling_water/daily_sparkling_water",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.322758615016937,
+      0.649999976158142,
+      0.322758615016937
+    ],
+    "en": "mineral water",
+    "id": "daily_mineral_water",
+    "model": "daily/mineral_water/daily_mineral_water",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.306240499019623,
+      0.649999976158142,
+      0.306240499019623
+    ],
+    "en": "orange juice",
+    "id": "daily_orange_juice",
+    "model": "daily/orange_juice/daily_orange_juice",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.562916457653046,
+      0.239958345890045,
+      0.649999976158142
+    ],
+    "en": "fruit salad",
+    "id": "daily_fruit_salad",
+    "model": "daily/fruit_salad/daily_fruit_salad",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.562916457653046,
+      0.239698827266693,
+      0.649999976158142
+    ],
+    "en": "yogurt bowl",
+    "id": "daily_yogurt_bowl",
+    "model": "daily/yogurt/daily_yogurt_bowl",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.562916457653046,
+      0.239698827266693,
+      0.649999976158142
+    ],
+    "en": "granola",
+    "id": "daily_granola",
+    "model": "daily/granola/daily_granola",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.562916457653046,
+      0.239698827266693,
+      0.649999976158142
+    ],
+    "en": "oatmeal",
+    "id": "daily_oatmeal",
+    "model": "daily/oatmeal/daily_oatmeal",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.164666652679443,
+      0.649999976158142
+    ],
+    "en": "toast",
+    "id": "daily_toast",
+    "model": "daily/toast/daily_toast",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.162499979138374,
+      0.649999976158142
+    ],
+    "en": "omelette",
+    "id": "daily_omelette",
+    "model": "daily/omelette/daily_omelette",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.239958330988884,
+      0.649999976158142
+    ],
+    "en": "scrambled eggs",
+    "id": "daily_scrambled_eggs",
+    "model": "daily/scrambled_eggs/daily_scrambled_eggs",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.1147730499506,
+      0.649999976158142
+    ],
+    "en": "bagel",
+    "id": "daily_bagel",
+    "model": "daily/bagel/daily_bagel",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.11735212802887,
+      0.530944466590881
+    ],
+    "en": "pretzel",
+    "id": "daily_pretzel",
+    "model": "daily/pretzel/daily_pretzel",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.210599914193153,
+      0.649999976158142
+    ],
+    "en": "cinnamon roll",
+    "id": "daily_cinnamon_roll",
+    "model": "daily/cinnamon_roll/daily_cinnamon_roll",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.216666653752327,
+      0.649999976158142
+    ],
+    "en": "brownie",
+    "id": "daily_brownie",
+    "model": "daily/brownie/daily_brownie",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999499320984,
+      0.277690947055817,
+      0.649999976158142
+    ],
+    "en": "cheesecake",
+    "id": "daily_cheesecake",
+    "model": "food/cake",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.292499989271164,
+      0.649999976158142
+    ],
+    "en": "fruit tart",
+    "id": "daily_fruit_tart",
+    "model": "daily/fruit_tart/daily_fruit_tart",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.205833315849304,
+      0.649999976158142
+    ],
+    "en": "baklava",
+    "id": "daily_baklava",
+    "model": "daily/baklava/daily_baklava",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.147219032049179,
+      0.56291651725769
+    ],
+    "en": "date biscuit",
+    "id": "daily_date_biscuit",
+    "model": "food/cookie",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.530295670032501,
+      0.562916457653046
+    ],
+    "en": "chocolate muffin",
+    "id": "daily_chocolate_muffin",
+    "model": "food/muffin",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.381924450397491,
+      0.0515558496117592,
+      0.649999976158142
+    ],
+    "en": "serving tongs",
+    "id": "daily_serving_tongs",
+    "model": "daily/tongs/daily_serving_tongs",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.308750003576279,
+      0.650000035762787
+    ],
+    "en": "cake stand",
+    "id": "daily_cake_stand",
+    "model": "daily/cake_stand/daily_cake_stand",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      1.79877781867981,
+      2.29999995231628,
+      0.936863481998444
+    ],
+    "en": "display fridge",
+    "id": "daily_display_fridge",
+    "model": "daily/display_fridge/daily_display_fridge",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      1.99185836315155,
+      1.05436015129089,
+      2.29999995231628
+    ],
+    "en": "outdoor cafe table",
+    "id": "daily_outdoor_cafe_table",
+    "model": "furniture/tableRound",
+    "region": "Cafe Street"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "cashier",
+    "id": "daily_cashier",
+    "model": "daily/person/daily_cashier",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "shop assistant",
+    "id": "daily_shop_assistant",
+    "model": "daily/person/daily_shop_assistant",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "customer",
+    "id": "daily_customer",
+    "model": "daily/person/daily_customer",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      1.30364370346069,
+      2.29999995231628,
+      1.67611336708069
+    ],
+    "en": "shopping trolley",
+    "id": "daily_shopping_trolley",
+    "model": "daily/shopping_trolley/daily_shopping_trolley",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.266899466514587
+    ],
+    "en": "shopping basket",
+    "id": "daily_shopping_basket",
+    "model": "daily/shopping_basket/daily_shopping_basket",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.254189968109131
+    ],
+    "en": "reusable shopping bag",
+    "id": "daily_reusable_shopping_bag",
+    "model": "daily/tote_bag/daily_reusable_shopping_bag",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.238537490367889,
+      0.650000035762787,
+      0.446295917034149
+    ],
+    "en": "paper shopping bag",
+    "id": "daily_paper_shopping_bag",
+    "model": "food/bag",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "price tag",
+    "id": "daily_price_tag",
+    "model": "daily/price_tag/daily_price_tag",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "barcode",
+    "id": "daily_barcode",
+    "model": "daily/barcode/daily_barcode",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.437516927719116,
+      0.649999976158142,
+      0.273377388715744
+    ],
+    "en": "barcode scanner",
+    "id": "daily_barcode_scanner",
+    "model": "daily/barcode_scanner/daily_barcode_scanner",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.476666629314423,
+      0.541666626930237
+    ],
+    "en": "cash register",
+    "id": "daily_cash_register",
+    "model": "daily/cash_register/daily_cash_register",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.40625,
+      0.288437485694885,
+      0.650000035762787
+    ],
+    "en": "card reader",
+    "id": "daily_card_reader",
+    "model": "daily/card_reader/daily_card_reader",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "bank card",
+    "id": "daily_bank_card",
+    "model": "daily/card/daily_bank_card",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "banknote",
+    "id": "daily_banknote",
+    "model": "daily/banknote/daily_banknote",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0479675866663456,
+      0.464285731315613
+    ],
+    "en": "change tray",
+    "id": "daily_change_tray",
+    "model": "daily/coin_tray/daily_change_tray",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "shopping receipt",
+    "id": "daily_shopping_receipt",
+    "model": "daily/receipt/daily_shopping_receipt",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "gift card",
+    "id": "daily_gift_card",
+    "model": "daily/card/daily_gift_card",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.254189968109131
+    ],
+    "en": "gift bag",
+    "id": "daily_gift_bag",
+    "model": "daily/gift_bag/daily_gift_bag",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.270530730485916
+    ],
+    "en": "gift box",
+    "id": "daily_gift_box",
+    "model": "daily/gift_box/daily_gift_box",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0185714289546013,
+      0.650000035762787
+    ],
+    "en": "wrapping paper",
+    "id": "daily_wrapping_paper",
+    "model": "daily/wrapping_paper/daily_wrapping_paper",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "ribbon",
+    "id": "daily_ribbon",
+    "model": "daily/ribbon/daily_ribbon",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      1.79877781867981,
+      2.29999995231628,
+      0.936863481998444
+    ],
+    "en": "shopping shelf",
+    "id": "daily_shopping_shelf",
+    "model": "daily/shelf/daily_shopping_shelf",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.923207640647888,
+      2.29999995231628,
+      0.547797441482544
+    ],
+    "en": "display mannequin",
+    "id": "daily_display_mannequin",
+    "model": "daily/mannequin/daily_display_mannequin",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.68392848968506,
+      0.821428537368774
+    ],
+    "en": "clothes rail",
+    "id": "daily_clothes_rail",
+    "model": "daily/clothes_rail/daily_clothes_rail",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      2.01836752891541,
+      2.29999995231628,
+      1.17346942424774
+    ],
+    "en": "changing room",
+    "id": "daily_changing_room",
+    "model": "daily/changing_room/daily_changing_room",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "sale sign",
+    "id": "daily_sale_sign",
+    "model": "daily/sign/daily_sale_sign",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "opening hours sign",
+    "id": "daily_opening_hours_sign",
+    "model": "daily/sign/daily_opening_hours_sign",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0649999901652336,
+      0.0649999901652336
+    ],
+    "en": "checkout divider",
+    "id": "daily_checkout_divider",
+    "model": "daily/divider/daily_checkout_divider",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      1.23049998283386,
+      0.615249991416931,
+      2.29999995231628
+    ],
+    "en": "conveyor belt",
+    "id": "daily_conveyor_belt",
+    "model": "daily/conveyor/daily_conveyor_belt",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.270530730485916
+    ],
+    "en": "delivery parcel",
+    "id": "daily_delivery_parcel",
+    "model": "daily/parcel/daily_delivery_parcel",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.151546165347099,
+      0.650000035762787
+    ],
+    "en": "packing tape",
+    "id": "daily_packing_tape",
+    "model": "daily/tape/daily_packing_tape",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0394642874598503,
+      0.650000035762787
+    ],
+    "en": "bubble wrap",
+    "id": "daily_bubble_wrap",
+    "model": "daily/bubble_wrap/daily_bubble_wrap",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "return label",
+    "id": "daily_return_label",
+    "model": "daily/label/daily_return_label",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "loyalty card",
+    "id": "daily_loyalty_card",
+    "model": "daily/card/daily_loyalty_card",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.308333367109299,
+      0.251741200685501,
+      0.649999976158142
+    ],
+    "en": "running shoes",
+    "id": "daily_running_shoes",
+    "model": "accurate/shoe",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.601391911506653,
+      0.152994111180305
+    ],
+    "en": "raincoat",
+    "id": "daily_raincoat",
+    "model": "accurate/coat",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.566666662693024,
+      0.649999976158142,
+      0.18478462100029
+    ],
+    "en": "hoodie",
+    "id": "daily_hoodie",
+    "model": "daily/hoodie/daily_hoodie",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.349528312683105,
+      0.649999976158142,
+      0.172004729509354
+    ],
+    "en": "jeans",
+    "id": "daily_jeans",
+    "model": "accurate/trousers",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.43180713057518,
+      0.151332587003708
+    ],
+    "en": "polo shirt",
+    "id": "daily_polo_shirt",
+    "model": "daily/polo/daily_polo_shirt",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.315972179174423,
+      0.649999976158142,
+      0.0677083283662796
+    ],
+    "en": "swimsuit",
+    "id": "daily_swimsuit",
+    "model": "daily/swimsuit/daily_swimsuit",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.474382877349854,
+      0.649999976158142,
+      0.118148200213909
+    ],
+    "en": "pajamas",
+    "id": "daily_pajamas",
+    "model": "daily/pajamas/daily_pajamas",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.298266857862473,
+      0.243522346019745,
+      0.649999976158142
+    ],
+    "en": "slippers pair",
+    "id": "daily_slippers_pair",
+    "model": "accurate/slipper",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.308333367109299,
+      0.543676376342773,
+      0.649999976158142
+    ],
+    "en": "cotton socks",
+    "id": "daily_cotton_socks",
+    "model": "accurate/sock",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.484740048646927,
+      0.649999976158142,
+      0.0994117558002472
+    ],
+    "en": "winter gloves",
+    "id": "daily_winter_gloves",
+    "model": "new/glove",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.649999976158142,
+      0.649999976158142
+    ],
+    "en": "wool hat",
+    "id": "daily_wool_hat",
+    "model": "daily/beanie/daily_wool_hat",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.265909075737,
+      0.649999976158142
+    ],
+    "en": "sun hat",
+    "id": "daily_sun_hat",
+    "model": "accurate/hat",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.283064514398575,
+      0.649999976158142,
+      0.167741924524307
+    ],
+    "en": "hand lotion",
+    "id": "daily_hand_lotion",
+    "model": "daily/tube/daily_hand_lotion",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.318709701299667,
+      0.650000035762787,
+      0.301935493946075
+    ],
+    "en": "shampoo",
+    "id": "daily_shampoo",
+    "model": "daily/pump_bottle/daily_shampoo",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.318709701299667,
+      0.650000035762787,
+      0.301935493946075
+    ],
+    "en": "deodorant",
+    "id": "daily_deodorant",
+    "model": "daily/spray/daily_deodorant",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.479655116796494,
+      0.649999976158142,
+      0.322758615016937
+    ],
+    "en": "detergent",
+    "id": "daily_detergent",
+    "model": "daily/detergent/daily_detergent",
+    "region": "Shopping Avenue"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "fitness trainer",
+    "id": "daily_fitness_trainer",
+    "model": "daily/person/daily_fitness_trainer",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "runner",
+    "id": "daily_runner",
+    "model": "daily/person/daily_runner",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "referee",
+    "id": "daily_referee",
+    "model": "daily/person/daily_referee",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.252238810062408,
+      0.060149259865284,
+      0.649999976158142
+    ],
+    "en": "yoga mat",
+    "id": "daily_yoga_mat",
+    "model": "daily/yoga_mat/daily_yoga_mat",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.278571456670761,
+      0.278571456670761
+    ],
+    "en": "dumbbell",
+    "id": "daily_dumbbell",
+    "model": "daily/dumbbell/daily_dumbbell",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.173333346843719,
+      0.173333331942558
+    ],
+    "en": "barbell",
+    "id": "daily_barbell",
+    "model": "daily/barbell/daily_barbell",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.099295511841774,
+      0.649999976158142
+    ],
+    "en": "weight plate",
+    "id": "daily_weight_plate",
+    "model": "daily/weight_plate/daily_weight_plate",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.412983894348145,
+      0.649999976158142,
+      0.412983894348145
+    ],
+    "en": "kettlebell",
+    "id": "daily_kettlebell",
+    "model": "daily/kettlebell/daily_kettlebell",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0963865295052528,
+      0.390000015497208
+    ],
+    "en": "resistance band",
+    "id": "daily_resistance_band",
+    "model": "daily/resistance_band/daily_resistance_band",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0963865295052528,
+      0.390000015497208
+    ],
+    "en": "skipping rope",
+    "id": "daily_skipping_rope",
+    "model": "daily/skipping_rope/daily_skipping_rope",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.96458327770233,
+      0.977499961853027
+    ],
+    "en": "exercise bike",
+    "id": "daily_exercise_bike",
+    "model": "daily/exercise_bike/daily_exercise_bike",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      1.14999997615814,
+      1.6171875,
+      2.29999995231628
+    ],
+    "en": "treadmill",
+    "id": "daily_treadmill",
+    "model": "daily/treadmill/daily_treadmill",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      1.13580250740051,
+      1.05061733722687,
+      2.29999995231628
+    ],
+    "en": "rowing machine",
+    "id": "daily_rowing_machine",
+    "model": "daily/rowing_machine/daily_rowing_machine",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.705333352088928,
+      0.812666594982147,
+      2.29999995231628
+    ],
+    "en": "weight bench",
+    "id": "daily_weight_bench",
+    "model": "daily/weight_bench/daily_weight_bench",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.67571401596069,
+      0.438095182180405
+    ],
+    "en": "pull-up bar",
+    "id": "daily_pull_up_bar",
+    "model": "daily/pullup_bar/daily_pull_up_bar",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.28785714507103,
+      0.28785714507103
+    ],
+    "en": "foam roller",
+    "id": "daily_foam_roller",
+    "model": "daily/foam_roller/daily_foam_roller",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.640125036239624,
+      0.650000035762787,
+      0.640125036239624
+    ],
+    "en": "massage ball",
+    "id": "daily_massage_ball",
+    "model": "daily/sports_ball/daily_massage_ball",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.640125036239624,
+      0.650000035762787,
+      0.640125036239624
+    ],
+    "en": "exercise ball",
+    "id": "daily_exercise_ball",
+    "model": "daily/sports_ball/daily_exercise_ball",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.640125036239624,
+      0.650000035762787,
+      0.640125036239624
+    ],
+    "en": "medicine ball",
+    "id": "daily_medicine_ball",
+    "model": "daily/sports_ball/daily_medicine_ball",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.389999985694885,
+      0.40625
+    ],
+    "en": "yoga block",
+    "id": "daily_yoga_block",
+    "model": "daily/yoga_block/daily_yoga_block",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "yoga strap",
+    "id": "daily_yoga_strap",
+    "model": "daily/strap/daily_yoga_strap",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.322758615016937,
+      0.649999976158142,
+      0.322758615016937
+    ],
+    "en": "water bottle",
+    "id": "daily_water_bottle",
+    "model": "daily/sports_bottle/daily_water_bottle",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.331724107265472,
+      0.649999976158142,
+      0.331724107265472
+    ],
+    "en": "protein shaker",
+    "id": "daily_protein_shaker",
+    "model": "daily/shaker/daily_protein_shaker",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.478355020284653,
+      0.0627489313483238,
+      0.650000035762787
+    ],
+    "en": "gym towel",
+    "id": "daily_gym_towel",
+    "model": "accurate/towel",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      1.4375,
+      2.29999995231628,
+      1.0771666765213
+    ],
+    "en": "gym locker",
+    "id": "daily_gym_locker",
+    "model": "daily/locker/daily_gym_locker",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.621815204620361,
+      0.342105269432068
+    ],
+    "en": "gym bag",
+    "id": "daily_gym_bag",
+    "model": "daily/duffel/daily_gym_bag",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.17689423263073,
+      0.650000035762787
+    ],
+    "en": "heart rate monitor",
+    "id": "daily_heart_rate_monitor",
+    "model": "daily/wrist_monitor/daily_heart_rate_monitor",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.17689423263073,
+      0.650000035762787
+    ],
+    "en": "fitness tracker",
+    "id": "daily_fitness_tracker",
+    "model": "daily/wrist_monitor/daily_fitness_tracker",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.346666693687439,
+      0.187777802348137
+    ],
+    "en": "sports whistle",
+    "id": "daily_sports_whistle",
+    "model": "daily/whistle/daily_sports_whistle",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.623999953269959,
+      0.649999976158142,
+      0.623999953269959
+    ],
+    "en": "training cone",
+    "id": "daily_training_cone",
+    "model": "daily/cone/daily_training_cone",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.229201123118401,
+      0.0196969695389271,
+      0.649999976158142
+    ],
+    "en": "agility ladder",
+    "id": "daily_agility_ladder",
+    "model": "daily/agility_ladder/daily_agility_ladder",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.210476160049438,
+      0.123809516429901
+    ],
+    "en": "training hurdle",
+    "id": "daily_training_hurdle",
+    "model": "daily/hurdle/daily_training_hurdle",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.336000025272369,
+      0.254241228103638,
+      0.649999976158142
+    ],
+    "en": "football boots",
+    "id": "daily_football_boots",
+    "model": "daily/cleats/daily_football_boots",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.406249970197678,
+      0.130079850554466
+    ],
+    "en": "shin guards",
+    "id": "daily_shin_guards",
+    "model": "daily/shin_guards/daily_shin_guards",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.484740048646927,
+      0.649999976158142,
+      0.0994117558002472
+    ],
+    "en": "goalkeeper gloves",
+    "id": "daily_goalkeeper_gloves",
+    "model": "new/glove",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.342859119176865,
+      0.271672666072845
+    ],
+    "en": "boxing gloves",
+    "id": "daily_boxing_gloves",
+    "model": "daily/boxing_gloves/daily_boxing_gloves",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.854843616485596,
+      2.29999995231628,
+      0.854843616485596
+    ],
+    "en": "punching bag",
+    "id": "daily_punching_bag",
+    "model": "daily/punching_bag/daily_punching_bag",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      1.60914278030396,
+      4.19047594070435
+    ],
+    "en": "boxing ring",
+    "id": "daily_boxing_ring",
+    "model": "daily/boxing_ring/daily_boxing_ring",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.495621830224991,
+      0.649999976158142,
+      0.49546805024147
+    ],
+    "en": "badminton shuttlecock",
+    "id": "daily_badminton_shuttlecock",
+    "model": "daily/shuttlecock/daily_badminton_shuttlecock",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.640125036239624,
+      0.650000035762787,
+      0.640125036239624
+    ],
+    "en": "tennis ball",
+    "id": "daily_tennis_ball",
+    "model": "daily/sports_ball/daily_tennis_ball",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.649999976158142,
+      0.637228548526764
+    ],
+    "en": "volleyball",
+    "id": "daily_volleyball",
+    "model": "daily/sports_ball/daily_volleyball",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.67571401596069,
+      0.438095182180405
+    ],
+    "en": "volleyball net",
+    "id": "daily_volleyball_net",
+    "model": "daily/sports_net/daily_volleyball_net",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.123157888650894,
+      0.649999976158142,
+      0.0342105254530907
+    ],
+    "en": "cricket bat",
+    "id": "daily_cricket_bat",
+    "model": "daily/cricket_bat/daily_cricket_bat",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.282010585069656,
+      0.649999976158142,
+      0.0343915335834026
+    ],
+    "en": "cricket wickets",
+    "id": "daily_cricket_wickets",
+    "model": "daily/wickets/daily_cricket_wickets",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.3740154504776,
+      0.519999921321869
+    ],
+    "en": "cycling helmet",
+    "id": "daily_cycling_helmet",
+    "model": "daily/bike_helmet/daily_cycling_helmet",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.50859546661377,
+      0.172008126974106
+    ],
+    "en": "cycling jersey",
+    "id": "daily_cycling_jersey",
+    "model": "accurate/t_shirt",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.406249970197678,
+      0.130079850554466
+    ],
+    "en": "knee pads",
+    "id": "daily_knee_pads",
+    "model": "daily/knee_pads/daily_knee_pads",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.406249970197678,
+      0.130079850554466
+    ],
+    "en": "elbow pads",
+    "id": "daily_elbow_pads",
+    "model": "daily/knee_pads/daily_elbow_pads",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.3740154504776,
+      0.519999921321869
+    ],
+    "en": "swimming cap",
+    "id": "daily_swimming_cap",
+    "model": "daily/swim_cap/daily_swimming_cap",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.930863499641418,
+      2.30000019073486,
+      1.3144862651825
+    ],
+    "en": "lifeguard chair",
+    "id": "daily_lifeguard_chair",
+    "model": "daily/lifeguard_chair/daily_lifeguard_chair",
+    "region": "Fitness Square"
+  },
+  {
+    "dimensions": [
+      0.570408225059509,
+      0.650000035762787,
+      0.331632673740387
+    ],
+    "en": "bus stop",
+    "id": "daily_bus_stop",
+    "model": "daily/bus_stop/daily_bus_stop",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      3.42222213745117,
+      3.04095387458801
+    ],
+    "en": "bus shelter",
+    "id": "daily_bus_shelter",
+    "model": "daily/bus_shelter/daily_bus_shelter",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "bus timetable",
+    "id": "daily_bus_timetable",
+    "model": "daily/timetable/daily_bus_timetable",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "bus ticket",
+    "id": "daily_bus_ticket",
+    "model": "daily/ticket/daily_bus_ticket",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.14999997615814,
+      2.29999995231628,
+      0.893863618373871
+    ],
+    "en": "ticket machine",
+    "id": "daily_ticket_machine",
+    "model": "daily/ticket_machine/daily_ticket_machine",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.65813946723938,
+      2.29999995231628,
+      0.75953483581543
+    ],
+    "en": "departure board",
+    "id": "daily_departure_board",
+    "model": "daily/departure_board/daily_departure_board",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.65813946723938,
+      2.29999995231628,
+      0.75953483581543
+    ],
+    "en": "arrival board",
+    "id": "daily_arrival_board",
+    "model": "daily/departure_board/daily_arrival_board",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "platform sign",
+    "id": "daily_platform_sign",
+    "model": "daily/sign/daily_platform_sign",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.125,
+      0.11250002682209,
+      4.5
+    ],
+    "en": "railway track",
+    "id": "daily_railway_track",
+    "model": "trains/railroad-straight",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.06604528427124,
+      2.57818412780762,
+      4.5
+    ],
+    "en": "passenger train",
+    "id": "daily_passenger_train",
+    "model": "trains/train-locomotive-passenger-a",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.84247577190399,
+      2.78972721099854,
+      4.5
+    ],
+    "en": "tram",
+    "id": "daily_tram",
+    "model": "trains/train-tram-modern",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.33653855323792,
+      2.44332051277161,
+      4.5
+    ],
+    "en": "metro train",
+    "id": "daily_metro_train",
+    "model": "trains/train-electric-subway-a",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.66292798519135,
+      1.68093812465668,
+      4.39999961853027
+    ],
+    "en": "coach",
+    "id": "daily_coach",
+    "model": "daily/bus/daily_coach",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.23336315155029,
+      2.25755143165588,
+      4.40000009536743
+    ],
+    "en": "minibus",
+    "id": "daily_minibus",
+    "model": "daily/minibus/daily_minibus",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.221590921282768,
+      0.439488619565964,
+      0.650000035762787
+    ],
+    "en": "motorcycle",
+    "id": "daily_motorcycle",
+    "model": "daily/motorcycle/daily_motorcycle",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.221590921282768,
+      0.439488619565964,
+      0.650000035762787
+    ],
+    "en": "electric scooter",
+    "id": "daily_electric_scooter",
+    "model": "daily/electric_scooter/daily_electric_scooter",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.29899999499321,
+      0.233999997377396
+    ],
+    "en": "bicycle rack",
+    "id": "daily_bicycle_rack",
+    "model": "daily/bike_rack/daily_bicycle_rack",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "cycle lane sign",
+    "id": "daily_cycle_lane_sign",
+    "model": "daily/sign/daily_cycle_lane_sign",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.00438202265650034,
+      0.511235952377319
+    ],
+    "en": "pedestrian crossing",
+    "id": "daily_pedestrian_crossing",
+    "model": "daily/crossing/daily_pedestrian_crossing",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.382352948188782,
+      0.650000035762787,
+      0.27242648601532
+    ],
+    "en": "crossing button",
+    "id": "daily_crossing_button",
+    "model": "daily/crossing_button/daily_crossing_button",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.14999997615814,
+      2.29999995231628,
+      0.872954487800598
+    ],
+    "en": "parking meter",
+    "id": "daily_parking_meter",
+    "model": "daily/parking_meter/daily_parking_meter",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "parking ticket",
+    "id": "daily_parking_ticket",
+    "model": "daily/ticket/daily_parking_ticket",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.342105239629745,
+      0.0950292348861694
+    ],
+    "en": "parking barrier",
+    "id": "daily_parking_barrier",
+    "model": "daily/barrier/daily_parking_barrier",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.170624986290932,
+      0.650000035762787,
+      0.170624986290932
+    ],
+    "en": "parking bollard",
+    "id": "daily_parking_bollard",
+    "model": "daily/bollard/daily_parking_bollard",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "car park sign",
+    "id": "daily_car_park_sign",
+    "model": "daily/sign/daily_car_park_sign",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.77727270126343,
+      2.29999995231628,
+      0.872954487800598
+    ],
+    "en": "charging station",
+    "id": "daily_charging_station",
+    "model": "daily/charger/daily_charging_station",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      1.77727270126343,
+      2.29999995231628,
+      0.872954487800598
+    ],
+    "en": "fuel pump",
+    "id": "daily_fuel_pump",
+    "model": "daily/fuel_pump/daily_fuel_pump",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.528161644935608,
+      0.0475073717534542,
+      0.650000035762787
+    ],
+    "en": "seat belt",
+    "id": "daily_seat_belt",
+    "model": "daily/seat_belt/daily_seat_belt",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.610204100608826,
+      0.543877601623535
+    ],
+    "en": "car seat",
+    "id": "daily_car_seat",
+    "model": "daily/car_seat/daily_car_seat",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.643336951732636,
+      0.650000035762787,
+      0.538302421569824
+    ],
+    "en": "child car seat",
+    "id": "daily_child_car_seat",
+    "model": "daily/child_seat/daily_child_car_seat",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0865461379289627,
+      0.649999976158142
+    ],
+    "en": "steering wheel",
+    "id": "daily_steering_wheel",
+    "model": "daily/steering_wheel/daily_steering_wheel",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.288888901472092,
+      0.171888902783394
+    ],
+    "en": "dashboard",
+    "id": "daily_dashboard",
+    "model": "daily/dashboard/daily_dashboard",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.328100919723511,
+      0.218223750591278
+    ],
+    "en": "rearview mirror",
+    "id": "daily_rearview_mirror",
+    "model": "daily/rearview_mirror/daily_rearview_mirror",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0238157752901316,
+      0.0881197601556778
+    ],
+    "en": "windshield wiper",
+    "id": "daily_windshield_wiper",
+    "model": "daily/wiper/daily_windshield_wiper",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.312012881040573,
+      0.160457029938698
+    ],
+    "en": "headlight",
+    "id": "daily_headlight",
+    "model": "daily/headlight/daily_headlight",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.312012881040573,
+      0.160457029938698
+    ],
+    "en": "brake light",
+    "id": "daily_brake_light",
+    "model": "daily/brake_light/daily_brake_light",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "number plate",
+    "id": "daily_number_plate",
+    "model": "daily/number_plate/daily_number_plate",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.433333307504654,
+      0.649999976158142,
+      0.649999976158142
+    ],
+    "en": "spare tire",
+    "id": "daily_spare_tire",
+    "model": "cars/wheel-default",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.587628602981567,
+      0.216666653752327
+    ],
+    "en": "car jack",
+    "id": "daily_car_jack",
+    "model": "daily/car_jack/daily_car_jack",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0684618577361107,
+      0.333333313465118
+    ],
+    "en": "jumper cables",
+    "id": "daily_jumper_cables",
+    "model": "daily/jumper_cables/daily_jumper_cables",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.283027410507202,
+      0.154474020004272,
+      0.649999976158142
+    ],
+    "en": "car key fob",
+    "id": "daily_car_key_fob",
+    "model": "daily/keyfob/daily_car_key_fob",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.627250015735626,
+      0.0219375006854534
+    ],
+    "en": "luggage tag",
+    "id": "daily_luggage_tag",
+    "model": "daily/luggage_tag/daily_luggage_tag",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      3.68747448921204,
+      1.94117641448975
+    ],
+    "en": "check-in counter",
+    "id": "daily_check_in_counter",
+    "model": "daily/checkin_counter/daily_check_in_counter",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.0984112992882729,
+      0.544018566608429
+    ],
+    "en": "security tray",
+    "id": "daily_security_tray",
+    "model": "food/plate-rectangle",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.01836752891541,
+      2.29999995231628,
+      1.17346942424774
+    ],
+    "en": "metal detector",
+    "id": "daily_metal_detector",
+    "model": "daily/metal_detector/daily_metal_detector",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.35400009155273,
+      1.17700004577637,
+      4.40000009536743
+    ],
+    "en": "moving walkway",
+    "id": "daily_moving_walkway",
+    "model": "daily/moving_walkway/daily_moving_walkway",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      2.33056092262268,
+      2.46892166137695,
+      4.40000009536743
+    ],
+    "en": "escalator",
+    "id": "daily_escalator",
+    "model": "daily/escalator/daily_escalator",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      3.86122465133667,
+      4.40000009536743,
+      2.24489808082581
+    ],
+    "en": "lift doors",
+    "id": "daily_lift_doors",
+    "model": "daily/lift/daily_lift_doors",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.968421161174774,
+      2.30000019073486,
+      1.52821183204651
+    ],
+    "en": "turnstile",
+    "id": "daily_turnstile",
+    "model": "daily/turnstile/daily_turnstile",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "taxi rank sign",
+    "id": "daily_taxi_rank_sign",
+    "model": "daily/sign/daily_taxi_rank_sign",
+    "region": "Travel Terminal"
+  },
+  {
+    "dimensions": [
+      0.570408225059509,
+      0.650000035762787,
+      0.331632673740387
+    ],
+    "en": "post office counter",
+    "id": "daily_post_office_counter",
+    "model": "daily/counter/daily_post_office_counter",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "postal worker",
+    "id": "daily_postal_worker",
+    "model": "daily/person/daily_postal_worker",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "delivery driver",
+    "id": "daily_delivery_driver",
+    "model": "daily/person/daily_delivery_driver",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "bank teller",
+    "id": "daily_bank_teller",
+    "model": "daily/person/daily_bank_teller",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.657819092273712,
+      1.84999990463257,
+      0.406468600034714
+    ],
+    "en": "firefighter",
+    "id": "daily_firefighter",
+    "model": "daily/person/daily_firefighter",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "police officer",
+    "id": "daily_police_officer",
+    "model": "daily/person/daily_police_officer",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "paramedic",
+    "id": "daily_paramedic",
+    "model": "daily/person/daily_paramedic",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.764863133430481,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "mechanic",
+    "id": "daily_mechanic",
+    "model": "daily/person/daily_mechanic",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "electrician",
+    "id": "daily_electrician",
+    "model": "daily/person/daily_electrician",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.764863133430481,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "plumber",
+    "id": "daily_plumber",
+    "model": "daily/person/daily_plumber",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.14999997615814,
+      2.29999995231628,
+      0.893863618373871
+    ],
+    "en": "ATM",
+    "id": "daily_atm",
+    "model": "daily/atm/daily_atm",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.487500011920929,
+      0.650000035762787,
+      0.0292499996721745
+    ],
+    "en": "cash deposit envelope",
+    "id": "daily_cash_deposit_envelope",
+    "model": "daily/envelope/daily_cash_deposit_envelope",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "bank statement",
+    "id": "daily_bank_statement",
+    "model": "daily/document/daily_bank_statement",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "utility bill",
+    "id": "daily_utility_bill",
+    "model": "daily/invoice/daily_utility_bill",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.0170058142393827
+    ],
+    "en": "application form",
+    "id": "daily_application_form",
+    "model": "daily/document/daily_application_form",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "queue ticket",
+    "id": "daily_queue_ticket",
+    "model": "daily/ticket/daily_queue_ticket",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.65813946723938,
+      2.29999995231628,
+      0.75953483581543
+    ],
+    "en": "queue display",
+    "id": "daily_queue_display",
+    "model": "daily/queue_display/daily_queue_display",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.40625,
+      0.650000035762787
+    ],
+    "en": "service bell",
+    "id": "daily_service_bell",
+    "model": "daily/bell/daily_service_bell",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0944411680102348,
+      0.458823531866074
+    ],
+    "en": "parcel scale",
+    "id": "daily_parcel_scale",
+    "model": "accurate/scale",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.4375,
+      2.29999995231628,
+      1.0771666765213
+    ],
+    "en": "parcel locker",
+    "id": "daily_parcel_locker",
+    "model": "daily/parcel_locker/daily_parcel_locker",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0190937500447035
+    ],
+    "en": "postage label",
+    "id": "daily_postage_label",
+    "model": "daily/label/daily_postage_label",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.270530730485916
+    ],
+    "en": "shipping carton",
+    "id": "daily_shipping_carton",
+    "model": "daily/parcel/daily_shipping_carton",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.48823547363281,
+      2.29999995231628,
+      1.48823547363281
+    ],
+    "en": "recycling bin",
+    "id": "daily_recycling_bin",
+    "model": "daily/recycling_bin/daily_recycling_bin",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.48823547363281,
+      2.29999995231628,
+      1.48823547363281
+    ],
+    "en": "glass recycling bin",
+    "id": "daily_glass_recycling_bin",
+    "model": "daily/recycling_bin/daily_glass_recycling_bin",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.48823547363281,
+      2.29999995231628,
+      1.48823547363281
+    ],
+    "en": "paper recycling bin",
+    "id": "daily_paper_recycling_bin",
+    "model": "daily/recycling_bin/daily_paper_recycling_bin",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.133301228284836,
+      0.649999976158142,
+      0.027882220223546
+    ],
+    "en": "litter picker",
+    "id": "daily_litter_picker",
+    "model": "daily/litter_picker/daily_litter_picker",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      2.9728102684021,
+      2.25755143165588,
+      4.40000009536743
+    ],
+    "en": "street sweeper",
+    "id": "daily_street_sweeper",
+    "model": "daily/street_sweeper/daily_street_sweeper",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.34333336353302,
+      0.650000035762787,
+      0.243750005960464
+    ],
+    "en": "fire extinguisher",
+    "id": "daily_fire_extinguisher",
+    "model": "daily/extinguisher/daily_fire_extinguisher",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.649999976158142,
+      0.184742078185081
+    ],
+    "en": "fire hose reel",
+    "id": "daily_fire_hose_reel",
+    "model": "daily/hose_reel/daily_fire_hose_reel",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.61403524875641,
+      2.30000019073486,
+      0.968421161174774
+    ],
+    "en": "fire hydrant",
+    "id": "daily_fire_hydrant",
+    "model": "daily/hydrant/daily_fire_hydrant",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.115699999034405,
+      0.649999976158142
+    ],
+    "en": "smoke alarm",
+    "id": "daily_smoke_alarm",
+    "model": "daily/smoke_alarm/daily_smoke_alarm",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "emergency exit sign",
+    "id": "daily_emergency_exit_sign",
+    "model": "daily/exit_sign/daily_emergency_exit_sign",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.610691487789154,
+      0.297321230173111,
+      0.649999976158142
+    ],
+    "en": "emergency phone",
+    "id": "daily_emergency_phone",
+    "model": "accurate/telephone",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.4375,
+      2.29999995231628,
+      1.0771666765213
+    ],
+    "en": "first aid cabinet",
+    "id": "daily_first_aid_cabinet",
+    "model": "daily/medical_cabinet/daily_first_aid_cabinet",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.977500021457672,
+      0.626749992370605,
+      2.29999995231628
+    ],
+    "en": "medical stretcher",
+    "id": "daily_medical_stretcher",
+    "model": "daily/stretcher/daily_medical_stretcher",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.6871542930603,
+      2.29999995231628,
+      1.72500002384186
+    ],
+    "en": "wheelchair",
+    "id": "daily_wheelchair",
+    "model": "daily/wheelchair/daily_wheelchair",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.565217435359955,
+      0.649999976158142,
+      0.0353260897099972
+    ],
+    "en": "crutches",
+    "id": "daily_crutches",
+    "model": "daily/crutches/daily_crutches",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      1.99061262607574,
+      2.29999995231628,
+      0.608440160751343
+    ],
+    "en": "walking frame",
+    "id": "daily_walking_frame",
+    "model": "daily/walker/daily_walking_frame",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.544692754745483,
+      0.650000035762787,
+      0.254189968109131
+    ],
+    "en": "repair toolbox",
+    "id": "daily_repair_toolbox",
+    "model": "daily/toolbox/daily_repair_toolbox",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.111695662140846,
+      0.144444450736046
+    ],
+    "en": "socket wrench",
+    "id": "daily_socket_wrench",
+    "model": "daily/socket_wrench/daily_socket_wrench",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.287967562675476,
+      0.650000035762787,
+      0.0468784384429455
+    ],
+    "en": "adjustable wrench",
+    "id": "daily_adjustable_wrench",
+    "model": "accurate/wrench",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.142999991774559,
+      0.0831999927759171
+    ],
+    "en": "utility knife",
+    "id": "daily_utility_knife",
+    "model": "daily/utility_knife/daily_utility_knife",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.43265089392662,
+      0.0626555755734444,
+      0.650000035762787
+    ],
+    "en": "wire stripper",
+    "id": "daily_wire_stripper",
+    "model": "daily/wire_stripper/daily_wire_stripper",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.379166632890701,
+      0.649999976158142,
+      0.292499959468842
+    ],
+    "en": "circuit breaker",
+    "id": "daily_circuit_breaker",
+    "model": "daily/breaker/daily_circuit_breaker",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.379166632890701,
+      0.649999976158142,
+      0.232916653156281
+    ],
+    "en": "water meter",
+    "id": "daily_water_meter",
+    "model": "daily/meter/daily_water_meter",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.379166632890701,
+      0.649999976158142,
+      0.232916653156281
+    ],
+    "en": "electricity meter",
+    "id": "daily_electricity_meter",
+    "model": "daily/meter/daily_electricity_meter",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.541666686534882,
+      0.649999976158142,
+      0.0318627469241619
+    ],
+    "en": "maintenance sign",
+    "id": "daily_maintenance_sign",
+    "model": "daily/sign/daily_maintenance_sign",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.430730611085892,
+      0.650000035762787,
+      0.517164826393127
+    ],
+    "en": "wet floor sign",
+    "id": "daily_wet_floor_sign",
+    "model": "daily/wet_floor_sign/daily_wet_floor_sign",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.68392848968506,
+      0.821428537368774
+    ],
+    "en": "safety barrier",
+    "id": "daily_safety_barrier",
+    "model": "daily/safety_barrier/daily_safety_barrier",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.43180713057518,
+      0.203754514455795
+    ],
+    "en": "traffic vest",
+    "id": "daily_traffic_vest",
+    "model": "daily/hi_vis/daily_traffic_vest",
+    "region": "City Services"
+  },
+  {
+    "dimensions": [
+      0.80137699842453,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "podcast host",
+    "id": "daily_podcast_host",
+    "model": "daily/person/daily_podcast_host",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "podcast guest",
+    "id": "daily_podcast_guest",
+    "model": "daily/person/daily_podcast_guest",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.742580056190491,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "sound engineer",
+    "id": "daily_sound_engineer",
+    "model": "daily/person/daily_sound_engineer",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.80137699842453,
+      1.85000002384186,
+      0.440619677305222
+    ],
+    "en": "producer",
+    "id": "daily_producer",
+    "model": "daily/person/daily_producer",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.337964028120041,
+      0.649999976158142,
+      0.268213897943497
+    ],
+    "en": "studio microphone",
+    "id": "daily_studio_microphone",
+    "model": "daily/studio_microphone/daily_studio_microphone",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.337964028120041,
+      0.649999976158142,
+      0.268213897943497
+    ],
+    "en": "dynamic microphone",
+    "id": "daily_dynamic_microphone",
+    "model": "daily/dynamic_microphone/daily_dynamic_microphone",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.337964028120041,
+      0.649999976158142,
+      0.268213897943497
+    ],
+    "en": "condenser microphone",
+    "id": "daily_condenser_microphone",
+    "model": "daily/condenser_microphone/daily_condenser_microphone",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.507195949554443,
+      0.649999976158142,
+      0.0730337053537369
+    ],
+    "en": "boom arm",
+    "id": "daily_boom_arm",
+    "model": "daily/boom_arm/daily_boom_arm",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.320547968149185,
+      0.650000035762787,
+      0.0426803044974804
+    ],
+    "en": "pop filter",
+    "id": "daily_pop_filter",
+    "model": "daily/pop_filter/daily_pop_filter",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.125656753778458,
+      0.648712992668152
+    ],
+    "en": "shock mount",
+    "id": "daily_shock_mount",
+    "model": "daily/shock_mount/daily_shock_mount",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.448087513446808,
+      0.650000035762787,
+      0.448087513446808
+    ],
+    "en": "foam windscreen",
+    "id": "daily_foam_windscreen",
+    "model": "daily/windscreen/daily_foam_windscreen",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.602813839912415,
+      0.649999976158142,
+      0.198488369584084
+    ],
+    "en": "studio headphones",
+    "id": "daily_studio_headphones",
+    "model": "daily/studio_headphones/daily_studio_headphones",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.34437084197998,
+      0.650000035762787,
+      0.34437084197998
+    ],
+    "en": "headphone stand",
+    "id": "daily_headphone_stand",
+    "model": "daily/headphone_stand/daily_headphone_stand",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.330909073352814,
+      0.426636338233948
+    ],
+    "en": "audio interface",
+    "id": "daily_audio_interface",
+    "model": "daily/audio_interface/daily_audio_interface",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      0.536666631698608,
+      1.55441665649414
+    ],
+    "en": "mixing desk",
+    "id": "daily_mixing_desk",
+    "model": "daily/mixing_desk/daily_mixing_desk",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.180000007152557,
+      0.0750000029802322,
+      0.649999976158142
+    ],
+    "en": "fader",
+    "id": "daily_fader",
+    "model": "daily/fader/daily_fader",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.367249995470047,
+      0.649999976158142
+    ],
+    "en": "gain knob",
+    "id": "daily_gain_knob",
+    "model": "daily/gain_knob/daily_gain_knob",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0915372595191002,
+      0.469072133302689
+    ],
+    "en": "XLR cable",
+    "id": "daily_xlr_cable",
+    "model": "daily/xlr_cable/daily_xlr_cable",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.0821052566170692,
+      0.0821052640676498
+    ],
+    "en": "audio jack",
+    "id": "daily_audio_jack",
+    "model": "daily/audio_jack/daily_audio_jack",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.337964028120041,
+      0.649999976158142,
+      0.268213897943497
+    ],
+    "en": "USB microphone",
+    "id": "daily_usb_microphone",
+    "model": "daily/usb_microphone/daily_usb_microphone",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.330909073352814,
+      0.426636338233948
+    ],
+    "en": "portable recorder",
+    "id": "daily_portable_recorder",
+    "model": "daily/recorder/daily_portable_recorder",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      4.40000009536743,
+      3.42222213745117,
+      2.96825408935547
+    ],
+    "en": "recording booth",
+    "id": "daily_recording_booth",
+    "model": "daily/recording_booth/daily_recording_booth",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.38409087061882,
+      0.649999976158142,
+      0.141818180680275
+    ],
+    "en": "acoustic panel",
+    "id": "daily_acoustic_panel",
+    "model": "daily/acoustic_panel/daily_acoustic_panel",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.35909080505371,
+      2.29999995231628,
+      1.17090904712677
+    ],
+    "en": "bass trap",
+    "id": "daily_bass_trap",
+    "model": "daily/bass_trap/daily_bass_trap",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      2.29999995231628,
+      0.791082799434662
+    ],
+    "en": "sound diffuser",
+    "id": "daily_sound_diffuser",
+    "model": "daily/diffuser/daily_sound_diffuser",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.27777779102325,
+      2.29999995231628,
+      1.15255558490753
+    ],
+    "en": "studio monitor speaker",
+    "id": "daily_studio_monitor_speaker",
+    "model": "daily/studio_monitor/daily_studio_monitor_speaker",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.14522838592529,
+      2.29999995231628,
+      1.14522838592529
+    ],
+    "en": "speaker stand",
+    "id": "daily_speaker_stand",
+    "model": "daily/speaker_stand/daily_speaker_stand",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.243750005960464,
+      0.111718751490116
+    ],
+    "en": "on-air light",
+    "id": "daily_on_air_light",
+    "model": "daily/on_air/daily_on_air_light",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.28166663646698,
+      0.649999976158142
+    ],
+    "en": "record button",
+    "id": "daily_record_button",
+    "model": "daily/record_button/daily_record_button",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.28166663646698,
+      0.649999976158142
+    ],
+    "en": "mute button",
+    "id": "daily_mute_button",
+    "model": "daily/mute_button/daily_mute_button",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.48649549484253,
+      2.29999995231628,
+      1.33644664287567
+    ],
+    "en": "teleprompter",
+    "id": "daily_teleprompter",
+    "model": "daily/teleprompter/daily_teleprompter",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0529069788753986
+    ],
+    "en": "episode script",
+    "id": "daily_episode_script",
+    "model": "daily/script/daily_episode_script",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.476238369941711,
+      0.650000035762787,
+      0.0529069788753986
+    ],
+    "en": "interview notes",
+    "id": "daily_interview_notes",
+    "model": "daily/notes/daily_interview_notes",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.018517442047596
+    ],
+    "en": "episode planner",
+    "id": "daily_episode_planner",
+    "model": "daily/planner/daily_episode_planner",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.292500019073486,
+      0.0182812511920929
+    ],
+    "en": "cue card",
+    "id": "daily_cue_card",
+    "model": "daily/cue_card/daily_cue_card",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.649999976158142,
+      0.0962736085057259
+    ],
+    "en": "studio clock",
+    "id": "daily_studio_clock",
+    "model": "accurate/clock",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.649999976158142,
+      0.433333307504654,
+      0.173333317041397
+    ],
+    "en": "recording timer",
+    "id": "daily_recording_timer",
+    "model": "daily/timer/daily_recording_timer",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "waveform display",
+    "id": "daily_waveform_display",
+    "model": "daily/waveform/daily_waveform_display",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "audio meter",
+    "id": "daily_audio_meter",
+    "model": "daily/audio_meter/daily_audio_meter",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      2.11972093582153,
+      1.22127974033356
+    ],
+    "en": "editing workstation",
+    "id": "daily_editing_workstation",
+    "model": "daily/workstation/daily_editing_workstation",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      1.07959187030792,
+      0.962244987487793
+    ],
+    "en": "podcast sofa",
+    "id": "daily_podcast_sofa",
+    "model": "furniture/loungeSofa",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      1.26734697818756,
+      1.1295919418335
+    ],
+    "en": "guest armchair",
+    "id": "daily_guest_armchair",
+    "model": "furniture/loungeChair",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      2.29999995231628,
+      0.800307333469391,
+      1.3918389081955
+    ],
+    "en": "studio coffee table",
+    "id": "daily_studio_coffee_table",
+    "model": "furniture/tableCoffee",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.35000002384186,
+      0.00860732421278954,
+      0.791082859039307
+    ],
+    "en": "studio rug",
+    "id": "daily_studio_rug",
+    "model": "furniture/rugRectangle",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.339425593614578,
+      0.336879909038544,
+      0.649999976158142
+    ],
+    "en": "studio camera",
+    "id": "daily_studio_camera",
+    "model": "daily/video_camera/daily_studio_camera",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.2978972196579,
+      2.29999995231628,
+      1.04680979251862
+    ],
+    "en": "ring light",
+    "id": "daily_ring_light",
+    "model": "daily/ring_light/daily_ring_light",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      1.1865531206131,
+      2.29999995231628,
+      1.10528290271759
+    ],
+    "en": "softbox light",
+    "id": "daily_softbox_light",
+    "model": "daily/softbox/daily_softbox_light",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.650000035762787,
+      0.398664981126785,
+      0.105129159986973
+    ],
+    "en": "microphone cable clip",
+    "id": "daily_microphone_cable_clip",
+    "model": "daily/cable_clip/daily_microphone_cable_clip",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.977500021457672,
+      2.29999995231628,
+      0.223638504743576
+    ],
+    "en": "studio door",
+    "id": "daily_studio_door",
+    "model": "daily/studio_door/daily_studio_door",
+    "region": "Podcast Plaza"
+  },
+  {
+    "dimensions": [
+      0.468604654073715,
+      0.650000035762787,
+      0.214651167392731
+    ],
+    "en": "podcast poster",
+    "id": "daily_podcast_poster",
+    "model": "daily/poster/daily_podcast_poster",
+    "region": "Podcast Plaza"
+  }
+]
