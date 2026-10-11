@@ -1,5 +1,7 @@
-# Build verification 0.8
+# KurdLingo 0.9 verification
 
-Source and exported Windows executable both passed the integrated self-test. It covers all 1,000 object entries, 2,000 word recordings, original learning/drag/drop/progress features, teacher stories, scooter speed and dismount, ten long podcast episodes, all 280 audio parts, bilingual captions, pause/resume, replay after completion, sofa sit/stand, continued listening while walking and narration exclusivity.
+The source project and exported Windows executable both passed the integrated game self-test. It checks 1,124 object entries and 2,248 pronunciation recordings; original save, drag/drop/reset, quiz/guardian and story features; the teacher and 17 stories; one podcast studio with all ten episode choices, playback, captions, pause/replay, sofa seating and continued listening while walking; scooter speed, rechargeable boost and mounted jump.
 
-The 500 replacement models passed nonempty geometry/bounds checks. Contact sheets and in-game screenshots were inspected; a batching bug that hid cups and clothing was fixed. Forward+ screenshots were rendered on the local RTX 3070. Synthetic speech and draft Sorani language still require human language review.
+School checks cover 124 words, visible models, eight open room doorways, walking through the main entrance, indoor roof/camera behavior and actual NPC movement. In-game views of the school exterior, classrooms, administration and studio were rendered and visually inspected on the RTX 3070. Model silhouettes and room layout are original stylized designs, with Kenney furniture and local CC0 PBR textures.
+
+Audio sanity checks cover PCM duration, nonempty sound and caption ordering. Speech recognition spot checks of regenerated paragraphs verify script retention; this is not a native-speaker language review. New Sorani entries and synthesized pronunciation remain drafts. Original approved water.wav is unchanged. ZIP integrity checks passed; no personal save or model checkpoints are bundled.

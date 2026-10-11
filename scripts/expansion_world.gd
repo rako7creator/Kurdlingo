@@ -15,6 +15,13 @@ func pavilion(c:Vector3,color:Color,w:float=14)->void:
 	world.solid_box(c+Vector3(0,4.1,0),Vector3(w+.8,.2,7.8),color,false)
 func build_district(region:String,index:int)->void:
 	var c:Vector3=world.REGION_CENTERS[region];var color:Color=world.REGION_COLORS[region]
+	if region=="Podcast Plaza":
+		world.solid_box(c+Vector3(0,.03,0),Vector3(29,.06,33),Color("c7c1ae"),true)
+		world.solid_box(Vector3(-10,.04,35),Vector3(4,.08,6),Color("ded3ba"),false)
+		for x in [-13,13]:
+			for z in [-12,12]:prop("furniture/pottedPlant",c+Vector3(x,0,z),1.6)
+		world.signpost("PODCAST STUDIO · 10 EPISODES",Vector3(-2,0,42),color)
+		return
 	world.solid_box(c+Vector3(0,.012,0),Vector3(150,.024,166),Color("98b889") if region not in ["Podcast Plaza","Travel Terminal","History Museum"] else Color("c7c1ae"),false)
 	world.solid_box(c+Vector3(0,.05,0),Vector3(5,.06,158),Color("e4dbc2"),false)
 	for z in [-57,53]:world.solid_box(c+Vector3(0,.05,z),Vector3(146,.06,4),Color("e4dbc2"),false)
@@ -70,6 +77,11 @@ func build_district(region:String,index:int)->void:
 			for side in [-1,1]:prop("nature/tree_oak",c+Vector3(side*49,0,60),7);prop("furniture/loungeSofa",c+Vector3(side*45,0,35),2.4,side*PI/2)
 func word_position(row:Dictionary,index:int)->Vector3:
 	var c:Vector3=world.REGION_CENTERS[row.region]
+	if row.region=="Podcast Plaza":
+		var point=c+Vector3(-11+(index%7)*3.5,0,-12+int(index/7)*3.8)
+		if float(row.size)<1.2:
+			world.solid_box(point+Vector3(0,.4,0),Vector3(1.2,.8,.8),Color("baa48a"),false);point.y=.83
+		return point
 	var column=index%10;var x=(-5-(4-column)*7) if column<5 else (5+(column-5)*7)
 	var z=-26+int(index/10)*11
 	if row.region=="Podcast Plaza":z=28+int(index/10)*8

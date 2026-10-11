@@ -1,6 +1,7 @@
 class_name PodcastPlaza
 extends Node3D
 
+const STUDIO_POSITION=Vector3(-10,0,44)
 var world:Node3D
 var episodes:Array=[]
 var booths:Array=[]
@@ -35,9 +36,9 @@ func prop(key:String,p:Vector3,size:float,angle:float=0)->Node3D:
 	var node=world.decoration(key,p,size,angle);return node
 
 func build_studios()->void:
-	var centre:Vector3=world.REGION_CENTERS["Podcast Plaza"]
-	for index in range(10):
-		var p=centre+Vector3(-44+(index%5)*22,0,-46+int(index/5)*26)
+	var centre:Vector3=STUDIO_POSITION
+	for index in range(1):
+		var p=centre
 		var color=[Color("8eb6a3"),Color("c99e8c"),Color("aaa0bc"),Color("92acba")][index%4]
 		world.solid_box(p+Vector3(0,.04,0),Vector3(10,.08,15),Color("ddcfb2"),false)
 		world.solid_box(p+Vector3(0,1.5,-3),Vector3(10,3,.15),color)
@@ -68,7 +69,7 @@ func build_studios()->void:
 		prop("furniture/rugRounded",p+Vector3(0,.04,3.1),3.4)
 		prop("furniture/tableCoffeeRound" if ResourceLoader.exists("res://assets/furniture/tableCoffeeRound.glb") else "furniture/tableCoffee",p+Vector3(0,0,2.35),1.1)
 		prop("furniture/pottedPlant",p+Vector3(4,0,4),1.2)
-		var poster=Label3D.new();poster.font=world.english_font;poster.text=str(index+1)+" · "+episodes[index].title;poster.font_size=40;poster.pixel_size=.006;poster.position=p+Vector3(0,2.1,-2.88);poster.modulate=Color("f5f0df");add_child(poster)
+		var poster=Label3D.new();poster.font=world.english_font;poster.text="KURDLINGO PODCASTS · 10 EPISODES";poster.font_size=40;poster.pixel_size=.006;poster.position=p+Vector3(0,2.1,-2.88);poster.modulate=Color("f5f0df");add_child(poster)
 		booths.append({"position":p,"sofa":sofa,"seat":sofa_pos,"episode":episodes[index].id})
 
 func build_captions()->void:
@@ -103,7 +104,7 @@ func interact()->bool:
 	var sofa=near_sofa()
 	if sofa>=0:
 		world.player.riding=false;world.player.position=booths[sofa].seat+Vector3(0,.42,0);world.player.velocity=Vector3.ZERO;world.player.seated=true;world.player.visual.rotation.y=0;listener_seated=true
-		if booth_index!=sofa or not playing:play(sofa)
+		menu()
 		world.toast("Podcast sofa · E to stand. Your episode keeps playing.");return true
 	var index=near_booth()
 	if index>=0:menu();return true
@@ -125,7 +126,7 @@ func menu()->void:
 	layout.add_child(world.button("Return to walking / listening",world.clear_screen))
 
 func play(index:int)->void:
-	world.teacher_circle.stop();world.voice.stop();world.clear_screen();booth_index=index;active=episodes[index];segment_index=0;playing=true;paused=false;caption_index=-1;elapsed=0;auto_allowed=true;end_message_time=0;panel.show();pause_button.text="Pause";play_segment()
+	world.teacher_circle.stop();world.voice.stop();world.clear_screen();booth_index=0;active=episodes[index];segment_index=0;playing=true;paused=false;caption_index=-1;elapsed=0;auto_allowed=true;end_message_time=0;panel.show();pause_button.text="Pause";play_segment()
 
 func play_segment()->void:
 	if active.is_empty():return
@@ -147,7 +148,7 @@ func next_segment()->void:
 	elapsed+=float(active.segments[segment_index].get("duration",0));segment_index+=1
 	if segment_index>=active.segments.size():
 		world.save_progress.call_deferred()
-		completed[active.id]=true;playing=false;caption_label.text="ئەڵقەکە تەواو بوو. دەتوانیت ئەڵقەیەکی دیکە هەڵبژێریت.";english_label.text="Episode complete · Choose another studio or another episode.";end_message_time=7;return
+		completed[active.id]=true;playing=false;caption_label.text="ئەڵقەکە تەواو بوو. دەتوانیت ئەڵقەیەکی دیکە هەڵبژێریت.";english_label.text="Episode complete · Choose another episode from this studio.";end_message_time=7;return
 	play_segment()
 
 func toggle_pause()->void:
@@ -163,7 +164,10 @@ func _process(delta:float)->void:
 	panel.scale=Vector2.ONE*subtitle_scale;panel.offset_left=-360*subtitle_scale;panel.offset_right=panel.offset_left+720
 	scan_elapsed+=delta
 	if playing:
-		update_caption();var radius=world.player.position.distance_to(world.REGION_CENTERS["Podcast Plaza"])
+		for i in range(voices.size()):
+			var talking=(i==0)==(active.segments[segment_index].speaker=="host")
+			voices[i].rotation.x=sin(Time.get_ticks_msec()*.004+i)*(.025 if talking else .012)
+		update_caption();var radius=world.player.position.distance_to(STUDIO_POSITION)
 		var gain=float(world.options.get("podcast_volume",.85))*float(world.options.volume)
 		if world.voice.playing:gain*=.2
 		if not manual_selection and booth_index>=0:gain*=clampf(1-world.player.position.distance_to(booths[booth_index].position)/100,.12,1)
@@ -174,8 +178,7 @@ func _process(delta:float)->void:
 	if scan_elapsed>.4:
 		scan_elapsed=0;var index=near_booth()
 		if index<0:auto_allowed=true
-		if index>=0 and auto_allowed and not playing and not world.test_mode and not completed.has(episodes[index].id) and world.screen==null:
-			manual_selection=false;play(index)
+		# The sofa opens episode choices; approaching never selects an episode for you.
 
 func _exit_tree()->void:
 	if is_instance_valid(narrator):narrator.stop();narrator.stream=null

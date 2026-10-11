@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b7ceor60hfpmm"
+
+[deps]
+
+files=["res://KurdLingo-School-Review.en.translation", "res://KurdLingo-School-Review.ckb.translation", "res://KurdLingo-School-Review.school.translation", "res://KurdLingo-School-Review.model.translation", "res://KurdLingo-School-Review.size.translation", "res://KurdLingo-School-Review.reviewed.translation"]
+
+source_file="res://KurdLingo-School-Review.csv"
+dest_files=["res://KurdLingo-School-Review.en.translation", "res://KurdLingo-School-Review.ckb.translation", "res://KurdLingo-School-Review.school.translation", "res://KurdLingo-School-Review.model.translation", "res://KurdLingo-School-Review.size.translation", "res://KurdLingo-School-Review.reviewed.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

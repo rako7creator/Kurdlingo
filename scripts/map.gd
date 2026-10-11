@@ -41,7 +41,11 @@ func _draw() -> void:
 	for z in [-270,270]:draw_line(project_point(Vector2(-540,z)),project_point(Vector2(540,z)),Color("59777b"),3 if large else 1)
 	for x in [-540,-128,128,540]:draw_line(project_point(Vector2(x,-270)),project_point(Vector2(x,270)),Color("59777b"),3 if large else 1)
 	for district in ExpansionWorld.DISTRICTS:
+		if district=="Podcast Plaza":continue
 		var center:Vector3=game.REGION_CENTERS[district];draw_line(project_point(Vector2(center.x,center.z)),project_point(Vector2(center.x,-270 if center.z<0 else 270)),Color("b2b69c"),3 if large else 1)
+	draw_line(project_point(Vector2(180,22)),project_point(Vector2(540,22)),Color("59777b"),3 if large else 1)
+	draw_line(project_point(Vector2(430,22)),project_point(Vector2(430,126)),Color("59777b"),3 if large else 1)
+	draw_line(project_point(Vector2(365,126)),project_point(Vector2(430,126)),Color("59777b"),3 if large else 1)
 	var teacher_point=project_point(Vector2(-5,1));draw_circle(teacher_point,5 if large else 2,Color("ffce78"))
 	if large:draw_string(ThemeDB.fallback_font,teacher_point+Vector2(10,-3),"Teacher",HORIZONTAL_ALIGNMENT_LEFT,-1,14,Color("ffce78"))
 	if game==null:return

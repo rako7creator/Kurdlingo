@@ -1,8 +1,8 @@
 extends Node3D
 
-const REGION_CENTERS = {"Town":Vector3(-61,0,-32),"Homes":Vector3(60,0,-18),"Market":Vector3(0,0,-57),"Park":Vector3(-61,0,62),"Farm":Vector3(62,0,63),"Kitchen":Vector3(180,0,-65),"Workshop":Vector3(-180,0,-65),"Discovery":Vector3(180,0,65),"Wildlife":Vector3(-180,0,65),"Lifestyle":Vector3(0,0,180),"Tourist Quarter":Vector3(-440,0,-360),"History Museum":Vector3(-220,0,-360),"Work Hub":Vector3(0,0,-360),"Entertainment Park":Vector3(220,0,-360),"Cafe Street":Vector3(440,0,-360),"Shopping Avenue":Vector3(-440,0,360),"Fitness Square":Vector3(-220,0,360),"Podcast Plaza":Vector3(0,0,360),"Travel Terminal":Vector3(220,0,360),"City Services":Vector3(440,0,360)}
-const ARRIVALS = {"Town":Vector3(-40,0,-10),"Homes":Vector3(45,0,14),"Market":Vector3(0,0,-29),"Park":Vector3(-42,0,38),"Farm":Vector3(42,0,38),"Kitchen":Vector3(180,0,-108),"Workshop":Vector3(-180,0,-108),"Discovery":Vector3(180,0,22),"Wildlife":Vector3(-180,0,22),"Lifestyle":Vector3(0,0,137),"Tourist Quarter":Vector3(-440,0,-282),"History Museum":Vector3(-220,0,-282),"Work Hub":Vector3(0,0,-282),"Entertainment Park":Vector3(220,0,-282),"Cafe Street":Vector3(440,0,-282),"Shopping Avenue":Vector3(-440,0,282),"Fitness Square":Vector3(-220,0,282),"Podcast Plaza":Vector3(0,0,282),"Travel Terminal":Vector3(220,0,282),"City Services":Vector3(440,0,282)}
-const REGION_COLORS = {"Town":Color("e7c29a"),"Homes":Color("eebda2"),"Market":Color("edaa88"),"Park":Color("a3c99c"),"Farm":Color("d6d395"),"Kitchen":Color("edc08e"),"Workshop":Color("b8c1d2"),"Discovery":Color("a2ccd6"),"Wildlife":Color("b4d5a0"),"Lifestyle":Color("d9b7d0"),"Tourist Quarter":Color("97aa82"),"History Museum":Color("c0d4a4"),"Work Hub":Color("a1c9c7"),"Entertainment Park":Color("b1bd9d"),"Cafe Street":Color("c1ddd4"),"Shopping Avenue":Color("c1d4dc"),"Fitness Square":Color("d5b6a4"),"Podcast Plaza":Color("a5b2cf"),"Travel Terminal":Color("dac39e"),"City Services":Color("b8ccbe")}
+const REGION_CENTERS = {"Town":Vector3(-61,0,-32),"Homes":Vector3(60,0,-18),"Market":Vector3(0,0,-57),"Park":Vector3(-61,0,62),"Farm":Vector3(62,0,63),"Kitchen":Vector3(180,0,-65),"Workshop":Vector3(-180,0,-65),"Discovery":Vector3(180,0,65),"Wildlife":Vector3(-180,0,65),"Lifestyle":Vector3(0,0,180),"Tourist Quarter":Vector3(-440,0,-360),"History Museum":Vector3(-220,0,-360),"Work Hub":Vector3(0,0,-360),"Entertainment Park":Vector3(220,0,-360),"Cafe Street":Vector3(440,0,-360),"Shopping Avenue":Vector3(-440,0,360),"Fitness Square":Vector3(-220,0,360),"Podcast Plaza":Vector3(-7,0,76),"Travel Terminal":Vector3(220,0,360),"City Services":Vector3(440,0,360),"School":SchoolWorld.CENTER}
+const ARRIVALS = {"Town":Vector3(-40,0,-10),"Homes":Vector3(45,0,14),"Market":Vector3(0,0,-29),"Park":Vector3(-42,0,38),"Farm":Vector3(42,0,38),"Kitchen":Vector3(180,0,-108),"Workshop":Vector3(-180,0,-108),"Discovery":Vector3(180,0,22),"Wildlife":Vector3(-180,0,22),"Lifestyle":Vector3(0,0,137),"Tourist Quarter":Vector3(-440,0,-282),"History Museum":Vector3(-220,0,-282),"Work Hub":Vector3(0,0,-282),"Entertainment Park":Vector3(220,0,-282),"Cafe Street":Vector3(440,0,-282),"Shopping Avenue":Vector3(-440,0,282),"Fitness Square":Vector3(-220,0,282),"Podcast Plaza":Vector3(3,0,54),"Travel Terminal":Vector3(220,0,282),"City Services":Vector3(440,0,282),"School":Vector3(354,0,116)}
+const REGION_COLORS = {"Town":Color("e7c29a"),"Homes":Color("eebda2"),"Market":Color("edaa88"),"Park":Color("a3c99c"),"Farm":Color("d6d395"),"Kitchen":Color("edc08e"),"Workshop":Color("b8c1d2"),"Discovery":Color("a2ccd6"),"Wildlife":Color("b4d5a0"),"Lifestyle":Color("d9b7d0"),"Tourist Quarter":Color("97aa82"),"History Museum":Color("c0d4a4"),"Work Hub":Color("a1c9c7"),"Entertainment Park":Color("b1bd9d"),"Cafe Street":Color("c1ddd4"),"Shopping Avenue":Color("c1d4dc"),"Fitness Square":Color("d5b6a4"),"Podcast Plaza":Color("a5b2cf"),"Travel Terminal":Color("dac39e"),"City Services":Color("b8ccbe"),"School":Color("d1b784")}
 const INK = Color("183c49")
 const CREAM = Color("f5f0df")
 const TEAL = Color("70d6bc")
@@ -33,6 +33,7 @@ var hud_widgets: Array=[]
 var minimap_widget:Control
 var fuel_status: Label
 var fuel_bar: ProgressBar
+var energy_label:Label
 var quest_label: Label
 var toast_label: Label
 var toast_time = 0.0
@@ -69,6 +70,8 @@ var teacher_circle: TeacherCircle
 var podcasts:PodcastPlaza
 var walk_seats:Array=[]
 var expansion:ExpansionWorld
+var school:SchoolWorld
+var citizens:Citizens
 var handling: ObjectHandling
 
 func _ready() -> void:
@@ -110,6 +113,7 @@ func _ready() -> void:
 	build_ui()
 	teacher_circle=TeacherCircle.new();teacher_circle.world=self;add_child(teacher_circle)
 	podcasts=PodcastPlaza.new();podcasts.world=self;add_child(podcasts)
+	citizens=Citizens.new();citizens.world=self;add_child(citizens)
 	if not test_mode and not preview_mode:load_progress()
 	build_highlight()
 	handling=ObjectHandling.new(self)
@@ -261,6 +265,7 @@ func build_world() -> void:
 	build_connected_roads()
 	Neighborhoods.new(self).build()
 	expansion=ExpansionWorld.new(self);expansion.build()
+	school=SchoolWorld.new();school.world=self;add_child(school)
 	# Place each distinct word in its own physical location.
 	var counters={}
 	for row in vocabulary:
@@ -289,6 +294,7 @@ func market_stall(index: int) -> Vector3:
 	return Vector3(-9+float(index%3)*17,0,-43-float(index/3)*13)
 
 func word_position(row: Dictionary, index: int, rooms: Array) -> Vector3:
+	if row.region=="School":return school.word_position(row)
 	if row.get("expansion",false):return expansion.word_position(row,index)
 	if row.id=="fountain":return Vector3(0,0.11,6)
 	if row.id=="bench":return Vector3(-8,0.12,12)
@@ -324,7 +330,8 @@ func word_position(row: Dictionary, index: int, rooms: Array) -> Vector3:
 func add_word(row: Dictionary, point: Vector3) -> void:
 	var prop=WorldProps.make(row.model,float(row.size));prop.position=point;add_child(prop)
 	prop.set_meta("word_id",row.id);object_nodes[row.id]=prop
-	if row.id in ["chair","school_chair","bench","gallery_bench"]:walk_seats.append({"node":prop,"word":row.id})
+	if row.region=="School":school.place_word(row,prop)
+	if row.id in ["chair","school_chair","bench","gallery_bench","school_classroom_chair"]:walk_seats.append({"node":prop,"word":row.id})
 	var dimensions: Vector3=prop.get_meta("dimensions",Vector3.ONE)
 	if row.id in ["hospital","school","shop"]:AccurateProps.building_identity(prop,row.id,dimensions)
 	var body=StaticBody3D.new();body.collision_layer=3;body.collision_mask=1;body.set_meta("word_id",row.id);prop.add_child(body)
@@ -392,7 +399,7 @@ func build_ui() -> void:
 	var iv=vbox(identity,3)
 	iv.add_child(label("KurdLingo",20,INK))
 	region_label=label("Arrival square",14,Color("63827d"));iv.add_child(region_label)
-	progress_label=label("0 / 1000 discovered",17);iv.add_child(progress_label)
+	progress_label=label("0 / 1124 discovered",17);iv.add_child(progress_label)
 	var top=HBoxContainer.new();top.anchor_left=1;top.anchor_right=1;top.offset_left=-940;top.offset_top=24;top.offset_right=-24;top.offset_bottom=70;top.add_theme_constant_override("separation",8);hud.add_child(top)
 	top.add_child(button("Story [T]",func():story.menu()))
 	top.add_child(button("Podcasts [P]",func():podcasts.menu()))
@@ -416,7 +423,7 @@ func build_ui() -> void:
 	prompt_label=label("WASD Move  ·  Shift Run  ·  Space Jetpack  ·  F Scooter  ·  P Podcasts",14,CREAM);prompt_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;controls.add_child(prompt_label)
 	var energy=panel(hud,Vector2.ZERO,Vector2(190,94),Color("193e49e8"));energy.anchor_left=1;energy.anchor_right=1;energy.anchor_top=1;energy.anchor_bottom=1
 	energy.offset_left=-214;energy.offset_right=-24;energy.offset_top=-118;energy.offset_bottom=-24
-	var ev=vbox(energy,6);ev.add_child(label("JETPACK FUEL",11,TEAL));fuel_bar=ProgressBar.new();fuel_bar.max_value=Explorer.MAX_FUEL;fuel_bar.value=Explorer.MAX_FUEL;fuel_bar.show_percentage=false;fuel_bar.custom_minimum_size.y=12
+	var ev=vbox(energy,6);energy_label=label("JETPACK FUEL",11,TEAL);ev.add_child(energy_label);fuel_bar=ProgressBar.new();fuel_bar.max_value=Explorer.MAX_FUEL;fuel_bar.value=Explorer.MAX_FUEL;fuel_bar.show_percentage=false;fuel_bar.custom_minimum_size.y=12
 	fuel_bar.add_theme_stylebox_override("background",make_style(Color("32565c"),6));fuel_bar.add_theme_stylebox_override("fill",make_style(TEAL,6));ev.add_child(fuel_bar);fuel_status=label("37 s · Ready",12,TEAL);ev.add_child(fuel_status)
 	toast_label=label("",18,CREAM);toast_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER;toast_label.anchor_left=0.5;toast_label.anchor_right=0.5;toast_label.offset_left=-400;toast_label.offset_right=400;toast_label.offset_top=112
 	hud_widgets=[identity,top,quest,mini,controls,energy]
@@ -454,11 +461,11 @@ func show_title() -> void:
 	v.add_child(label("KurdLingo",58))
 	v.add_child(label("کوردلینگۆ",36,INK,true))
 	var sub=label("Meet a new world.\nLearn its words.",24);v.add_child(sub)
-	var desc=label("Explore ten colorful neighborhoods. Discover objects in English and Sorani Kurdish. Use your new words to reboot rogue robots and rescue your neighbors.",17,Color("65817d"));desc.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;desc.custom_minimum_size.x=420;v.add_child(desc)
-	v.add_child(label("1,000 WORDS   /   20 DISTRICTS   /   OFFLINE AUDIO",12,Color("68847e")))
+	var desc=label("Explore twenty-one colorful neighborhoods and a walkable school. Discover objects in English and Sorani Kurdish. Use your new words to reboot rogue robots and rescue your neighbors.",17,Color("65817d"));desc.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;desc.custom_minimum_size.x=420;v.add_child(desc)
+	v.add_child(label("1,124 WORDS   /   21 DISTRICTS   /   OFFLINE AUDIO",12,Color("68847e")))
 	v.add_child(button("Continue adventure" if learned.size()>0 else "Begin adventure",begin_game,true))
 	var row=hbox(v);row.add_child(button("How to play",show_help));row.add_child(button("Credits",show_credits));row.add_child(button("Quit",func():save_progress();get_tree().quit()))
-	v.add_child(label("English + کوردیی سۆرانی  ·  Alpha 0.8",13,Color("68847e"),true))
+	v.add_child(label("English + کوردیی سۆرانی  ·  Alpha 0.9",13,Color("68847e"),true))
 
 func begin_game() -> void:
 	session_started=true;clear_screen();hud.show();player.enabled=true
@@ -468,7 +475,7 @@ func begin_game() -> void:
 func show_help() -> void:
 	overlay();var p=centered_panel(Vector2(760,690));var v=vbox(p,16)
 	v.add_child(label("Your first expedition",30))
-	v.add_child(label("WASD / arrow keys     Walk\nShift                           Run / scooter boost\nF                                  Ride / fold your scooter\nP                                  Choose a podcast\nHold Space                 Rise with your jetpack\nRight mouse + drag    Turn the camera\nMouse wheel               Zoom\nE / left click                 Inspect a nearby object\nLeft click + drag          Pick up a small object\nRelease / Esc               Place / cancel placement\nJ / M / Q / T                Journal / map / practice / story\nE at the flag teacher    Choose 17 narrated stories\nE by a listening chair or podcast sofa   Sit / stand\nR                                  Replay the current word\nEsc                               Close a panel / pause",19))
+	v.add_child(label("WASD / arrow keys     Walk\nShift                           Run / scooter boost\nF                                  Ride / fold your scooter\nP                                  Choose a podcast\nSpace                             Scooter jump / hold for jetpack\nRight mouse + drag    Turn the camera\nMouse wheel               Zoom\nE / left click                 Inspect a nearby object\nLeft click + drag          Pick up a small object\nRelease / Esc               Place / cancel placement\nJ / M / Q / T                Journal / map / practice / story\nE at the flag teacher    Choose 17 narrated stories\nE by a listening chair or podcast sofa   Sit / stand\nR                                  Replay the current word\nEsc                               Close a panel / pause",19))
 	var t=label("Discover objects to fill your journal. Each district has a rogue robot holding a neighbor captive: discover 8 local words, then answer three vocabulary questions to reboot it and free the neighbor. Correct answers build mastery; harder words return for review.",18,Color("5b7d78"));t.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;t.custom_minimum_size.x=680;v.add_child(t)
 	v.add_child(button("Back",func():clear_screen() if session_started else show_title(),true))
 
@@ -484,8 +491,11 @@ func _process(delta: float) -> void:
 	music_gain=move_toward(music_gain,music_target,delta*0.65)
 	music.volume_db=linear_to_db(maxf(music_gain,0.00001))
 	music.stream_paused=float(options.music_volume)<=0.0
-	fuel_bar.value=player.fuel
+	fuel_bar.max_value=100.0 if player.riding else Explorer.MAX_FUEL
+	energy_label.text="SCOOTER BOOST" if player.riding else "JETPACK FUEL"
+	fuel_bar.value=player.boost_energy if player.riding else player.fuel
 	fuel_status.text=str(int(ceil(player.fuel/Explorer.FUEL_DRAIN)))+" s · "+("Flying" if player.flying else "Charging" if player.fuel<Explorer.MAX_FUEL else "Ready")
+	if player.riding:fuel_status.text=("Recharging " if player.boost_recharging else "Boost ")+str(int(player.boost_energy))+"% · Shift / Space jump"
 	fuel_status.modulate=Color("ffd18a") if player.fuel<60 else Color.WHITE
 	scan_time+=delta;autosave_time+=delta
 	if toast_time>0:
@@ -549,7 +559,7 @@ func scan_focus() -> void:
 		focus_label.position=obj.position+Vector3(0,dims.y+0.65,0)
 		focus_label.text="E  ·  Word guardian" if found.begins_with("guardian:") else "E  ·  "+by_id[found].en
 		prompt_label.text="E Inspect  ·  Hover to point  ·  Left-drag objects  ·  Right-drag Look"
-	else:prompt_label.text="WASD Move  ·  Shift Run  ·  Space Jetpack  ·  F Scooter  ·  P Podcasts"
+	else:prompt_label.text="WASD steer · Shift boost · Space jump · F dismount" if player.riding else "WASD Move  ·  Shift Run  ·  Space Jetpack  ·  F Scooter  ·  P Podcasts"
 	if teacher_circle.nearby()!="":prompt_label.text="E · "+("Talk to the teacher" if teacher_circle.nearby()=="teacher" else "Stand up" if player.seated else "Sit and listen")
 	var nearest=1e9
 	for region in REGION_CENTERS:
@@ -567,7 +577,7 @@ func interact() -> void:
 func ride_action()->void:
 	if podcasts.listener_seated:podcasts.stand()
 	elif player.seated:teacher_circle.stand()
-	if player.toggle_ride():toast("Scooter · WASD steer · Shift boost · F dismount · Space jetpack" if player.riding else "Scooter folded · Walking")
+	if player.toggle_ride():toast("Scooter · WASD steer · Shift boost · F dismount · Space jump" if player.riding else "Scooter folded · Walking")
 	else:toast("Land on the ground to unfold your scooter.")
 
 func discover(id: String) -> bool:
@@ -626,7 +636,7 @@ func region_discovered(region: String) -> int:
 func update_hud() -> void:
 	if progress_label==null:return
 	progress_label.text=str(learned.size())+" / "+str(vocabulary.size())+" discovered   ·   "+str(xp)+" XP"
-	region_label.text=current_region+"  ·  "+str(defeated.size())+" / 20 neighbors rescued"
+	region_label.text=current_region+"  ·  "+str(defeated.size())+" / 21 neighbors rescued"
 	var local=region_discovered(current_region)
 	if current_region in defeated:quest_label.text=current_region+" guardian rebooted.\nKeep exploring: "+str(local)+" / "+str(region_counts[current_region])+" words."
 	elif local<8:quest_label.text="Discover "+str(8-local)+" more words in "+current_region+" to challenge its guardian."
@@ -674,7 +684,7 @@ func show_settings() -> void:
 func show_credits() -> void:
 	overlay();var p=centered_panel(Vector2(850,640));var v=vbox(p,14)
 	v.add_child(label("Made for your language journey",28))
-	var text=label("KurdLingo — Alpha 0.8\nAn original game inspired by Earthlingo’s exploration and vocabulary gameplay. This project does not contain Earthlingo’s code, character, maps, music, or artwork.\n\n3D models: Kenney (CC0). Engine: Godot (MIT).\nFonts: Noto Sans and Noto Sans Arabic (SIL OFL).\nSorani voice: native-speaker F5-TTS audiobook model, Mohammadamini, Shamsi & Tahon (2026), CC BY-NC-ND 4.0; noncommercial use.\nEnglish voices: Piper LJ Speech and Lessac high. Music: The Cynic Project and Yoiyami (CC0).\n\nLanguage notes: Sorani entries are draft translations awaiting fluent-speaker review. Neural pronunciation is synthesized, not human-recorded. Some objects use simplified original models.\n\nAll 1,000 entries have English and Sorani audio. Your progress stays on this PC; the game works offline.",18,Color("56736e"));text.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;text.custom_minimum_size.x=780;v.add_child(text)
+	var text=label("KurdLingo — Alpha 0.9\nAn original game inspired by Earthlingo’s exploration and vocabulary gameplay. This project does not contain Earthlingo’s code, character, maps, music, or artwork.\n\n3D models: Kenney (CC0). Engine: Godot (MIT).\nFonts: Noto Sans and Noto Sans Arabic (SIL OFL).\nSorani voice: native-speaker F5-TTS audiobook model, Mohammadamini, Shamsi & Tahon (2026), CC BY-NC-ND 4.0; noncommercial use.\nEnglish words: Piper LJ Speech. Podcasts: Chatterbox Turbo, two synthesized voices. Music: The Cynic Project and Yoiyami (CC0).\n\nLanguage notes: Sorani entries are draft translations awaiting fluent-speaker review. Neural pronunciation is synthesized, not human-recorded. Some objects use simplified original models.\n\nAll 1,124 entries have English and Sorani audio. Your progress stays on this PC; the game works offline.",18,Color("56736e"));text.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;text.custom_minimum_size.x=780;v.add_child(text)
 	v.add_child(button("Back",func():clear_screen() if session_started else show_title(),true))
 
 func show_map() -> void:
@@ -693,7 +703,7 @@ func show_map() -> void:
 
 func show_journal() -> void:
 	overlay();var p=centered_panel(Vector2(1070,750));var v=vbox(p,12)
-	var top=hbox(v);var title=label("Field journal",30);title.size_flags_horizontal=Control.SIZE_EXPAND_FILL;top.add_child(title);top.add_child(label(str(learned.size())+" / 1000 discovered",17));top.add_child(button("Close",clear_screen))
+	var top=hbox(v);var title=label("Field journal",30);title.size_flags_horizontal=Control.SIZE_EXPAND_FILL;top.add_child(title);top.add_child(label(str(learned.size())+" / 1124 discovered",17));top.add_child(button("Close",clear_screen))
 	var filters=hbox(v)
 	journal_search=LineEdit.new();journal_search.placeholder_text="Search English or Sorani…";journal_search.custom_minimum_size=Vector2(440,46);journal_search.add_theme_font_override("font",sorani_font);filters.add_child(journal_search)
 	journal_search.text_changed.connect(func(_text):refresh_journal())
@@ -815,7 +825,7 @@ func finish_quiz() -> void:
 	quiz={};save_progress();overlay()
 	var p=centered_panel(Vector2(620,370));var v=vbox(p,18)
 	v.add_child(label("Guardian rebooted!" if success else "Practice complete" if region=="" else "Try again soon",32))
-	var description=label("You freed your "+region+" neighbor! "+str(defeated.size())+" / 20 rescued. +100 XP" if success else str(correct)+" correct answers  ·  "+str(wrong)+" to review",21);description.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;description.custom_minimum_size.x=550;v.add_child(description)
+	var description=label("You freed your "+region+" neighbor! "+str(defeated.size())+" / 21 rescued. +100 XP" if success else str(correct)+" correct answers  ·  "+str(wrong)+" to review",21);description.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;description.custom_minimum_size.x=550;v.add_child(description)
 	v.add_child(label("Explore, listen, and come back for another review.",17,Color("63827d")))
 	v.add_child(button("Back to the world",clear_screen,true))
 
@@ -874,10 +884,10 @@ func self_test() -> void:
 	verify_test(object_nodes.apple.position.is_equal_approx(Vector3(5,.13,15)) and handling.body_for("apple").collision_layer==3,"Cancel must restore collision and transform")
 	save_progress();object_layout={};load_progress();verify_test(object_layout.has("apple"),"Object arrangement must persist")
 	object_nodes.apple.transform=apple_original;object_layout={};learned={};defeated=[];xp=0
-	verify_test(vocabulary.size()==1000,"Expected 1000 vocabulary entries")
-	verify_test(by_id.size()==1000 and object_nodes.size()==1000,"Every unique word must have a 3D object")
-	verify_test(guardians.size()==20,"Every district must have a guardian")
-	verify_test(rescue_cells.size()==20)
+	verify_test(vocabulary.size()==1124,"Expected 1124 vocabulary entries")
+	verify_test(by_id.size()==1124 and object_nodes.size()==1124,"Every unique word must have a 3D object")
+	verify_test(guardians.size()==21,"Every district must have a guardian")
+	verify_test(rescue_cells.size()==21)
 	for id in object_nodes:
 		var obj=object_nodes[id]
 		verify_test(obj.get_meta("dimensions").length()>0.01,"Object has no visible geometry: "+id)
@@ -1007,11 +1017,13 @@ func self_test() -> void:
 	var daily_checks_passed=await test_daily_features()
 	if not daily_checks_passed:
 		get_tree().quit(1);return
-	print("SELF TEST PASS: 1000 objects/2000 word recordings, 20 districts, drag/drop/reset, progress, quizzes, guardians, story missions, teacher/20 pupils/17 stories/272 clips, jetpack; scooter movement/dismount; 10 long podcasts/280 recordings/captions/pause/replay/sofa/walk/teacher exclusivity.")
+	await test_school_features()
+	if self_test_failed:get_tree().quit(1);return
+	print("SELF TEST PASS: 1124 objects/2248 word recordings, 21 districts, drag/drop/reset, progress, quizzes, guardians, story missions, teacher/20 pupils/17 stories/272 clips, jetpack; scooter movement/dismount; 1 studio/10 long podcasts/280 recordings/captions/pause/replay/sofa/walk/teacher exclusivity.")
 	get_tree().quit()
 
 func test_daily_features()->bool:
-	verify_test(podcasts.episodes.size()==10 and podcasts.booths.size()==10 and podcasts.voices.size()==20)
+	verify_test(podcasts.episodes.size()==10 and podcasts.booths.size()==1 and podcasts.voices.size()==2)
 	for episode in podcasts.episodes:
 		verify_test(episode.segments.size()==28 and float(episode.duration)>360,"Podcast must be a long conversation")
 		for segment in episode.segments:
@@ -1020,8 +1032,11 @@ func test_daily_features()->bool:
 	begin_game();player.teleport(podcasts.booths[0].seat)
 	for frame in range(50):await get_tree().physics_frame
 	podcasts.completed={};test_mode=false;podcasts._process(.5);test_mode=true
-	verify_test(podcasts.playing and podcasts.booth_index==0,"Approaching a studio must start its episode")
-	verify_test(podcasts.interact() and player.seated and podcasts.listener_seated and podcasts.playing,"Sofa must seat the listener and play")
+	verify_test(not podcasts.playing,"Studio must wait for the listener to choose an episode")
+	verify_test(podcasts.interact() and player.seated and podcasts.listener_seated and screen!=null,"Sofa must seat the listener and open ten episode choices")
+	for episode_index in range(10):
+		podcasts.play(episode_index);verify_test(podcasts.active.id==podcasts.episodes[episode_index].id and podcasts.booth_index==0,"Every episode must play in the single studio")
+	podcasts.play(0)
 	podcasts.toggle_pause();verify_test(podcasts.paused and podcasts.narrator.stream_paused)
 	podcasts.toggle_pause();verify_test(not podcasts.paused)
 	podcasts.stand();verify_test(not player.seated and podcasts.playing,"Standing must preserve listening")
@@ -1040,13 +1055,32 @@ func test_daily_features()->bool:
 	var boost=InputEventKey.new();boost.keycode=KEY_SHIFT;boost.physical_keycode=KEY_SHIFT;boost.pressed=true;Input.parse_input_event(boost)
 	for frame in range(25):await get_tree().physics_frame
 	verify_test(Vector2(player.velocity.x,player.velocity.z).length()>30,"Scooter boost must increase speed")
-	boost.pressed=false;Input.parse_input_event(boost);key.pressed=false;Input.parse_input_event(key);verify_test(player.toggle_ride() and not player.riding,"Scooter must dismount")
+	player.boost_energy=0
+	for frame in range(40):await get_tree().physics_frame
+	verify_test(not player.boosting and Vector2(player.velocity.x,player.velocity.z).length()<25,"Empty scooter battery must recharge without speed flicker")
+	player.boost_energy=100;player.boost_recharging=false
+	boost.pressed=false;Input.parse_input_event(boost)
+	var jump=InputEventKey.new();jump.keycode=KEY_SPACE;jump.physical_keycode=KEY_SPACE;jump.pressed=true;Input.parse_input_event(jump)
+	for frame in range(8):await get_tree().physics_frame
+	verify_test(player.riding and player.position.y>.45 and not player.flying,"Space must jump while keeping the scooter mounted")
+	jump.pressed=false;Input.parse_input_event(jump)
+	key.pressed=false;Input.parse_input_event(key);verify_test(player.toggle_ride() and not player.riding,"Scooter must dismount")
 	podcasts.stop();player.velocity=Vector3.ZERO
 	return not self_test_failed
 
 func capture_view(path: String) -> void:
 	await get_tree().process_frame
-	if "credits" in path:
+	if "school-interior" in path:
+		begin_game();player.teleport(SchoolWorld.CENTER+Vector3(-11,.1,-18));player.yaw=.55;player.pitch=.18;player.distance=5
+	elif "school-library" in path:
+		begin_game();player.teleport(SchoolWorld.CENTER+Vector3(-30,.1,-21));player.yaw=.3;player.pitch=.16;player.distance=5
+	elif "school-lab" in path:
+		begin_game();player.teleport(SchoolWorld.CENTER+Vector3(11,.1,-18));player.yaw=-.4;player.pitch=.18;player.distance=5
+	elif "school-admin" in path:
+		begin_game();player.teleport(SchoolWorld.CENTER+Vector3(-30,.1,21));player.yaw=PI+.3;player.pitch=.2;player.distance=5
+	elif "school" in path:
+		begin_game();player.teleport(SchoolWorld.CENTER+Vector3(8,0,52));player.yaw=.45;player.pitch=.28;player.distance=15
+	elif "credits" in path:
 		show_credits()
 	elif "settings" in path:
 		show_settings()
@@ -1064,9 +1098,9 @@ func capture_view(path: String) -> void:
 	elif "walk-seat" in path:
 		begin_game();var entry=walk_seats[0];player.teleport(entry.node.global_position);teacher_circle.interact();player.yaw=.4;player.pitch=.25;player.distance=6
 	elif "podcast-seat" in path:
-		begin_game();player.teleport(podcasts.booths[2].seat);podcasts.interact();player.yaw=.2;player.pitch=.27;player.distance=6
+		begin_game();player.teleport(podcasts.booths[0].seat);podcasts.interact();player.yaw=.2;player.pitch=.27;player.distance=6
 	elif "podcast" in path:
-		begin_game();player.teleport(podcasts.booths[2].position+Vector3(0,0,6));podcasts.play(2);player.yaw=.15;player.pitch=.3;player.distance=8
+		begin_game();player.teleport(podcasts.booths[0].position+Vector3(0,0,6));podcasts.play(2);player.yaw=.15;player.pitch=.3;player.distance=8
 	elif "scooter" in path:
 		begin_game();player.teleport(Vector3(1,0,15));player.yaw=PI+.3;player.pitch=.26;player.distance=6
 		for frame in range(60):await get_tree().physics_frame
@@ -1141,7 +1175,7 @@ func _exit_tree() -> void:
 
 func benchmark() -> void:
 	begin_game()
-	for region in ["Town","Tourist Quarter","History Museum","Work Hub","Podcast Plaza","City Services"]:
+	for region in ["Town","Tourist Quarter","History Museum","Work Hub","Podcast Plaza","City Services","School","Town"]:
 		player.teleport(ARRIVALS[region]+Vector3(0,0,18));player.distance=11;player.pitch=0.4
 		for frame in range(120):await get_tree().process_frame
 		print("BENCHMARK ",region," fps=",Performance.get_monitor(Performance.TIME_FPS)," objects=",object_nodes.size()," draw_calls=",Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)," video_memory_mb=",Performance.get_monitor(Performance.RENDER_VIDEO_MEM_USED)/1048576.0)
@@ -1196,3 +1230,26 @@ func apply_hud_size()->void:
 		widget.scale=Vector2.ONE*factor
 
 
+
+func test_school_features()->void:
+	verify_test(region_counts.School==124,"School needs more than 100 entries")
+	verify_test(school.room_doors.size()==8,"All eight rooms need entrances")
+	for door in school.room_doors:
+		var query=PhysicsRayQueryParameters3D.create(door+Vector3(0,1,-1),door+Vector3(0,1,1),1,[player.get_rid()])
+		verify_test(get_world_3d().direct_space_state.intersect_ray(query).is_empty(),"School room doorway must remain walkable")
+	player.teleport(SchoolWorld.CENTER+Vector3(0,0,39));clear_screen()
+	for frame in range(35):await get_tree().physics_frame
+	var move_key=InputEventKey.new();move_key.keycode=KEY_W;move_key.physical_keycode=KEY_W;move_key.pressed=true;Input.parse_input_event(move_key)
+	for frame in range(100):await get_tree().physics_frame
+	move_key.pressed=false;Input.parse_input_event(move_key)
+	verify_test(school.contains_point(player.position),"Player must walk through the main school entrance")
+	school._process(.01);verify_test(not school.roof.visible,"Indoor roof cutaway must keep the camera clear")
+	verify_test(citizens.walkers.size()>=15,"School and town need moving citizens")
+	player.teleport(Vector3(-100,0,120))
+	var starts:Array[Vector3]=[]
+	for walker in citizens.walkers:
+		starts.append(walker.body.position);walker.wait=0
+	for frame in range(180):await get_tree().physics_frame
+	for i in range(citizens.walkers.size()):
+		verify_test(citizens.walkers[i].body.position.distance_to(starts[i])>.15,"Citizen route "+str(i)+" must actually walk")
+	print("SCHOOL CHECK PASS: 124 bilingual objects, eight open room entrances, accessible main entrance, roof cutaway, 16 moving citizens; scooter jump verified.")

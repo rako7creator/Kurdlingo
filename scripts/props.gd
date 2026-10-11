@@ -82,7 +82,9 @@ static func make(model: String, target_size: float) -> Node3D:
 	if model=="furniture/bench" or model.begins_with("expansion/bench/"):target_size=1.55
 	var holder = Node3D.new()
 	var visual: Node3D
-	if model.begins_with("daily/"):
+	if model.begins_with("school/"):
+		visual = SchoolProps.make(model.get_slice("/",1))
+	elif model.begins_with("daily/"):
 		visual=DailyProps.make(model.get_slice("/",1),model.get_slice("/",2))
 	elif model.begins_with("expansion/"):
 		visual = ExpansionProps.make(model.get_slice("/",1),model.get_slice("/",2))
@@ -102,7 +104,7 @@ static func make(model: String, target_size: float) -> Node3D:
 	else:
 		var resource = load("res://assets/" + model + ".glb")
 		visual = resource.instantiate() if resource is PackedScene else custom("box")
-	if model.begins_with("daily/") or model.begins_with("expansion/") or model.begins_with("accurate/") or model.begins_with("custom/") or model.begins_with("new/"):
+	if model.begins_with("school/") or model.begins_with("daily/") or model.begins_with("expansion/") or model.begins_with("accurate/") or model.begins_with("custom/") or model.begins_with("new/"):
 		AccurateProps.merge_shapes(visual)
 	if model.begins_with("commercial/") or model.begins_with("suburban/building"):
 		var colors=[Color("b2d1c6"),Color("e6b697"),Color("a8c8d4"),Color("d8be9b"),Color("c6b5ca")]

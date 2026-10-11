@@ -1,0 +1,125 @@
+﻿id,en,ckb,school_room,model,size,reviewed
+school_library_bookshelf,library bookshelf,ڕەفەی کتێبخانە,Library,furniture/bookcaseOpen,2.4,False
+school_reading_armchair,reading armchair,کورسی خوێندنەوە,Library,furniture/loungeChair,1.2,False
+school_reference_book,reference book,کتێبی سەرچاوە,Library,school/book,0.45,False
+school_dictionary,dictionary,فەرهەنگ,Library,school/book,0.46,False
+school_encyclopedia,encyclopedia,ئینسایکلۆپیدیا,Library,school/book,0.52,False
+school_book_trolley,book trolley,عەرەبانەی کتێب,Library,school/book_trolley,1.1,False
+school_library_card,library card,کارتی کتێبخانە,Library,daily/keycard,0.28,False
+school_bookmark,bookmark,نیشانەی کتێب,Library,school/bookmark,0.28,False
+school_reading_lamp,reading lamp,چرای خوێندنەوە,Library,furniture/lampRoundTable,0.55,False
+school_atlas,atlas,ئەتاڵەس,Library,school/atlas,0.48,False
+school_bookend,bookend,ڕاگری کتێب,Library,school/bookend,0.28,False
+school_return_box,return box,سندوقی گەڕاندنەوەی کتێب,Library,school/return_box,0.85,False
+school_magazine_rack,magazine rack,ڕەفەی گۆڤار,Library,school/magazine_rack,1.1,False
+school_study_carrel,study carrel,مێزی تایبەتی خوێندنەوە,Library,school/carrel,1.4,False
+school_student_desk,student desk,مێزی قوتابی,English classroom,school/desk,1.25,False
+school_classroom_chair,classroom chair,کورسی پۆل,English classroom,furniture/chair,1.05,False
+school_exercise_book,exercise book,دەفتەری ڕاهێنان,English classroom,school/notebook,0.33,False
+school_pencil_case,pencil case,قەڵەمدان,English classroom,school/pencil_case,0.32,False
+school_pencil_sharpener,pencil sharpener,قەڵەم تراش,English classroom,school/sharpener,0.13,False
+school_whiteboard_eraser,whiteboard eraser,سڕەوەی تەختەی سپی,English classroom,school/eraser,0.18,False
+school_colored_pencils,colored pencils,قەڵەمی ڕەنگاوڕەنگ,English classroom,school/pencils,0.27,False
+school_school_ruler,school ruler,خەتکێشی قوتابخانە,English classroom,school/ruler,0.32,False
+school_protractor,protractor,گۆشەسەنج,English classroom,school/protractor,0.2,False
+school_set_square,set square,گۆنیا,English classroom,school/set_square,0.28,False
+school_compass_instrument,compass instrument,پەرگار,English classroom,school/compass,0.22,False
+school_classroom_whiteboard,classroom whiteboard,تەختەی سپی پۆل,English classroom,school/whiteboard,2.4,False
+school_textbook,textbook,کتێبی خوێندن,English classroom,school/book,0.38,False
+school_school_backpack,school backpack,جانتا قوتابخانە,English classroom,school/backpack,0.48,False
+school_laboratory_bench,laboratory bench,مێزی تاقیگە,Science laboratory,school/lab_bench,2.0,False
+school_laboratory_stool,laboratory stool,کورسی تاقیگە,Science laboratory,furniture/stoolBar,0.7,False
+school_laboratory_microscope,laboratory microscope,مایکرۆسکۆپی تاقیگە,Science laboratory,accurate/microscope,0.6,False
+school_test_tube_rack,test tube rack,ڕاگری بۆری تاقیکردنەوە,Science laboratory,school/test_tubes,0.5,False
+school_conical_flask,conical flask,فلاسکی مەخرووتی,Science laboratory,school/conical_flask,0.3,False
+school_measuring_cylinder,measuring cylinder,سیلندەری پێوانە,Science laboratory,school/measuring_cylinder,0.36,False
+school_laboratory_beaker,laboratory beaker,بیکەری تاقیگە,Science laboratory,school/beaker,0.25,False
+school_Bunsen_burner,Bunsen burner,سووتێنەری بونسەن,Science laboratory,school/burner,0.33,False
+school_safety_goggles,safety goggles,چاویلکەی پاراستن,Science laboratory,school/goggles,0.22,False
+school_lab_coat,lab coat,پاڵتۆی تاقیگە,Science laboratory,school/lab_coat,1.05,False
+school_molecular_model,molecular model,مۆدێلی مولەکول,Science laboratory,school/molecule,0.6,False
+school_human_skeleton_model,human skeleton model,مۆدێلی ئێسکەپەیکەری مرۆڤ,Science laboratory,school/skeleton,1.7,False
+school_balance_scale,balance scale,تەرازووی هاوسەنگی,Science laboratory,school/balance,0.7,False
+school_eyewash_station,eyewash station,وێستگەی شۆردنی چاو,Science laboratory,school/eyewash,1.2,False
+school_desktop_computer,desktop computer,کۆمپیوتەری سەرمێز,Computer laboratory,school/computer,1.0,False
+school_computer_keyboard,computer keyboard,تەختەکلیلی کۆمپیوتەر,Computer laboratory,furniture/computerKeyboard,0.46,False
+school_computer_mouse,computer mouse,ماوسی کۆمپیوتەر,Computer laboratory,furniture/computerMouse,0.13,False
+school_computer_tower,computer tower,کەیسی کۆمپیوتەر,Computer laboratory,school/computer_tower,0.55,False
+school_wireless_router,wireless router,ڕاوەتەری بێتەل,Computer laboratory,daily/router,0.35,False
+school_USB_flash_drive,USB flash drive,فلاش مەمۆری,Computer laboratory,daily/usb,0.12,False
+school_web_camera,web camera,کامێرای وێب,Computer laboratory,daily/webcam,0.17,False
+school_headphones,headphones,سەماعی,Computer laboratory,daily/studio_headphones,0.28,False
+school_charging_cable,charging cable,کابڵی شەحن,Computer laboratory,daily/xlr_cable,0.45,False
+school_power_strip,power strip,چەندپەنجەی کارەبا,Computer laboratory,daily/power_strip,0.4,False
+school_3d_printer,3D printer,چاپکەری سێ ڕەهەندی,Computer laboratory,school/printer_3d,0.8,False
+school_computer_projector,computer projector,پرۆژێکتەری کۆمپیوتەر,Computer laboratory,school/projector,0.48,False
+school_projection_screen,projection screen,پەردەی پیشاندان,Computer laboratory,school/screen,2.2,False
+school_robotics_kit,robotics kit,کۆمەڵەی ڕۆبۆتسازی,Computer laboratory,school/robotics,0.65,False
+school_reception_desk,reception desk,مێزی پێشوازی,Administration,school/reception,2.4,False
+school_office_swivel_chair,office swivel chair,کورسی سووڕاوەی ئۆفیس,Administration,furniture/chairDesk,1.2,False
+school_attendance_register,attendance register,تۆماری ئامادەبوون,Administration,school/register,0.4,False
+school_student_ID_card,student ID card,کارتی ناسنامەی قوتابی,Administration,daily/keycard,0.28,False
+school_report_card,report card,کارتی ئەنجامی قوتابی,Administration,school/document,0.32,False
+school_school_certificate,school certificate,بڕوانامەی قوتابخانە,Administration,school/certificate,0.55,False
+school_filing_cabinet,filing cabinet,کابینەی فایل,Administration,daily/filing_cabinet,1.4,False
+school_office_telephone,office telephone,تەلەفۆنی ئۆفیس,Administration,accurate/telephone,0.42,False
+school_photocopier,photocopier,کۆپیکەر,Administration,daily/copier,1.1,False
+school_document_tray,document tray,سینی بەڵگەنامە,Administration,daily/document_tray,0.4,False
+school_rubber_stamp,rubber stamp,مۆری لاستیکی,Administration,daily/seal_stamp,0.18,False
+school_stapler,stapler,دەستەدوور,Administration,school/stapler,0.2,False
+school_appointment_calendar,appointment calendar,ڕۆژژمێری چاوپێکەوتن,Administration,school/calendar,0.4,False
+school_visitor_badge,visitor badge,کارتی میوان,Administration,daily/badge,0.23,False
+school_staff_meeting_table,staff meeting table,مێزی کۆبوونەوەی مامۆستایان,Teachers room,furniture/table,2.4,False
+school_lesson_planner,lesson planner,پلانی وانە,Teachers room,daily/planner,0.36,False
+school_marking_pen,marking pen,قەڵەمی نمرەدان,Teachers room,school/pen,0.18,False
+school_teaching_folder,teaching folder,فۆڵدەری فێرکردن,Teachers room,daily/binder,0.38,False
+school_wall_timetable,wall timetable,خشتەی کاتی سەر دیوار,Teachers room,school/timetable,1.0,False
+school_staff_locker,staff locker,دۆڵابی کارمەندان,Teachers room,daily/locker,1.8,False
+school_coffee_mug,coffee mug,کوپەی قاوە,Teachers room,school/mug,0.16,False
+school_staff_kettle,staff kettle,کتری مامۆستایان,Teachers room,daily/kettle,0.35,False
+school_water_dispenser,water dispenser,دابەشکەری ئاو,Teachers room,daily/water_cooler,1.25,False
+school_stationery_organizer,stationery organizer,ڕێکخەری کەرەستەی نووسین,Teachers room,daily/desk_organizer,0.36,False
+school_paper_clip,paper clip,کلیپی کاغەز,Teachers room,school/paper_clip,0.09,False
+school_sticky_note_pad,sticky note pad,دەفتەری تێبینی لکێنراو,Teachers room,daily/sticky_notes,0.14,False
+school_school_newsletter,school newsletter,هەواڵنامەی قوتابخانە,Teachers room,school/document,0.35,False
+school_notice_board,notice board,تەختەی ئاگاداری,Teachers room,school/noticeboard,1.5,False
+school_painting_easel,painting easel,سێپایەی وێنەکێشان,Art and music,school/easel,1.65,False
+school_paint_palette,paint palette,تەختەی ڕەنگ,Art and music,school/palette,0.35,False
+school_paintbrush_set,paintbrush set,کۆمەڵەی فڵچەی ڕەنگ,Art and music,school/brushes,0.3,False
+school_watercolor_paint,watercolor paint,ڕەنگی ئاوی,Art and music,school/paint_box,0.28,False
+school_clay_sculpture,clay sculpture,پەیکەری قوڕ,Art and music,daily/bust,0.55,False
+school_drawing_sketchbook,drawing sketchbook,دەفتەری کێشان,Art and music,school/notebook,0.4,False
+school_acoustic_guitar,acoustic guitar,گیتاری ئەکوستیک,Art and music,new/guitar,1.0,False
+school_music_stand,music stand,هەڵگری نۆتە,Art and music,school/music_stand,1.2,False
+school_sheet_music,sheet music,نۆتەی مۆسیقا,Art and music,daily/sheet_music,0.35,False
+school_electronic_keyboard,electronic keyboard,ئۆرگی ئەلیکترۆنی,Art and music,daily/digital_piano,1.4,False
+school_tambourine,tambourine,تەنبۆرین,Art and music,school/tambourine,0.3,False
+school_xylophone,xylophone,زایلۆفۆن,Art and music,school/xylophone,0.6,False
+school_violin,violin,کەمان,Art and music,school/violin,0.6,False
+school_art_display_frame,art display frame,چوارچێوەی پیشاندانی هونەر,Art and music,school/art_frame,1.0,False
+school_cafeteria_table,cafeteria table,مێزی خواردنگە,Cafeteria and wellbeing,furniture/tableRound,1.4,False
+school_lunch_tray,lunch tray,سینی نانی نیوەڕۆ,Cafeteria and wellbeing,school/lunch_tray,0.42,False
+school_lunch_box,lunch box,سندوقی خواردن,Cafeteria and wellbeing,school/lunch_box,0.27,False
+school_drinking_fountain,drinking fountain,ئاوەخۆرە,Cafeteria and wellbeing,school/drinking_fountain,1.0,False
+school_hand_washing_sink,hand washing sink,دەستشۆر,Cafeteria and wellbeing,furniture/bathroomSink,0.8,False
+school_soap_dispenser,soap dispenser,دابەشکەری سابون,Cafeteria and wellbeing,daily/pump_bottle,0.25,False
+school_paper_towel_dispenser,paper towel dispenser,دابەشکەری خاولی کاغەزی,Cafeteria and wellbeing,school/towel_dispenser,0.4,False
+school_recycling_bin,recycling bin,سەبەتەی دووبارەبەکارهێنان,Cafeteria and wellbeing,school/recycling,0.8,False
+school_first_aid_kit,first aid kit,کۆمەڵەی فریاکەوتنی سەرەتایی,Cafeteria and wellbeing,school/first_aid,0.4,False
+school_infirmary_bed,infirmary bed,جێگەی ژووری پەرستاری,Cafeteria and wellbeing,furniture/bedSingle,2.0,False
+school_digital_thermometer,digital thermometer,گەرماسەنجی دیجیتاڵ,Cafeteria and wellbeing,school/thermometer,0.18,False
+school_wheelchair,wheelchair,کورسی چەرخدار,Cafeteria and wellbeing,school/wheelchair,1.1,False
+school_school_uniform,school uniform,جلوبەرگی قوتابخانە,Cafeteria and wellbeing,school/uniform,1.2,False
+school_lost_property_basket,lost property basket,سەبەتەی شتی ونبوو,Cafeteria and wellbeing,daily/shopping_basket,0.5,False
+school_school_bell,school bell,زەنگی قوتابخانە,Central hall,school/bell,0.35,False
+school_wall_clock,wall clock,کاتژمێری دیوار,Central hall,school/clock,0.55,False
+school_fire_extinguisher,fire extinguisher,ئامێری ئاگرکوژێنەوە,Central hall,school/extinguisher,0.6,False
+school_emergency_exit_sign,emergency exit sign,تابلۆی دەرچوونی فریاکەوتن,Central hall,daily/exit_sign,0.75,False
+school_trophy_cabinet,trophy cabinet,دۆڵابی جامەکان,Central hall,school/trophy_cabinet,1.8,False
+school_school_trophy,school trophy,جامی قوتابخانە,Central hall,school/trophy,0.5,False
+school_school_globe,school globe,گۆی زەوی قوتابخانە,Central hall,accurate/globe,0.5,False
+school_school_map,school map,نەخشەی قوتابخانە,Central hall,school/map,1.2,False
+school_umbrella_stand,umbrella stand,ڕاگری چەتر,Central hall,school/umbrella_stand,0.65,False
+school_coat_hook,coat hook,قولاپی جل,Central hall,school/coat_hook,0.25,False
+school_school_sports_bag,school sports bag,جانتای وەرزشی قوتابخانە,Central hall,daily/duffel,0.65,False
+school_school_basketball,school basketball,تۆپی باسکەی قوتابخانە,Central hall,daily/sports_ball,0.3,False

@@ -22,6 +22,11 @@ var left_arm: Node3D
 var carrying = false
 var gesture_blend = 0.0
 var riding=false
+var boost_energy=100.0
+var boosting=false
+var boost_recharging=false
+var jump_was_down=false
+var boost_trail:GPUParticles3D
 var ride_visual:Node3D
 
 func toggle_ride()->bool:
@@ -38,6 +43,9 @@ func _ready() -> void:
 	shape.shape=capsule;shape.position.y=0.83;add_child(shape)
 	visual=WorldProps.alien();add_child(visual)
 	ride_visual=DailyProps.make("electric_scooter");ride_visual.position.y=-.22;visual.add_child(ride_visual);ride_visual.visible=false
+	boost_trail=GPUParticles3D.new();boost_trail.amount=28;boost_trail.lifetime=.4;boost_trail.position=Vector3(0,.12,.8);boost_trail.emitting=false;visual.add_child(boost_trail)
+	var trail_mesh=SphereMesh.new();trail_mesh.radius=.035;trail_mesh.height=.07;trail_mesh.material=WorldProps.material(Color("7ff5d7"),true);boost_trail.draw_pass_1=trail_mesh
+	var trail_material=ParticleProcessMaterial.new();trail_material.direction=Vector3(0,0,1);trail_material.spread=14;trail_material.initial_velocity_min=3;trail_material.initial_velocity_max=6;trail_material.gravity=Vector3(0,.3,0);boost_trail.process_material=trail_material
 	arm=Node3D.new();arm.position=Vector3(.43,1.02,-.08);visual.add_child(arm)
 	WorldProps.sphere(arm,Vector3(0,0,-.26),Vector3(.19,.2,.62),Color("69d6bd"))
 	WorldProps.sphere(arm,Vector3(0,0,-.62),Vector3(.23,.22,.25),Color("69d6bd"))
@@ -74,12 +82,18 @@ func _physics_process(delta: float) -> void:
 		var input_z=float(Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN))-float(Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP))
 		move=Vector3(input_x,0,input_z).rotated(Vector3.UP,yaw).normalized()
 	var speed=11.0 if enabled and Input.is_physical_key_pressed(KEY_SHIFT) else 6.5
-	if riding:speed=32.0 if Input.is_physical_key_pressed(KEY_SHIFT) else 24.0
+	if boost_energy<=.5:boost_recharging=true
+	elif boost_energy>=25:boost_recharging=false
+	boosting=not boost_recharging and enabled and riding and move.length()>.1 and Input.is_physical_key_pressed(KEY_SHIFT) and boost_energy>0
+	boost_energy=clampf(boost_energy+(-18 if boosting else 12)*delta,0,100)
+	if riding:speed=39.0 if boosting else 24.0
 	if seated:riding=false
-	if enabled and riding and Input.is_physical_key_pressed(KEY_SPACE):riding=false
+	var jump_down=enabled and Input.is_physical_key_pressed(KEY_SPACE)
+	if riding and jump_down and not jump_was_down and is_on_floor():velocity.y=7.2
+	jump_was_down=jump_down
 	velocity.x=move_toward(velocity.x,move.x*speed,35*delta)
 	velocity.z=move_toward(velocity.z,move.z*speed,35*delta)
-	flying=enabled and not seated and Input.is_physical_key_pressed(KEY_SPACE) and fuel>0.8
+	flying=enabled and not seated and not riding and Input.is_physical_key_pressed(KEY_SPACE) and fuel>0.8
 	if flying:
 		velocity.y=move_toward(velocity.y,5.5,20*delta)
 		fuel=maxf(0,fuel-FUEL_DRAIN*delta)
@@ -106,6 +120,7 @@ func _physics_process(delta: float) -> void:
 	elif riding:visual.position.y=.22
 	else:visual.position.y=0
 	ride_visual.visible=riding
+	boost_trail.emitting=boosting
 	sitting_legs.visible=seated
 	for child in visual.get_children():
 		if child.name.begins_with("StandingLeg"):child.visible=not seated
@@ -136,6 +151,7 @@ func _physics_process(delta: float) -> void:
 	if carry_rid.is_valid():query.exclude.append(carry_rid)
 	var fraction=get_world_3d().direct_space_state.cast_motion(query)
 	if fraction.size()>0 and fraction[0]<1:desired=pivot+(desired-pivot)*maxf(.02,fraction[0]-.02)
+	camera.fov=lerpf(camera.fov,74.0 if boosting else 65.0,delta*3)
 	camera.global_position=desired
 	camera.look_at(pivot)
 

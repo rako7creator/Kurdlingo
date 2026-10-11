@@ -1,43 +1,41 @@
-# KurdLingo 0.8 — Windows learning adventure
+# KurdLingo 0.9 — school and city learning adventure
 
-Extract the ZIP, then open KurdLingo.exe. No Godot installation or internet connection is needed to play.
+Extract the Windows ZIP and open KurdLingo.exe. No engine installation, internet connection or speech service is needed to play.
 
-The original 500 words are retained. The newer 500 have been replaced with practical tourism, history, work, entertainment, café, shopping, fitness, travel, city services and podcast vocabulary. There are 1,000 entries across 20 connected districts, with English and Sorani word audio. New objects have subject-specific stylized shapes and a closer layout. Flower borders, themed props, shops and pavilions surround their walking paths.
+There are 1,124 English–Sorani vocabulary entries across 21 districts. The existing 1,000 words, teacher's 17 stories and sentence missions remain available.
 
-## Travel and listening
+## New school
 
-- WASD: walk. Shift: run. Right mouse drag: look. Mouse wheel: zoom.
-- F or Ride: mount/dismount your electric scooter on the ground. Shift while riding: boost. Space: dismount and use your jetpack.
-- M: map and fast travel. Choose Podcast Plaza to visit the new studios.
-- Approach a studio: its episode begins automatically. P or Podcasts: choose an episode yourself.
-- E near a podcast sofa: sit facing the hosts. E again: stand and keep listening.
-- Pause, replay the current part, choose another episode or stop using the subtitle buttons. Settings includes podcast volume and subtitle size.
-- E near an object: discover/practise the word. Hold left mouse and drag small objects to move them. Settings > Reset moved objects restores the arrangement.
-- T: sentence story missions. E near the central teacher: choose one of 17 narrated stories.
+The academy stands east (right) of the Discovery / cosmos area. Use M > School to travel to its garden, or follow the connected school road. Walk through the wide central entrance and enter the eight named rooms: Library, English classroom, Science laboratory, Computer laboratory, Administration, Teachers room, Art and music, and Cafeteria and wellbeing. The central hall has indoor garden trees, benches, student art and display objects. The building has a clock tower, pitched roofs, stone masonry, textured timber counters and tile floors. Roof cutaway and camera collision preserve the indoor view; rooms still have visible ceilings.
 
-## Ten podcasts
+124 school vocabulary entries (107 English terms new to the overall catalog) are placed on working desks, counters and furniture, with recognizable original stylized models and Kenney props at human scale. Every new word has English and Sorani pronunciation. Press E or click a nearby object to learn it; the journal and school guardian support practice. Small objects retain drag-and-drop interaction.
 
-Two synthesized English voices perform ten original learning conversations, with timed Sorani subtitles and an English line. Total playback is about 91 minutes.
+## One podcast studio by the flag
 
-- Starting a small café: 8.9 minutes.
-- Your first job interview: 9.1 minutes.
-- Working well with a team: 9.0 minutes.
-- Friendly customer service: 9.2 minutes.
-- Planning a movie night: 9.0 minutes.
-- A day at a music festival: 9.1 minutes.
-- Everyday travel conversations: 9.0 minutes.
-- Sharing family and cultural stories: 9.2 minutes.
-- Making a creative side project: 9.2 minutes.
-- Enjoying entertainment without losing your day: 9.1 minutes.
+The former ten studio sets have been replaced by one shared studio south of the flag. Podcast Plaza fast travel now arrives beside this studio. Its 50 media vocabulary objects are in the compact adjoining learning area.
 
-Podcasts and word pronunciation are synthesized audio. Sorani translations and pronunciation are drafts for native-speaker review. The review CSVs contain all vocabulary and podcast paragraphs; caption timing is estimated within each recorded paragraph.
+Press E beside the sofa to sit and choose any of the ten long episodes. The hosts use two expressive Chatterbox Turbo synthesized voice identities, with conversational pauses and occasional chuckles. The recordings retain the model's watermark. These are generated voices, not live human podcast recordings. Sorani subtitles and an English line follow the conversation; sentence cue timing is estimated within short generated chunks. Pause, replay, choose another episode, stop, stand up, and continue listening while walking. Settings provides separate podcast and music volume.
 
-## Progress
+## Travel controls
 
-This local build carries over your existing save, and backs it up before the replacement vocabulary is migrated. Original-word progress, XP, story missions and settings are preserved. Retired new-word IDs and retired district completions are filtered because those words have been replaced. The downloadable ZIP contains no personal save.
+- WASD / arrows: walk or steer. Shift: run.
+- F: unfold or fold the scooter on the ground.
+- Space while riding: jump without dismounting.
+- Shift while riding: faster boost, with a rechargeable battery, mint trail and camera effect.
+- Hold Space while walking: use the jetpack. F dismounts the scooter first.
+- Right mouse drag: turn the camera; mouse wheel: zoom.
+- E: nearby word, teacher, chair, or studio interaction.
+- M: map and fast travel. P: podcast selection. T: sentence story missions.
+- J: journal. Q: practice. Settings: volume, display scale, moved-object reset.
 
-## Source
+16 moving citizens use town, school corridor and entrance-garden routes. They animate their footsteps and wait near the player.
 
-The matching source ZIP contains the Godot project, all scripts, 3D assets, bilingual data and pre-generated audio. Open project.godot in Godot 4.7.2. Install its standard Windows export templates, then use Project > Export > Windows Desktop. No speech service API key is required to play or rebuild with the included recordings. This is a PC release; the earlier browser adaptation has not been upgraded in this package.
+## Editing and language review
 
-The Sorani voice model restricts this personal educational build to noncommercial use. See LICENSE.txt and THIRD-PARTY-NOTICES.md.
+The editable source ZIP is a Godot 4.7.2 project containing scripts, models, all generated audio and bilingual JSON data. Open project.godot, allow imports to finish, then press F5. Install matching export templates to make another Windows build. Git LFS is configured for large audio/model/font files.
+
+data/vocabulary.json is the live vocabulary catalog. Vocabulary-review.csv includes all words; KurdLingo-School-Review.csv isolates the 124 school additions. CSVs are review copies. Text changes also require replacing the matching pronunciation WAV. data/podcasts.json contains the episode transcripts and cues.
+
+The Sorani additions and pronunciation remain drafts for native-speaker review. The user's selected pronunciation of ئاو is preserved. See LICENSE.txt and THIRD-PARTY-NOTICES.md for the noncommercial Sorani voice terms and third-party credits.
+
+Local progress is carried into the new PC build. The shareable ZIP contains no personal save.

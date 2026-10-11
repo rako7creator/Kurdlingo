@@ -1,6 +1,6 @@
 # KurdLingo — editable project for your friend
 
-This ZIP contains the full Godot 0.8 project, scripts, 3D assets, all audio, bilingual vocabulary and podcast scripts. The game is unchanged. No account or speech API key is needed to run the included project.
+This ZIP contains the full Godot 0.9 project, scripts, 3D assets, all audio, bilingual vocabulary and podcast scripts. This release includes the new school, shared podcast studio, scooter jump/boost and moving citizens. No account or speech API key is needed to run the included project.
 
 ## Open and edit
 
@@ -8,7 +8,7 @@ This ZIP contains the full Godot 0.8 project, scripts, 3D assets, all audio, bil
 2. Install Godot 4.7.2, matching the version used for this project.
 3. Import project.godot in Godot. Allow the first asset import to finish.
 4. Press F6 to run the current scene, or F5 to run the game.
-5. Edit scripts/*.gd for behavior; data/vocabulary.json for words; data/podcasts.json for episodes; scripts/daily_props.gd for the new object shapes; scripts/expansion_world.gd for themed environments.
+5. Edit scripts/*.gd for behavior; data/vocabulary.json for words; data/podcasts.json for episodes; scripts/daily_props.gd for the new object shapes; scripts/expansion_world.gd for themed environments; scripts/school_world.gd and scripts/school_props.gd for the academy; scripts/citizens.gd for walking NPCs.
 
 Changing a spoken word or podcast paragraph also requires replacing its matching WAV recording under assets/audio/. Text edits alone do not regenerate speech. CSVs are review copies; the game reads the JSON data. Back up data before bulk translation changes.
 
@@ -20,7 +20,7 @@ Install Git and Git LFS on both computers. Open a terminal inside KurdLingo-sour
 git init -b main
 git lfs install
 git add .
-git commit -m "Add editable KurdLingo 0.8 project"
+git commit -m "Add editable KurdLingo 0.9 project"
 ```
 
 Create a new EMPTY private GitHub repository named KurdLingo. Do not initialize it with a README, license or gitignore because these files are already included. Copy that repository's HTTPS URL, then run (replace YOUR-USERNAME):
@@ -63,7 +63,7 @@ Open a pull request on GitHub so you can review and merge your friend's edits. E
 
 ## Export Windows
 
-Install Godot's matching export templates. Use Project > Export > Windows Desktop. The bundled export preset uses the standard template and has no dependency on the original owner's PC paths. Its default destination is ../Windows-KurdLingo-0.8/KurdLingo.exe; choose another destination if desired. Generated exports and saves are ignored by Git.
+Install Godot's matching export templates. Use Project > Export > Windows Desktop. The bundled export preset uses the standard template and has no dependency on the original owner's PC paths. Its default destination is ../Windows-KurdLingo-0.9/KurdLingo.exe; choose another destination if desired. Generated exports and saves are ignored by Git.
 
 ## Verify changes
 

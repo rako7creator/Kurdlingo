@@ -73,3 +73,10 @@ The bilingual catalog was authored for this project as a draft. It was not extra
 Kenney Train Kit, Watercraft Kit, Pirate Kit, Survival Kit and Space Kit assets are CC0; pack license texts are retained in licenses/. Subject-specific daily props, scooter and studio assembly are original procedural meshes.
 
 Podcast conversations are original educational scripts, spoken by synthetic Piper LJ Speech and Lessac voices. The Lessac model card and its dataset/license links are included in licenses/English-podcast-guest-model-card.txt. These are synthesized voices, not recordings of live podcast hosts. Sorani subtitles are project-authored drafts requiring native-speaker review. Sentence cue times are estimated from word lengths within each recorded paragraph.
+
+
+## 0.9 school materials and expressive podcasts
+
+Original school geometry, object meshes and NPC/scooter behavior are project-authored. Kenney Furniture Kit props remain CC0. Three PBR materials are from Poly Haven, CC0: [Sandstone Blocks 05](https://polyhaven.com/a/sandstone_blocks_05), [Wood Floor](https://polyhaven.com/a/wood_floor), and [Large Floor Tiles 02](https://polyhaven.com/a/large_floor_tiles_02). Asset URLs and map details are in licenses/Poly-Haven-School.txt. The textures are bundled locally; there is no runtime API dependency.
+
+The ten podcast recordings are regenerated with [Chatterbox Turbo](https://github.com/resemble-ai/chatterbox), Resemble AI, MIT-licensed code and weights. Only generated audio is distributed. Its native neural watermark is retained. Reference clips use the project's existing synthesized Piper LJ Speech host and Lessac guest; no additional human voice recording was cloned. Voice identities are synthetic. Generated audio uses conversational short chunks, pauses, occasional chuckles, PCM-16 mono 24kHz and peak limiting. Sentence subtitle timing is estimated within each short chunk. School word pronunciation retains the existing Piper / Sorani F5 generation methods and terms above.
