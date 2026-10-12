@@ -72,6 +72,7 @@ var expansion:ExpansionWorld
 var handling: ObjectHandling
 
 func _ready() -> void:
+	var editor_layout = WorldEditorLayout.take_scene(self)
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
 		DirAccess.make_dir_recursive_absolute(save_path.get_base_dir())
@@ -95,6 +96,11 @@ func _ready() -> void:
 	var existing_children = get_children()
 	build_environment()
 	build_world()
+	if editor_layout != null:
+		var generated: Array[Node] = []
+		for child in get_children():
+			if not child in existing_children: generated.append(child)
+		WorldEditorLayout.use_scene(self, editor_layout, generated)
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
@@ -1195,5 +1201,3 @@ func apply_hud_size()->void:
 		var factor=float(options.hud_size)*(float(options.map_size) if widget==minimap_widget else 1.0)
 		widget.pivot_offset=Vector2(widget.size.x if widget.anchor_left==1 else widget.size.x*.5 if widget.anchor_left==.5 else 0,widget.size.y if widget.anchor_top==1 else 0)
 		widget.scale=Vector2.ONE*factor
-
-
