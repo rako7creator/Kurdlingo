@@ -72,6 +72,7 @@ var podcasts:PodcastPlaza
 var walk_seats:Array=[]
 var expansion:ExpansionWorld
 var handling: ObjectHandling
+var citadel_module
 var school_module
 
 func _ready() -> void:
@@ -127,6 +128,10 @@ func _ready() -> void:
 	school_module=preload("res://school/SchoolModule.tscn").instantiate()
 	school_module.world=self
 	add_child(school_module)
+	# Phase 3 Citadel is added separately after saved-world and optional school setup.
+	citadel_module=preload("res://citadel/CitadelModule.tscn").instantiate()
+	citadel_module.world=self
+	add_child(citadel_module)
 	if bool(options.fullscreen):DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	get_window().close_requested.connect(func():save_progress();get_tree().quit())
 	if test_mode:
@@ -516,6 +521,8 @@ func _process(delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if handling!=null and handling.handle(event):get_viewport().set_input_as_handled();return
 	if event is InputEventKey and event.pressed and not event.echo:
+		if event.keycode==KEY_ESCAPE and citadel_module!=null and citadel_module.dismiss_panel():
+			get_viewport().set_input_as_handled();return
 		if event.keycode==KEY_ESCAPE and school_module!=null and school_module.dismiss_panel():
 			get_viewport().set_input_as_handled();return
 		if event.keycode==KEY_ESCAPE:
@@ -529,11 +536,16 @@ func _unhandled_input(event: InputEvent) -> void:
 		if screen!=null or not session_started:return
 		match event.keycode:
 			KEY_E:
-				if school_module==null or not school_module.try_interact():interact()
+				if citadel_module==null or not citadel_module.try_interact():
+					if school_module==null or not school_module.try_interact():interact()
 			KEY_F8:
 				if school_module!=null:school_module.debug_warp_to_gate()
 			KEY_F9:
 				if school_module!=null:school_module.open_missions()
+			KEY_F10:
+				if citadel_module!=null:citadel_module.debug_warp_to_gate()
+			KEY_H:
+				if citadel_module!=null:citadel_module.open_missions()
 			KEY_T:story.menu()
 			KEY_P:podcasts.menu()
 			KEY_F:ride_action()
