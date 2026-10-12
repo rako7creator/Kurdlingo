@@ -1,0 +1,1 @@
+I replaced the previous school module with a much larger V2 campus package on codex/phase-0-audit. Read README_FIRST.md. Do not regenerate the city or overwrite main. In Godot 4.7.2, only fix parse/runtime errors, check stairs, doors, camera, school placement and vocabulary interactions, then report results. Do not redesign the school or merge anything.

@@ -72,6 +72,7 @@ var podcasts:PodcastPlaza
 var walk_seats:Array=[]
 var expansion:ExpansionWorld
 var handling: ObjectHandling
+var school_module
 
 func _ready() -> void:
 	var startup_started = Time.get_ticks_msec()
@@ -122,6 +123,10 @@ func _ready() -> void:
 	handling=ObjectHandling.new(self)
 	update_hud()
 	show_title()
+	# Phase 2 school is a modular scene, never part of generated editor world.
+	school_module=preload("res://school/SchoolModule.tscn").instantiate()
+	school_module.world=self
+	add_child(school_module)
 	if bool(options.fullscreen):DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	get_window().close_requested.connect(func():save_progress();get_tree().quit())
 	if test_mode:
@@ -511,6 +516,8 @@ func _process(delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if handling!=null and handling.handle(event):get_viewport().set_input_as_handled();return
 	if event is InputEventKey and event.pressed and not event.echo:
+		if event.keycode==KEY_ESCAPE and school_module!=null and school_module.dismiss_panel():
+			get_viewport().set_input_as_handled();return
 		if event.keycode==KEY_ESCAPE:
 			if screen!=null:
 				if not quiz.is_empty():quiz={}
@@ -521,7 +528,12 @@ func _unhandled_input(event: InputEvent) -> void:
 			get_viewport().set_input_as_handled();return
 		if screen!=null or not session_started:return
 		match event.keycode:
-			KEY_E:interact()
+			KEY_E:
+				if school_module==null or not school_module.try_interact():interact()
+			KEY_F8:
+				if school_module!=null:school_module.debug_warp_to_gate()
+			KEY_F9:
+				if school_module!=null:school_module.open_missions()
 			KEY_T:story.menu()
 			KEY_P:podcasts.menu()
 			KEY_F:ride_action()

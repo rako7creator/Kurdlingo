@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "about": "School learning content: draft labels use canonical project translations when possible. Unmatched translations must be reviewed.",
+  "aliases": {
+    "school bag": "backpack",
+    "computer mouse": null,
+    "bookshelf": null,
+    "whiteboard": "daily_whiteboard",
+    "reading table": "table",
+    "reading lamp": null,
+    "coffee cup": "cup",
+    "science book": "book",
+    "water bottle": null,
+    "reception desk": "desk",
+    "visitor book": "book"
+  },
+  "rooms": [
+    {
+      "id": "stairs",
+      "label": "Stairwell",
+      "floor": "ground",
+      "side": "left",
+      "band": 0,
+      "objects": [
+        "stairs",
+        "handrail",
+        "door",
+        "window",
+        "exit sign",
+        "light switch"
+      ]
+    },
+    {
+      "id": "classroom_a",
+      "label": "Classroom A",
+      "floor": "ground",
+      "side": "left",
+      "band": 1,
+      "objects": [
+        "desk",
+        "chair",
+        "book",
+        "pencil",
+        "whiteboard",
+        "notebook",
+        "ruler",
+        "school bag",
+        "clock"
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "label": "Cafeteria",
+      "floor": "ground",
+      "side": "left",
+      "band": 2,
+      "objects": [
+        "table",
+        "chair",
+        "cup",
+        "plate",
+        "apple",
+        "lunch tray",
+        "water bottle",
+        "menu"
+      ]
+    },
+    {
+      "id": "reception",
+      "label": "Reception",
+      "floor": "ground",
+      "side": "left",
+      "band": 3,
+      "objects": [
+        "reception desk",
+        "computer",
+        "telephone",
+        "clock",
+        "calendar",
+        "printer",
+        "noticeboard",
+        "visitor book"
+      ]
+    },
+    {
+      "id": "storage",
+      "label": "Storage & Toilets",
+      "floor": "ground",
+      "side": "right",
+      "band": 0,
+      "objects": [
+        "toilet",
+        "sink",
+        "mirror",
+        "soap",
+        "towel",
+        "storage box",
+        "shelf",
+        "bin"
+      ]
+    },
+    {
+      "id": "classroom_b",
+      "label": "Classroom B",
+      "floor": "ground",
+      "side": "right",
+      "band": 1,
+      "objects": [
+        "desk",
+        "chair",
+        "book",
+        "pen",
+        "notebook",
+        "paper",
+        "map",
+        "backpack",
+        "blackboard"
+      ]
+    },
+    {
+      "id": "principal",
+      "label": "Principal Office",
+      "floor": "ground",
+      "side": "right",
+      "band": 2,
+      "objects": [
+        "desk",
+        "chair",
+        "computer",
+        "bookshelf",
+        "telephone",
+        "file cabinet",
+        "calendar",
+        "lamp"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "label": "School Kitchen",
+      "floor": "ground",
+      "side": "right",
+      "band": 3,
+      "objects": [
+        "refrigerator",
+        "oven",
+        "cupboard",
+        "kettle",
+        "plate",
+        "spoon",
+        "bread",
+        "milk"
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science Laboratory",
+      "floor": "first",
+      "side": "left",
+      "band": 0,
+      "objects": [
+        "microscope",
+        "beaker",
+        "test tube",
+        "flask",
+        "thermometer",
+        "gloves",
+        "safety goggles",
+        "science book"
+      ]
+    },
+    {
+      "id": "computers",
+      "label": "Computer Classroom",
+      "floor": "first",
+      "side": "left",
+      "band": 1,
+      "objects": [
+        "computer",
+        "monitor",
+        "keyboard",
+        "computer mouse",
+        "headphones",
+        "printer",
+        "tablet",
+        "router"
+      ]
+    },
+    {
+      "id": "art",
+      "label": "Art & Music Room",
+      "floor": "first",
+      "side": "left",
+      "band": 2,
+      "objects": [
+        "paintbrush",
+        "paint",
+        "palette",
+        "canvas",
+        "guitar",
+        "drum",
+        "piano",
+        "music stand"
+      ]
+    },
+    {
+      "id": "library",
+      "label": "School Library",
+      "floor": "first",
+      "side": "left",
+      "band": 3,
+      "objects": [
+        "book",
+        "bookshelf",
+        "dictionary",
+        "atlas",
+        "magazine",
+        "bookmark",
+        "reading table",
+        "library card"
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Language Classroom",
+      "floor": "first",
+      "side": "right",
+      "band": 0,
+      "objects": [
+        "whiteboard",
+        "alphabet poster",
+        "flashcards",
+        "dictionary",
+        "headphones",
+        "microphone",
+        "notebook",
+        "clock"
+      ]
+    },
+    {
+      "id": "teachers",
+      "label": "Teachers Office",
+      "floor": "first",
+      "side": "right",
+      "band": 1,
+      "objects": [
+        "desk",
+        "chair",
+        "laptop",
+        "printer",
+        "folder",
+        "calendar",
+        "coffee cup",
+        "noticeboard"
+      ]
+    },
+    {
+      "id": "first_toilet",
+      "label": "Upper Bathrooms",
+      "floor": "first",
+      "side": "right",
+      "band": 2,
+      "objects": [
+        "toilet",
+        "sink",
+        "mirror",
+        "soap",
+        "hand dryer",
+        "towel",
+        "light switch"
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "Reading & Study",
+      "floor": "first",
+      "side": "right",
+      "band": 3,
+      "objects": [
+        "book",
+        "chair",
+        "table",
+        "reading lamp",
+        "dictionary",
+        "map",
+        "notebook",
+        "globe"
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "id": "classroom_five",
+      "name": "Find five classroom objects",
+      "goals": [
+        "desk",
+        "chair",
+        "book",
+        "pencil",
+        "whiteboard"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "computer_parts",
+      "name": "Find the computer parts",
+      "goals": [
+        "monitor",
+        "keyboard",
+        "computer mouse"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "science_discovery",
+      "name": "Discover science tools",
+      "goals": [
+        "microscope",
+        "beaker",
+        "safety goggles"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "library_visit",
+      "name": "Reach the upstairs library",
+      "goals": [
+        "visit:library"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "teacher_chat",
+      "name": "Speak with a teacher",
+      "goals": [
+        "talk:teacher"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "cafeteria_lunch",
+      "name": "Explore the cafeteria",
+      "goals": [
+        "cup",
+        "plate",
+        "apple"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "art_materials",
+      "name": "Discover art supplies",
+      "goals": [
+        "paintbrush",
+        "paint",
+        "canvas"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "language_room",
+      "name": "Visit the language classroom",
+      "goals": [
+        "visit:language"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "read_a_book",
+      "name": "Study a library book",
+      "goals": [
+        "visit:library",
+        "book"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "school_tour",
+      "name": "Complete the school tour",
+      "goals": [
+        "visit:classroom_a",
+        "visit:science",
+        "visit:computers",
+        "visit:library",
+        "talk:teacher"
+      ],
+      "xp": 50
+    }
+  ]
+}
