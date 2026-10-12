@@ -52,20 +52,47 @@ func _ready() -> void:
     if world == null:
         push_error("CitadelModule requires a world reference before add_child().")
         return
-    position = SITE
+    # A baked scene already owns its editable geometry and transforms. Never
+    # generate duplicate buildings or reset the placement of an edited scene.
+    var baked := bool(get_meta("citadel_editor_baked", false))
+    if not baked:
+        position = SITE
     _load_progress()
-    _terrain()
-    _outer_walls()
-    _gate()
-    _alleyways()
-    _traditional_houses()
-    _bazaar()
-    _tea_house()
-    _museum()
-    _historic_square()
-    _guide()
+    if baked:
+        _restore_baked_references(self)
+    else:
+        _terrain()
+        _outer_walls()
+        _gate()
+        _alleyways()
+        _traditional_houses()
+        _bazaar()
+        _tea_house()
+        _museum()
+        _historic_square()
+        _guide()
     _ui()
-    print("KurdLingo Erbil Citadel loaded; original world scene preserved.")
+    print("KurdLingo Erbil Citadel loaded (editable scene: ", baked, ").")
+
+func _restore_baked_references(node: Node) -> void:
+    # Marker3D nodes are serialized under their actual owning building.
+    # Interactions therefore follow the item if it is moved in the editor.
+    if node.has_meta("citadel_baked_interaction") and node is Node3D:
+        var data: Dictionary = node.get_meta("citadel_baked_interaction")
+        interactables.append({
+            "parent": node,
+            "point": Vector3.ZERO,
+            "label": str(data.get("label", "Object")),
+            "word": str(data.get("word", "")),
+            "mission": str(data.get("mission", "")),
+            "dialogue": str(data.get("dialogue", ""))
+        })
+    if node is MeshInstance3D and bool(node.get_meta("citadel_baked_roof", false)):
+        var house: Node3D = node.get_parent() as Node3D
+        if house != null:
+            roofs.append({"node": house, "roof": node})
+    for child in node.get_children():
+        _restore_baked_references(child)
 
 func _ready_for_input() -> bool:
     return world != null and world.player != null and is_instance_valid(world.player) and world.session_started
@@ -152,10 +179,15 @@ func _sign(parent: Node3D, words: String, at: Vector3, scale: float = 0.005, sor
     label.pixel_size = scale
     label.modulate = DARK
     label.no_depth_test = false
-    if sorani and world.sorani_font != null:
+    # Baking happens before a running world exists. Use bundled fonts then.
+    if sorani and world != null and world.sorani_font != null:
         label.font = world.sorani_font
-    elif world.english_font != null:
+    elif not sorani and world != null and world.english_font != null:
         label.font = world.english_font
+    elif sorani and ResourceLoader.exists("res://assets/NotoSansArabic.ttf"):
+        label.font = load("res://assets/NotoSansArabic.ttf")
+    elif ResourceLoader.exists("res://assets/NotoSans.ttf"):
+        label.font = load("res://assets/NotoSans.ttf")
     parent.add_child(label)
 
 func _target(node: Node3D, label: String, word: String, local_point: Vector3, mission: String = "", dialogue: String = "") -> void:
