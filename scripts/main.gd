@@ -1,5 +1,7 @@
 extends Node3D
 
+const ProgressStore = preload("res://scripts/progress_store.gd")
+
 const REGION_CENTERS = {"Town":Vector3(-61,0,-32),"Homes":Vector3(60,0,-18),"Market":Vector3(0,0,-57),"Park":Vector3(-61,0,62),"Farm":Vector3(62,0,63),"Kitchen":Vector3(180,0,-65),"Workshop":Vector3(-180,0,-65),"Discovery":Vector3(180,0,65),"Wildlife":Vector3(-180,0,65),"Lifestyle":Vector3(0,0,180),"Tourist Quarter":Vector3(-440,0,-360),"History Museum":Vector3(-220,0,-360),"Work Hub":Vector3(0,0,-360),"Entertainment Park":Vector3(220,0,-360),"Cafe Street":Vector3(440,0,-360),"Shopping Avenue":Vector3(-440,0,360),"Fitness Square":Vector3(-220,0,360),"Podcast Plaza":Vector3(0,0,360),"Travel Terminal":Vector3(220,0,360),"City Services":Vector3(440,0,360)}
 const ARRIVALS = {"Town":Vector3(-40,0,-10),"Homes":Vector3(45,0,14),"Market":Vector3(0,0,-29),"Park":Vector3(-42,0,38),"Farm":Vector3(42,0,38),"Kitchen":Vector3(180,0,-108),"Workshop":Vector3(-180,0,-108),"Discovery":Vector3(180,0,22),"Wildlife":Vector3(-180,0,22),"Lifestyle":Vector3(0,0,137),"Tourist Quarter":Vector3(-440,0,-282),"History Museum":Vector3(-220,0,-282),"Work Hub":Vector3(0,0,-282),"Entertainment Park":Vector3(220,0,-282),"Cafe Street":Vector3(440,0,-282),"Shopping Avenue":Vector3(-440,0,282),"Fitness Square":Vector3(-220,0,282),"Podcast Plaza":Vector3(0,0,282),"Travel Terminal":Vector3(220,0,282),"City Services":Vector3(440,0,282)}
 const REGION_COLORS = {"Town":Color("e7c29a"),"Homes":Color("eebda2"),"Market":Color("edaa88"),"Park":Color("a3c99c"),"Farm":Color("d6d395"),"Kitchen":Color("edc08e"),"Workshop":Color("b8c1d2"),"Discovery":Color("a2ccd6"),"Wildlife":Color("b4d5a0"),"Lifestyle":Color("d9b7d0"),"Tourist Quarter":Color("97aa82"),"History Museum":Color("c0d4a4"),"Work Hub":Color("a1c9c7"),"Entertainment Park":Color("b1bd9d"),"Cafe Street":Color("c1ddd4"),"Shopping Avenue":Color("c1d4dc"),"Fitness Square":Color("d5b6a4"),"Podcast Plaza":Color("a5b2cf"),"Travel Terminal":Color("dac39e"),"City Services":Color("b8ccbe")}
@@ -72,6 +74,8 @@ var expansion:ExpansionWorld
 var handling: ObjectHandling
 
 func _ready() -> void:
+	var startup_started = Time.get_ticks_msec()
+	Engine.max_fps = 120
 	var editor_layout = WorldEditorLayout.take_scene(self)
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
@@ -93,14 +97,10 @@ func _ready() -> void:
 		region_counts[row.region]=int(region_counts.get(row.region,0))+1
 	story=StoryMissions.new(self)
 	if not test_mode and not preview_mode:load_progress()
-	var existing_children = get_children()
-	build_environment()
-	build_world()
-	if editor_layout != null:
-		var generated: Array[Node] = []
-		for child in get_children():
-			if not child in existing_children: generated.append(child)
-		WorldEditorLayout.use_scene(self, editor_layout, generated)
+	if not WorldEditorLayout.bind_scene(self, editor_layout):
+		if is_instance_valid(editor_layout): editor_layout.free()
+		get_tree().quit(1)
+		return
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
@@ -124,7 +124,9 @@ func _ready() -> void:
 	show_title()
 	if bool(options.fullscreen):DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	get_window().close_requested.connect(func():save_progress();get_tree().quit())
-	if test_mode:call_deferred("self_test")
+	if test_mode:
+		print("PHASE 1 READY ms=", Time.get_ticks_msec()-startup_started)
+		call_deferred("self_test")
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--capture="):call_deferred("capture_view",arg.trim_prefix("--capture="))
 		if arg=="--benchmark":call_deferred("benchmark")
@@ -839,16 +841,11 @@ func save_progress() -> void:
 	if test_mode and save_path=="user://progress.json":return
 	var state={"version":3,"story_state":story.state if story!=null else {},"object_layout":object_layout,"learned":learned,"defeated":defeated,"xp":xp,"options":options}
 	state["podcasts_completed"]=podcasts.completed if podcasts!=null else {}
-	var file=FileAccess.open(save_path+".tmp",FileAccess.WRITE)
-	if file==null:push_warning("Could not save progress");return
-	file.store_string(JSON.stringify(state));file.close()
-	var absolute=ProjectSettings.globalize_path(save_path)
-	DirAccess.rename_absolute(ProjectSettings.globalize_path(save_path+".tmp"),absolute)
+	ProgressStore.write(save_path, state)
 
 func load_progress() -> void:
-	if not FileAccess.file_exists(save_path):return
-	var state=JSON.parse_string(FileAccess.get_file_as_string(save_path))
-	if not state is Dictionary:push_warning("Progress file invalid; continuing with a fresh session");return
+	var state = ProgressStore.read(save_path)
+	if state.is_empty(): return
 	if state.get("learned") is Dictionary:
 		for id in state.learned:
 			if by_id.has(id) and state.learned[id] is Dictionary:learned[id]=state.learned[id]
@@ -974,7 +971,7 @@ func self_test() -> void:
 	teacher_circle.stop();verify_test(not teacher_circle.listening and not teacher_circle.narrator.playing)
 	verify_test(Explorer.MAX_FUEL/Explorer.FUEL_DRAIN>=37,"Jetpack must provide more flight time")
 	clear_screen()
-	verify_test(expansion.flower_count>1500,"The expanded world must contain small flower borders")
+	verify_test(WorldEditorLayout.flower_instances(self)>1500,"The expanded world must contain small flower borders")
 	for district in ExpansionWorld.DISTRICTS:
 		verify_test(region_counts[district]==50,"New districts must contain exactly 50 entries")
 		var origin:Vector3=ARRIVALS[district]
