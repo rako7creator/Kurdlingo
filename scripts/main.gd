@@ -72,7 +72,6 @@ var expansion:ExpansionWorld
 var handling: ObjectHandling
 
 func _ready() -> void:
-	var editor_layout = WorldEditorLayout.read_edits(self)
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
 		DirAccess.make_dir_recursive_absolute(save_path.get_base_dir())
@@ -95,7 +94,6 @@ func _ready() -> void:
 	if not test_mode and not preview_mode:load_progress()
 	build_environment()
 	build_world()
-	WorldEditorLayout.apply_edits(self, editor_layout)
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
