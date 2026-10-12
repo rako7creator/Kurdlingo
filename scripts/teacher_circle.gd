@@ -73,8 +73,7 @@ func build_circle() -> void:
 	for z in [11,16,21]:
 		var p=Vector3(5,0,z);seats.append(p)
 		var chair=classroom_chair(true);chair.position=p;chair.rotation.y=seat_yaw(p);add_child(chair);listening_chairs.append(chair)
-	# Move the original named bench out of the children's rows.
-	if world.object_nodes.has("bench"):world.object_nodes.bench.position=Vector3(-11,0,25);world.original_layout.bench=world.object_nodes.bench.transform
+	# Existing vocabulary placements come from EditableWorld or the user save.
 
 func build_subtitles() -> void:
 	subtitle_panel=PanelContainer.new();world.ui.add_child(subtitle_panel)
