@@ -72,10 +72,6 @@ var expansion:ExpansionWorld
 var handling: ObjectHandling
 
 func _ready() -> void:
-<<<<<<< HEAD
-=======
-	var editor_layout = WorldEditorLayout.take_scene(self)
->>>>>>> parent of 72d6b8e (Revert "2")
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
 		DirAccess.make_dir_recursive_absolute(save_path.get_base_dir())
@@ -99,14 +95,6 @@ func _ready() -> void:
 	var existing_children = get_children()
 	build_environment()
 	build_world()
-<<<<<<< HEAD
-=======
-	if editor_layout != null:
-		var generated: Array[Node] = []
-		for child in get_children():
-			if not child in existing_children: generated.append(child)
-		WorldEditorLayout.use_scene(self, editor_layout, generated)
->>>>>>> parent of 72d6b8e (Revert "2")
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
