@@ -1,6 +1,7 @@
 class_name WorldEditorLayout
 extends RefCounted
 
+# Traversal IDs come from the deterministic world builder, independent of names.
 static func spatial_nodes(root: Node) -> Array[Node3D]:
 	var result: Array[Node3D] = []
 	for child in root.get_children():
@@ -9,60 +10,26 @@ static func spatial_nodes(root: Node) -> Array[Node3D]:
 		result.append_array(spatial_nodes(child))
 	return result
 
-static func take_scene(root: Node) -> Node3D:
-	var layout = root.get_node_or_null("EditableWorld") as Node3D
-	if layout != null:
-		root.remove_child(layout)
-	return layout
-
-# The saved scene supplies the actual geometry, including copies and deletions.
-# The builder supplies gameplay references, which are rebound before it is freed.
-static func use_scene(world: Node3D, layout: Node3D, generated: Array[Node]) -> void:
-	var built: Array[Node3D] = []
-	for node in generated:
-		if node is Node3D:
-			built.append(node)
-		built.append_array(spatial_nodes(node))
-	var saved: Dictionary = {}
+static func read_edits(root: Node) -> Dictionary:
+	var edits: Dictionary = {}
+	var layout = root.get_node_or_null("EditableWorld")
+	if layout == null:
+		return edits
 	for node in spatial_nodes(layout):
-		if node.has_meta("layout_index"):
-			var index = int(node.get_meta("layout_index"))
-			# Duplicates retain metadata; keep the first node for gameplay identity.
-			if not saved.has(index):
-				saved[index] = node
-	var replacements: Dictionary = {}
-	for index in range(built.size()):
-		if saved.has(index):
-			replacements[built[index]] = saved[index]
-	for refs in [world.object_nodes, world.guardians, world.rescue_cells]:
-		for key in refs.keys():
-			var old = refs[key]
-			if replacements.has(old):
-				refs[key] = replacements[old]
-			else:
-				refs.erase(key)
-	var seats: Array = []
-	for entry in world.walk_seats:
-		if replacements.has(entry.node):
-			seats.append({"node": replacements[entry.node], "word": entry.word})
-	world.walk_seats = seats
-	for node in generated:
-		world.remove_child(node)
-		node.free()
-	for child in layout.get_children():
-		clear_owners(child)
-		layout.remove_child(child)
-		if child is Node3D:
-			child.transform = layout.transform * child.transform
-		world.add_child(child)
+		if node.has_meta("layout_index") and node.has_meta("original_transform"):
+			if not node.transform.is_equal_approx(node.get_meta("original_transform")):
+				edits[int(node.get_meta("layout_index"))] = {"transform": node.transform, "original": node.get_meta("original_transform"), "class": node.get_class(), "word_id": node.get_meta("word_id", "")}
+	root.remove_child(layout)
 	layout.free()
-	for region in world.rescue_cells:
-		world.rescue_cells[region].visible = not region in world.defeated
-	for region in world.guardians:
-		if region in world.defeated:
-			world.guardians[region].scale = Vector3.ONE * 0.75
+	return edits
 
-static func clear_owners(node: Node) -> void:
-	node.owner = null
-	for child in node.get_children():
-		clear_owners(child)
+static func apply_edits(root: Node, edits: Dictionary) -> void:
+	var nodes = spatial_nodes(root)
+	for index in edits:
+		if index >= 0 and index < nodes.size():
+			var edit = edits[index]
+			var node = nodes[index]
+			if node.get_class() == edit['class'] and node.get_meta('word_id', '') == edit.word_id and node.transform.is_equal_approx(edit.original):
+				node.transform = edit.transform
+			else:
+				push_warning('World builder changed; regenerate editor preview before applying layout edit ' + str(index))

@@ -72,7 +72,7 @@ var expansion:ExpansionWorld
 var handling: ObjectHandling
 
 func _ready() -> void:
-	var editor_layout = WorldEditorLayout.take_scene(self)
+	var editor_layout = WorldEditorLayout.read_edits(self)
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
 		DirAccess.make_dir_recursive_absolute(save_path.get_base_dir())
@@ -93,14 +93,9 @@ func _ready() -> void:
 		region_counts[row.region]=int(region_counts.get(row.region,0))+1
 	story=StoryMissions.new(self)
 	if not test_mode and not preview_mode:load_progress()
-	var existing_children = get_children()
 	build_environment()
 	build_world()
-	if editor_layout != null:
-		var generated: Array[Node] = []
-		for child in get_children():
-			if not child in existing_children: generated.append(child)
-		WorldEditorLayout.use_scene(self, editor_layout, generated)
+	WorldEditorLayout.apply_edits(self, editor_layout)
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
