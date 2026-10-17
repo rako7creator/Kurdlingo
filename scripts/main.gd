@@ -75,7 +75,7 @@ var citizens:Citizens
 var handling: ObjectHandling
 
 func _ready() -> void:
-	var editor_layout = WorldEditorLayout.read_edits(self)
+	var editor_layout = WorldEditorLayout.take_scene(self)
 	if not OS.has_feature("editor"):
 		save_path=OS.get_executable_path().get_base_dir().path_join("save/progress.json")
 		DirAccess.make_dir_recursive_absolute(save_path.get_base_dir())
@@ -96,9 +96,14 @@ func _ready() -> void:
 		region_counts[row.region]=int(region_counts.get(row.region,0))+1
 	story=StoryMissions.new(self)
 	if not test_mode and not preview_mode:load_progress()
+	var existing_children = get_children()
 	build_environment()
 	build_world()
-	WorldEditorLayout.apply_edits(self, editor_layout)
+	if editor_layout != null:
+		var generated: Array[Node] = []
+		for child in get_children():
+			if not child in existing_children: generated.append(child)
+		WorldEditorLayout.use_scene(self, editor_layout, generated)
 	for id in object_nodes:
 		original_layout[id]=object_nodes[id].transform
 		if object_layout.has(id):
@@ -1230,6 +1235,7 @@ func apply_hud_size()->void:
 		var factor=float(options.hud_size)*(float(options.map_size) if widget==minimap_widget else 1.0)
 		widget.pivot_offset=Vector2(widget.size.x if widget.anchor_left==1 else widget.size.x*.5 if widget.anchor_left==.5 else 0,widget.size.y if widget.anchor_top==1 else 0)
 		widget.scale=Vector2.ONE*factor
+<<<<<<< HEAD
 
 
 
@@ -1255,3 +1261,5 @@ func test_school_features()->void:
 	for i in range(citizens.walkers.size()):
 		verify_test(citizens.walkers[i].body.position.distance_to(starts[i])>.15,"Citizen route "+str(i)+" must actually walk")
 	print("SCHOOL CHECK PASS: 124 bilingual objects, eight open room entrances, accessible main entrance, roof cutaway, 16 moving citizens; scooter jump verified.")
+=======
+>>>>>>> cd422e7c70df5aa2dfe4e12bdf93172aae4119a8
